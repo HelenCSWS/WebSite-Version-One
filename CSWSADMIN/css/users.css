@@ -1,0 +1,51 @@
+﻿#grid {
+    font-size:9pt;
+}
+
+.user_grid_holder{
+    height:575px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+
+    padding-left:40px;
+    padding-right:40px;
+
+}
+
+.user_grid_paging{
+    text-align:left;
+     padding-left:0px;
+
+}
+
+.infoBar,.user_grid_paging{
+    font-size:9pt;
+}
+
+.btn_active_users,.btn_revoke_users{
+    
+    height:25px;
+}
+
+.button_holder{
+    padding-top:50px;
+}
+
+.users_title_holder{
+    padding-bottom:20px;
+}
+
+.status_select_holder{
+    text-align:right;
+}
+
+.status_select_box{
+    font-size:10pt;
+    height:25px;
+}
+
+.status_select_box option{
+   padding-top:5px;
+   padding-bottom:5px;
+}

@@ -1,0 +1,20 @@
+﻿using CSWSWEB.CSWSBAL;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
+
+namespace CSWSWEB.Controllers
+{
+    public class ProvinceInfoController : ApiController
+    {
+        public HttpResponseMessage getProvinceHeroImages(int id)
+        {
+            ProvinceInfoBAL proBal = new ProvinceInfoBAL();
+            int fileNumber = proBal.getProvinceHeroImgs(id);
+            return Request.CreateResponse(HttpStatusCode.OK, fileNumber);
+        }
+    }
+}

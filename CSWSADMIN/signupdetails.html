@@ -1,0 +1,338 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Christopher Stewart Wine & Spirits Quote." />
+    <meta name="author" content="" />
+    <title>Approve Users</title>
+
+    <!--link rel="icon" href="favicon.ico" -->
+    <link rel="icon" type="image/png" href="images/Address-bar-icon.png" />
+    <link rel="canonical" href="http://www.christopherstewart.com/signupdetails.html" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- datepicker css-->
+    <!--LINK href="css/bootstrap.css" rel="stylesheet" -->
+    <!--<link href="css/jqui-dialog.css" rel="stylesheet" />-->
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Custom styles for this template -->
+    <!--link href="css/carousel.css" rel="stylesheet"-->
+
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" />-->
+
+
+
+    <link rel="stylesheet" type="text/css" href="css/gbstyle.css">
+
+    <link rel="stylesheet" href="css/pqselect.dev.css" />
+
+    <link href="css/navbar.css" rel="stylesheet">
+
+    <link href="css/pagestyle.css" rel="stylesheet">
+
+
+    <link href="css/adminstyle.css" rel="stylesheet">
+
+    <link href="css/users.css" rel="stylesheet">
+
+
+
+
+    <!--<link href="css/grid/bootstrap.css" rel="stylesheet" />-->
+    <link href="css/grid/jquery.bootgrid.css" rel="stylesheet" />
+
+    <style>
+        @-webkit-viewport {
+            width: device-width;
+        }
+
+        @-moz-viewport {
+            width: device-width;
+        }
+
+        @-ms-viewport {
+            width: device-width;
+        }
+
+        @-o-viewport {
+            width: device-width;
+        }
+
+        @viewport {
+            width: device-width;
+        }
+
+        .column .text {
+            color: #f00 !important;
+        }
+
+        .cell {
+            font-weight: bold;
+        }
+    </style>
+
+
+</head>
+<!-- NAVBAR================================================== -->
+<body>
+    <div class="entry_background_image_holder">
+
+        <!-- Static navbar -->
+        <div class="entry_menu-holder">
+            <div class="container">
+                <div class="navbar navbar-default entry_navbar-default" role="navigation">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="http://www.christopherstewart.com/index.html"><img src="http://www.christopherstewart.com/images/logo.png"></a>
+                        </div>
+                        <div class="navbar-collapse collapse entry_menu">
+                            <ul class="nav navbar-nav navbar-left entry_navbar-nav">
+                                <li class="menu-active menuli"><a class="" href="entry.html">Home</a></li>
+                                <li class="dropdown menuli">
+                                    <a href="#" class="entry_dropdown_toggle dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Quotes<span class="caret"></span></a>
+                                    <ul class="dropdown-menu cs_dropdow_menu" role="menu">
+                                        <li><a href="entry_quote.html">Add Quotes</a></li>
+                                        <li><a href="search_quote.html">Edit Quotes</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-active menuli"><a class="" href="signupdetails.html">Users</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div><!--/.container-fluid -->
+                </div><!--/navbar navbar-defaul -->
+            </div><!-- div class="container" -->
+        </div> <!-- div class="menu-holder" -->
+        <!-- Main component for a primary marketing message or call to action -->
+
+        <div class="entry_holder">
+
+            <div class="feature_title_holder users_title_holder" id="page_title">Sign Up Users</div>
+            <div class="container-fluid1 ">
+                <div class="row user_grid_holder">
+
+                    <div class="col-md-12">
+                      
+                        <!--div class="table-responsive"-->
+                        <table id="grid" class="table table-condensed table-hover table-striped" data-selection="true" data-multi-select="true" data-row-select="true" data-keep-selection="true">
+                            <thead>
+                                <tr>
+                                    <th data-column-id="id" data-identifier="true" data-visible="false" data-type="numeric" data-align="right">ID</th>
+                                    <th data-column-id="user" data-align="left" data-header-align="ledt" data-width="15%">User</th>
+                                    <th data-column-id="company" data-css-class="link" data-formatter="tooltip"  data-header-css-class="column1" data-filterable="true" data-width="20%">Company</th>
+                                    <th data-column-id="industytype" data-formatter="link" data-sortable="false" data-width="100px">Industry</th>
+                                    <th data-column-id="city" data-visible="true">City</th>
+                                    <th data-column-id="country" data-visible="true">Country</th>
+                                    <th data-column-id="email" data-visible="true" data-width="20%">Email</th>
+                                    <th data-column-id="isactive" data-visible="true" data-width="10%">Status</th>
+
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <!--/div-->
+                        <!--<button id="activeBtn" type="button" class="btn btn-default">Active</button>-->
+                        <div class="row status_select_holder">
+                            <select class="status_select_box" id="select_status">
+                                <option value="-1">All</option>
+                                <option value="0">Not Actived</option>
+                                <option value="1">Actived</option>
+                                <option value="2">Approved</option>
+                            </select>
+                        </div>
+                        <div class="button_holder">
+                            <!--<form id="activeuser">
+                                <button  id="activeBtn" class="btn btn-xs btn-danger bottom_btn btn_active_users " actionid="1">Submit</button>
+                                <div>  <input type="hidden1" id="activeids" name="activeids" value="0"></div>-->
+
+                            <form id="activeuser">
+                                <button id="activeBtn" type="button" class="btn btn-xs btn-danger bottom_btn btn_active_users"  data-action="active">Approve</button>
+                                <span>&nbsp;</span>
+                                <button id="revokeBtn" type="button" class="btn btn-xs btn-danger bottom_btn btn_active_users"  data-action="revoke">Revoke</button>
+                                <input type="hidden" id="activeids" name="activeids" value="0">
+                                <input type="hidden" id="activeTag" name="activeTag" value="0">
+                            </form>
+                        </div>
+                    </div>
+                 
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div> <!-- /entry_holder -->
+
+
+    </div><!-- div class="background_image_holder contact_us_img" -->
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- bottom -->
+    <div class="row ">
+
+        <div class="copyright"></div><!-- /copyright -->
+        <input type="hidden" class="province_id" value="1">
+    </div><!-- bottom end -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- script src="js/docs.min.js"></script-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/jquery.confirm.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+
+    <script src="js/bootstrap-datepicker.js"></script>
+
+
+   
+      <script src="js/js_quotes.js"></script>
+    <script src="js/gbscript.js"></script>
+
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+
+
+
+
+
+    <script src="js/pqselect.dev.js"></script>
+
+
+
+    <!--<script src="js/grid/jquery-1.11.1.min.js"></script>-->
+    <script src="js/js_login.js"></script>
+     <script src="js/js_users.js"></script>
+    <!--<script src="js/grid/bootstrap.js"></script>-->
+    <script src="js/grid/jquery.bootgrid.js"></script>
+    <script src="js/grid/jquery.bootgrid.fa.js"></script>
+
+
+    <!--<script>
+        $(function () {
+            //function init() {
+            //    $("#grid").bootgrid({
+            //        formatters: {
+            //            "link": function(column, row)
+            //            {
+            //                return "<a href=\"#\">" + column.id + ": " + row.id + "</a>";
+            //            }
+            //        },
+            //        rowCount: [-1, 10, 50, 75]
+            //    });
+            //}
+
+            //init();
+
+        //    $("#append").on("click", function () {
+        //        $("#grid").bootgrid("append", [{
+        //            id: 0,
+        //            sender: "hh@derhase.de",
+        //            received: "Gestern",
+        //            link: ""
+        //        },
+        //            {
+        //                id: 12,
+        //                sender: "er@fsdfs.de",
+        //                received: "Heute",
+        //                link: ""
+        //            }]);
+        //    });
+
+        //    $("#clear").on("click", function () {
+        //        $("#grid").bootgrid("clear");
+        //    });
+
+        //    $("#removeSelected").on("click", function () {
+        //        $("#grid").bootgrid("remove");
+        //    });
+
+        //    $("#destroy").on("click", function () {
+        //        $("#grid").bootgrid("destroy");
+        //    });
+
+        //    //  $("#init").on("click", init);
+
+        //    $("#clearSearch").on("click", function () {
+        //        $("#grid").bootgrid("search");
+        //    });
+
+        //    $("#clearSort").on("click", function () {
+        //        $("#grid").bootgrid("sort");
+        //    });
+
+        //    $("#getCurrentPage").on("click", function () {
+        //        alert($("#grid").bootgrid("getCurrentPage"));
+        //    });
+
+        //    $("#getRowCount").on("click", function () {
+        //        alert($("#grid").bootgrid("getRowCount"));
+        //    });
+
+        //    $("#getTotalPageCount").on("click", function () {
+        //        alert($("#grid").bootgrid("getTotalPageCount"));
+        //    });
+
+        //    $("#getTotalRowCount").on("click", function () {
+        //        alert($("#grid").bootgrid("getTotalRowCount"));
+        //    });
+
+        //    $("#getSearchPhrase").on("click", function () {
+        //        alert($("#grid").bootgrid("getSearchPhrase"));
+        //    });
+
+        //    $("#getSortDictionary").on("click", function () {
+        //        alert($("#grid").bootgrid("getSortDictionary"));
+        //    });
+
+        //    $("#getSelectedRows").on("click", function () {
+        //        alert($("#grid").bootgrid("getSelectedRows"));
+        //    });
+
+
+        //});
+    </script>-->
+
+
+
+
+
+
+
+</body>
+
+
+</html>

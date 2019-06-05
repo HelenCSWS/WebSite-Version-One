@@ -1,0 +1,461 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Christopher Stewart Wine & Spirits Quote." />
+    <meta name="author" content="" />
+    <title>Quote Entry</title>	 
+	 
+    <!--link rel="icon" href="favicon.ico" -->
+	<link rel="icon" type="image/png"  href="images/Address-bar-icon.png" />
+	<link rel="canonical" href="http://www.christopherstewart.com/addquote.html"/>
+
+	<!-- Bootstrap core CSS -->    
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	
+	<!-- datepicker css-->
+	  <!--LINK href="css/bootstrap.css" rel="stylesheet" --> 
+ 
+    <!--<link href="css/jqui-dialog.css" rel="stylesheet" />-->	 
+
+	
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <!--link href="css/carousel.css" rel="stylesheet"-->
+
+      <link href="css/jquery-ui.css" rel="stylesheet">
+      <!--<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" />-->  
+  
+
+  
+	<link rel="stylesheet" type="text/css" href="css/gbstyle.css">
+
+      <link rel="stylesheet" href="css/pqselect.dev.css" /> 
+
+    <link href="css/navbar.css" rel="stylesheet" >
+	
+	<link href="css/pagestyle.css" rel="stylesheet" >	
+
+
+	<link href="css/adminstyle.css" rel="stylesheet" >
+
+      <link href="css/datepicker.css" rel="stylesheet" />	 
+     
+
+
+    
+      
+  </head>
+<!-- NAVBAR================================================== -->
+  <body>       
+ <div class="entry_background_image_holder">
+ 
+	<!-- Static navbar -->
+	<div class="entry_menu-holder">
+		<div class="container">	
+			<div class="navbar navbar-default entry_navbar-default" role="navigation">
+				<div class="container-fluid">
+				
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class=  "sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="http://www.christopherstewart.com/index.html"><img src="http://www.christopherstewart.com/images/logo.png"></a>
+					</div>
+					<div class="navbar-collapse collapse entry_menu">
+						<ul class="nav navbar-nav navbar-left entry_navbar-nav">			
+								<li class="menu-active menuli"><a class="" href="entry.html" >Home</a></li>
+								<li class="dropdown menuli">
+								<a href="#" class="entry_dropdown_toggle dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Quotes<span class="caret"></span></a>
+								<ul class="dropdown-menu cs_dropdow_menu" role="menu">
+								  <li><a href="entry_quote.html">Add Quotes</a></li>
+								  <li><a href="search_quote.html">Edit Quotes</a></li>
+								</ul>
+							  </li>
+                            <li class="menu-active menuli"><a class="" href="signupdetails.html">Users</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div><!--/.container-fluid -->
+			</div><!--/navbar navbar-defaul -->
+		</div><!-- div class="container" -->	
+	</div> <!-- div class="menu-holder" -->
+
+    <!-- Main component for a primary marketing message or call to action -->
+
+	<div class="entry_holder">
+	
+		<!-- First Section: Author   -->
+       
+		<div class="feature_title_holder" id="page_title">Quote</div>
+		<div class="entry_content_holder">
+			<div class="section_title_holder">Author's Details</div>
+			<hr class="section_line">			
+			<!--div class="row"><!-- 1st row 5 controls, 2 2 1-->
+            <!--<form id="quote_entry" enctype="multipart/form-data" action="../api/quotes">-->
+            <form id="quote_entry" enctype="multipart/form-data" >
+                <input class="entry_inputs hidden_control" id="quote_id" name="quote_id" value="0" />
+
+                <input class="entry_inputs hidden_control" id="quote_ids" name="quote_ids" value="0" />
+
+                <input class="entry_inputs hidden_control" id="total_qts" name="total_qts" value="0" />
+
+                <input class="entry_inputs hidden_control" id="cursor" name="cursor" value="0" />
+
+                <input class="entry_inputs hidden_control" id="current_index" name="current_index" value="0" />
+
+                <input class="entry_inputs hidden_control" id="ischanged" name="ischanged" value="0" />
+                <div class="row">
+                    <!-- first row 5 controls, 2 2 1-->
+
+                    <div class="col-md-4 cols_holder_1st">
+
+
+
+                        <table class="table_controls">
+                            <tr>
+                                <td class="left_type_holders">
+                                    <label class="entry_control_label" for="prefix"><a class="adding_hyper_link" id="prefix" field_id="2">Prefix</a></label><br>
+                                    <select class="entry_dropdown_list" nameholder="prefix" alt="Prefix" id="s_prefix" name="s_prefix"></select>
+                                    <input class="entry_inputs hidden_control" id="input_prefix" name="input_prefix" />
+                                </td>
+                                <td class="right_type_holders "><div class="div_2nd_col"><label class="entry_control_label">First Name</label><br><input class="entry_inputs" id="first_name" name="first_name" /></div></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="col-md-4 cols_holder_2nd ">
+                        <table class="table_controls">
+                            <tr>
+                                <td class="left_type_holders">
+                                    <div class="div_3rd_col"><label class="entry_control_label">Middle Name</label><br><input class="entry_inputs" name="middle_name" id="middle_name" /></div>
+                                </td>
+                                <td class="right_type_holders ">
+                                    <div class="div_4th_col"><label class="entry_control_label">Last Name</label><br><input class="entry_inputs" name="last_name" id="last_name" /></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-4 cols_holder_3rd">
+                        <table class="table_controls">
+                            <tr>
+                                <td class="left_type_holders">
+                                    <div class="div_5th_col suffix_holder">
+                                        <label class="entry_control_label" id="suffix" name="suffix"><a class="adding_hyper_link" id="suffix" name="suffix">Suffix</a></label><br>
+                                        <select class="entry_dropdown_list" nameholder="suffix" alt="suffix" id="s_suffix" name="s_suffix"></select>
+                                        <input class="entry_inputs hidden_control" id="input_suffix" name="input_suffix" />
+                                    </div>
+                                </td>
+                                <td class="right_type_holders td_right_col">
+                                    <div style="display:none;">Dummy div</div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div><!-- first row 5 controls, 2 2 1-->
+
+                <div class="row holder_2nd_row">
+                    <!-- 2nd row 6 controls, 2 2 2-->
+                    <div class="col-md-4 cols_holder_1st">
+                        <table class="table_controls">
+                            <tr>
+                                <td class="left_type_holders">
+                                    <label class="entry_control_label" for="birth">Date of Birth</label><br>
+                                    <input id="birth_date" class="entry_inputs" name="birth_date">
+                                </td>
+                                <td class="right_type_holders">
+                                    <div class="div_2nd_col">
+                                        <label class="entry_control_label"><!--<a class="adding_hyper_link" id="bCountry" name="bCountry">-->Country of Birth<!--</a>--></label><br>
+                                        <select class="entry_dropdown_list" id="s_bCountry" name="s_bCountry" nameholder="bCountry" contentname="country" countryindex="1"></select>
+                                        <input class="entry_inputs hidden_control" id="input_bCountry" name="input_bCountry" />
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-4 cols_holder_2nd">
+                        <table class="table_controls">
+                            <tr>
+                                <td class="left_type_holders">
+                                    <div class="div_3rd_col">
+                                        <label class="entry_control_label">City of Birth</label><br>
+                                        <select class="entry_dropdown_list" id="s_bCity" name="s_bCity" nameholder="bCity"></select>
+                                        <input class="entry_inputs hidden_control" id="input_bCity" name="input_bCity" />
+                                   
+                                    </div>
+                                </td>
+                                <td class="right_type_holders">
+                                    <div class="div_4th_col"><label class="entry_control_label">Date of Death</label><br><input id="death_date" name="death_date" class="entry_inputs" /></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-4 cols_holder_3rd cols_holder_3rd_death_holder">
+                        <table class="table_controls">
+                            <tr>
+                                <td class="left_type_holders">
+                                    <div class="div_5th_col">
+                                        <label class="entry_control_label label_death_country"><!--<a class="adding_hyper_link" id="dCountry" name="dCountry" >-->Country of Death<!--</a>--></label><br>
+                                        <select class="entry_dropdown_list" id="s_dCountry" name="s_dCountry" nameholder="dCountry" contentname="country" countryindex="2"></select>
+                                        <input class="entry_inputs hidden_control" id="input_dCountry" name="input_dCountry" />  
+                                    </div>
+                                </td>
+                                <td class="right_type_holders td_right_col">
+                                    <label class="entry_control_label"><!--<a class="adding_hyper_link" id="dCity" name="dCity">-->City of Death<!--/a --></label><br>
+                                    <select class="entry_dropdown_list" id="s_dCity" name="s_dCity" nameholder="dCity"></select>
+                                    <input class="entry_inputs hidden_control" id="input_dCity" name="input_dCity" />
+
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div><!-- 2nd row 6 controls, 2 2 2-->
+
+                <div class="row holder_3nd_row">
+                    <!-- 3rd row 2controls, 1 1-->
+                    <div class="col-md-1 career_holder">
+                        <div class="career_width_holder">
+                            <input class="entry_inputs entry_inputs_career hidden_control" id="input_career" name="input_career" />
+                          <label class="entry_control_label"><a class="adding_hyper_link" id="hyper_addCareer" field_id="1">Career</a></label><br>
+                                
+                                <select class="career_multiple_select" id="s_career" name="s_career" nameholder="career" multiple="multiple" style="display:none"></select>
+</div>
+
+                    </div>
+                    <div class="col-md-11 notable_work_holder"><label class="entry_control_label">Notable Works</label><br><input class="entry_inputs notable_work_input" id="nt_work" name="nt_work" /></div>
+                </div><!-- 3rd row 2controls, 1 1-->
+
+                <div class="row holder_4th_row">
+                    <!-- 4th row 2controls, 1 1-->
+                    <div class="col-md-12 portrait_big_holder">
+                        <label class="entry_control_label lable_portrait" for="prefix">
+                            <a href="" id="upload_large_ptImg_link" class="upload_image_link" title="Click to upload image">Add Portrait Image</a>
+                        </label>
+                        <img class="portrait_big_img" id="img_portrait_big" />
+                        <br><a id="del_big_image" class="entry_control_label upload_image_link">Delete image</a>
+                    </div>
+                    <!--<div class="col-md-11 portrait_sm_holder">
+                        <label class="entry_control_label lable_portrait">
+                            <a href="" id="upload_small_ptImg_link" class="upload_image_link" title="Click to upload image">Add Portrait Image Small</a>
+                        </label><br>
+                        <img class="portrait_sm_img" id="img_portrait_sm">
+                        <br><a id="del_sm_image" class="entry_control_label upload_image_link">Delete image</a>
+                    </div>-->
+
+                    <input type="file" class="hidden_file_control" name="upload_large_portrait" id="upload_large_portrait">
+  
+                    <input class="hidden_control" name="lg_pt_fname" id="lg_pt_fname">
+   
+                    <input class="hidden_control" name="org_lg_pt_fname" id="org_lg_pt_fname">
+  
+                    <input class="hidden_control" name="lg_imageChanged" id="lg_imageChanged" value="0">
+                 
+
+                </div><!-- 4th row 2controls, 1 1-->
+                <!--================================ Second Section: Quote =========================================-->
+                <div class="section_title_holder">Quote Details</div>
+                <hr class="section_line">
+
+                <div class="row holder_5th_row">
+                    <!-- 5th row 2controls, 1 1-->
+                    <div class="col-md-6 ">
+                        <table class="table_controls">
+                            <tr>
+                                <td class="left_type_holders">
+                                    <label class="entry_control_label label_quote" for="prefix">Quote</label><br>
+                                    <textarea class="entry_inputs quote_input" id="quote" name="quote" required></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="row sub_row_1">
+                            <div class="col-md-8 sub_cols_holder_1st">
+                                <table class="table_controls">
+                                    <tr>
+                                        <td class="left_type_holders"><div class="sub_col_1st"><label class="entry_control_label">Source</label><br><input class="entry_inputs" id="publication" name="publication" /></div></td>
+                                        <td class="right_type_holders">
+                                            <div class="div_publication_date">
+                                                <label class="entry_control_label">Date of Source</label><br>
+                                                <input id="dt_Publication" class="entry_inputs" name="dt_Publication" />
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-4 sub_cols_holder_2nd">
+                                <table class="table_controls">
+                                    <tr>
+                                        <td class="right_type_holders td_right_col">
+                                            <label class="entry_control_label label_pub_country"><!--<a class="adding_hyper_link" id="pCountry" name="pCountry" nameholder="pCountry">-->Country of Source<!--</a>--></label><br>
+                                            <select class="entry_dropdown_list" id="s_pCountry" name="s_pCountry"></select><input class="entry_inputs hidden_control" id="input_pCountry" name="input_pCountry" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row sub_row_2">
+                            <div class="col-md-12 sub_cols_holder_1st">
+                                <table class="table_quotetype_holder">
+                                    <tr>
+                                        <td class="left_type_holders">
+                                            <div class="sub_col_1st">
+                                                <label class="entry_control_label"><a class="adding_hyper_link" id="qType" name="qType">Quote Type</a></label><br>
+                                                <select class="entry_dropdown_list" id="s_qType" name="s_qType" nameholder="qType"></select>
+                                                <input class="entry_inputs hidden_control" id="input_qType" name="input_qType" />
+                                            </div>
+                                        </td>
+                                        <td class="right_type_holders">
+                                            <div class="div_genre">
+                                                <label class="entry_control_label"><a class="adding_hyper_link" id="genre" name="genre">Genre</a></label><br>
+                                                <select class="entry_dropdown_list" id="s_genre" name="s_genre" nameholder="genre"></select>
+                                                <input class="entry_inputs hidden_control" id="input_genre" name="input_genre" />
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- 5th row 2controls, 1 1-->
+
+                <input type="hidden" class="cursor" id="cursorid" name="cursorname" value="0">
+                <input type="hidden" id="fieldIndex" name="fieldIndex" value="0">
+
+            </form>
+                <!--================================ 3rd Section: Buttons =========================================-->
+        <div class="quote_counter"><span id="sp_current_qoute"></span> of <span id="sp_total_quotes"></span> Quotes</div>
+                <div class="row btns_row" id="btn_panel_add">
+                    <!-- 3rd row 2controls, 1 1-->
+                    <div class="col-md-12 ">
+                        <table class="table_buttons table_quote_button_holders">
+                            <tr>
+                                <td><div><button type="submit" class="btn btn-xs btn-danger bottom_btn btn_csweb submit_button" actionid="1">Add</button></div></td>
+                                <!--<td><div class="div_right_submit" ><button class="btn btn-xs btn-danger bottom_btn btn_csweb  btn_finish" actionid="5">Finish</button></div></td>-->
+                                <td><div class="div_right_submit"><button class="btn btn-xs btn-danger bottom_btn btn_csweb  btn_post" actionid="5">Finish</button></div></td>
+
+                            </tr>
+                        </table>
+                    </div>
+                </div><!-- 3rd row 2controls, 1 1-->
+
+                <div class="row btns_row update_btn_holder" id="btn_panel_update">
+                    <!-- 3rd row 2controls, 1 1-->
+                    <div class="col-md-12 ">
+                        <table class="table_buttons table_quote_button_holders_update">
+                            <tr>
+                                <td style="text-align:left; "><button type="submit" class="btn btn-xs btn-danger bottom_btn btn_csweb  submit_button" id="button_pre" actionid="3">Previouse</button></td>
+                                <td style="text-align:left;padding-left:9px; "><button type="submit" class="btn btn-xs btn-danger btn_csweb bottom_btn submit_button " id="button_next" actionid="4">Next</button></td>
+                                <td style="text-align:left;padding-left:5px; "><button type="submit" class="btn btn-xs btn-danger btn_csweb bottom_btn btn_del " id="btn_delete" actionid="6">Delete</button></td>
+                                <td style="text-align:right; padding-right:9px;">
+                                    <button type="submit" class="btn btn-xs btn-danger btn_csweb bottom_btn submit_button" id="button_apply" actionid="2">Apply</button>
+                                    <!--<button class="cs_button" id="button_apply" actionid="2">Apply</button>-->
+                                </td>
+                                <td style="text-align:right; "><button class="btn btn-xs btn-danger bottom_btn btn_csweb btn_finish" actionid="5">Finish</button></td>
+
+                            </tr>
+                        </table>
+                    </div>
+                </div><!-- 3rd row 2controls, 1 1-->
+
+
+			
+		</div><!-- /entry_content_holder -->
+
+
+  </div> <!-- /entry_holder -->
+	
+		
+ </div><!-- div class="background_image_holder contact_us_img" -->
+       
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+ 
+	  
+	  
+ <!-- bottom -->
+		<div class="row ">		   
+			
+			<div class="copyright"></div><!-- /copyright -->	
+			<input  type="hidden" class="province_id" value="1">
+		</div><!-- bottom end -->
+	  
+	  
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <!-- script src="js/docs.min.js"></script-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  
+
+      <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+      <script src="js/jquery.confirm.js"></script>
+
+      <script src="https://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+
+      <script src="js/bootstrap-datepicker.js"></script>
+
+  
+      <script src="js/js_quotes.js"></script>
+      <script src="js/gbscript.js"></script>
+   
+      <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+   
+
+
+      <script src="js/pqselect.dev.js"></script>
+      <script src="js/js_login.js"></script>
+      <script>
+
+    $(function () {
+        $('#birth_date').datepicker();
+        $('#death_date').datepicker();
+        $('#dt_Publication').datepicker();
+
+    });
+      </script>
+
+      <script type="text/javascript">
+          $(function () {
+
+              //alert("first?");
+              //initialize the pqSelect widget.
+              //$("#s_career").pqSelect({
+              //    multiplePlaceholder: 'No Career',
+              //    checkbox: true //adds checkbox to options
+              //}).on("change", function (evt) {
+              //    var val = $(this).val();
+              //    console.log(val);
+              //});
+          });
+      </script>
+	
+  </body>
+
+
+</html>

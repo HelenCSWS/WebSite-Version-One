@@ -1,0 +1,133 @@
+/*========================= Sign Up Page =============================*/
+.signup_opactiy
+{
+	padding-left:20px;
+}
+.signup_title
+{
+	font-family: 'Source Sans Pro';
+	font-weight:100;
+	font-size:24px;
+	width:100%;
+	text-align:center;
+	margin-left:auto;
+	margin-left:auto;
+}
+.signup_img
+{
+	background-image:url('../images/bkgrdimgs/signup.jpg'); 
+}
+
+.select_box_holder
+{
+	padding-top:20px;
+}
+
+.control_holder
+{
+	width:100%;
+	padding-top:10px;
+}
+
+.email_address_holder
+{
+	padding-top:35px;
+}
+
+.signup_control
+{
+	padding-left:10px;
+	width:310px;
+	height:28px;
+	font-size:9pt;
+	border: 1px solid #DCDCDC;
+	background-color:white;
+}
+
+
+
+/*========================= Sign In Page =============================*/
+
+.signin_img{
+	background-image:url('../images/bkgrdimgs/signin.jpg'); 
+	height:720px;
+
+}
+.signin_space{
+	height:165px;
+}
+.signin_opactiy{
+	opacity:0.92;
+}
+.signin_content {	
+	height:420px;
+	max-width:417px;
+	background-color:#FAFAFA;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	opacity: 0.92;
+}
+
+.div_login_holder{
+    height:300px;
+}
+
+.signin_text_holder{
+	padding-top:25px;
+	padding-bottom:10px;
+}
+.remeber_text_holder{
+	font-size:10pt;
+}
+
+.signup_submit{
+	width:90px;
+	height:30px;
+}
+.signup_submit_holder{
+	padding-top:25px;
+}
+
+.forgotpswd_holder{
+	padding-top:4px;
+	font-size:9pt;
+	color:#8D302B;
+}
+
+.nothave_acnt_holder{
+	padding-top:30px;
+	font-size:10pt;
+	color:#848484;
+}
+
+.signup_btn_holder{
+	padding-top:20px;
+}
+
+.btn_signup{
+	width:300px;
+	height:30px;
+	background-color: #848484;
+	border-color: #848484;
+}
+
+.btn_signup:hover, .btn_signup:focus, .btn_signup:active, .btn_signup.active, .open > .dropdown-toggle.btn_signup {
+    color: #FFF;
+    background-color: #848484;
+    border-color: #848484;
+}
+
+
+
+@media (max-width: 327px) {
+    .signin_input,.btn_signup{
+        width: 80%;
+    }
+}
+
+@media (max-width: 350px) {
+    .signup_control{
+        width: 95%;
+    }
+}
