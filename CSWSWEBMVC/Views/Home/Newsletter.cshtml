@@ -1,0 +1,30 @@
+﻿
+    @{
+        ViewBag.Title = @CSWSWEBResources.Resource.Newsletter;
+        ViewBag.BKImagHolder = "<div class=\"background_image_holder newsletter_img\">";
+        Layout = "~/Views/Shared/_csLayout.cshtml";
+}
+
+    <div class="content">
+        <span class="title @CSWSWEBResources.Resource.CSSTitleFontSize">@CSWSWEBResources.Resource.NewsLetterTitle</span>
+        <div style="height:2px;"></div>
+        <p>@CSWSWEBResources.Resource.NewLContent</p><br>
+        <form id="fm_newsletter" class="pageForm">
+              <table class="controltext">
+                <tr><td class="td_input_caption">@CSWSWEBResources.Resource.Name<span class="requiredstar">*</span></td><td ><input id="visitorname" name="visitorname" class="vistorname pages_inputs" maxlength="25" placeholder=@CSWSWEBResources.Resource.Name oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterName')" oninput="setCustomValidity('')" required /> </td>
+                <tr>
+                <tr><td class="td_input_caption td_input_top_space">@CSWSWEBResources.Resource.Email<span class="requiredstar">*</span></td><td class="td_input_top_space"><input type="email" name="emailaddress" id="emailaddress" placeholder="@CSWSWEBResources.Resource.EmailAddress" class="emailaddress pages_inputs" maxlength="50" title="@CSWSWEBResources.Resource.EmailAddress"  required oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterValidEmail')" oninput="setCustomValidity('')" /></td>
+                <tr>
+            </table>
+            <input class="culture_code" type="hidden" name="culture_code" value="en-ca" />
+         <div style="height:18px;"></div>
+            <div>
+                <button class="btn btn-xs btn-danger btn_submit" type="submit">@CSWSWEBResources.Resource.Submit</button>
+            </div>
+ 
+        </form>
+
+    </div>
+
+
+

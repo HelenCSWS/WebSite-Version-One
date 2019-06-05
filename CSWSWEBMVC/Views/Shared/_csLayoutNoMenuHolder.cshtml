@@ -1,0 +1,89 @@
+﻿
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="@CSWSWEBResources.Resource.HtmlLang" lang="@CSWSWEBResources.Resource.HtmlLang" prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta name="description" content="@CSWSWEBResources.Resource.CSWSDescription">
+        <meta name="author" content="Christopher Stewart Wine & Spirits">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="p:domain_verify" content="9f42a9b77a7e31aeaf7dc7f0d21b4f59" />
+        <!--link rel="icon" href="favicon.ico" -->
+        <link rel="icon" type="image/png" href="images/Address-bar-icon.png">
+        <link rel="canonical" href="http://www.christopherstewart.com/" />
+        <title>@ViewBag.Title</title>
+
+        @Styles.Render("~/Content/css")
+
+
+        @Styles.Render("~/Content/pagestyle.css")
+
+
+        @Scripts.Render("~/bundles/modernizr")
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+
+
+        @Scripts.Render("~/js/ie10-viewport-bug-workaround.js")
+        @Scripts.Render("https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+        @Scripts.Render("~/js/bootstrap.min.js")
+
+
+        <!-- Start Alexa Certify Javascript -->
+        <script type="text/javascript">
+_atrk_opts = { atrk_acct:"b5Yol1ao9rD0Y8", domain:"christopherstewart.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+        </script>
+        <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=b5Yol1ao9rD0Y8" style="display:none" height="1" width="1" alt="" /></noscript>
+        <!-- End Alexa Certify Javascript -->  
+
+    </head>
+    <body class="@CSWSWEBResources.Resource.CSSBodySpace">
+
+
+
+        @Html.Partial("_csMenu")
+        @RenderBody()
+
+        @Html.Partial("_csFooter")
+
+        <input type="hidden" class="province_id" value="1" />
+        <input class="culture_code" type="hidden" name="culture_code" value="en-ca" />
+
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        @Scripts.Render(@CSWSWEBResources.Resource.JS_MSG_FILE)
+        @Scripts.Render("https://code.jquery.com/ui/1.10.2/jquery-ui.js")
+        <!-- for Gallery scripts-->
+        @{
+            if (@ViewBag.isGallery == 1)
+            {
+                @Scripts.Render("~/js/jquery.jcarousel.js")
+                @Scripts.Render("~/js/grayscale-image-fader.js")
+                @Scripts.Render("~/js/jcarousel.connected-carousels.js")
+                @Scripts.Render("~/js/jquery.selectBoxIt.min.js")
+
+            }
+        }
+        @Scripts.Render("~/js/jsCookies.js")
+
+        @Scripts.Render("~/js/gbscript.js")
+        @Scripts.Render("~/js/pgscript.js")
+
+        @{ if (@ViewBag.isGallery == 1)
+            {
+                @Scripts.Render("~/js/image.js")
+            }
+
+        }
+
+        @RenderSection("scripts", required: false)
+
+
+
+
+    </body>
+</html>

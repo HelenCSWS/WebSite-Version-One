@@ -1,0 +1,49 @@
+﻿@model CSWSWEBMVC.Models.MenuItems
+@{string rootHref = @Model.RootHrefCulture;}
+   <!-- bottom -->
+
+<footer class="footer_holder">
+    <div class="row footer_menu_holder">
+        <div class="col-md-6 csws_col-md-6 footer_row_1_left">
+            <table class="table_map_holder">
+                <tr>
+                    <td><div class="map"><a class="provincemap" href="@rootHref/Region"> </a></div></td>
+                    <td style="text-align:center;"><a class="regionText regionText_hplk" href="@rootHref/Region"></a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-6 csws_col-md-6  footer_row_1_right">
+            <table style="width:100%">
+                <tr>
+                    <td class="td_aboutus"><div class="bottom_menu_item menuAboutUs"><a href="@rootHref/AboutUs">@CSWSWEBResources.Resource.AboutUs</a></div></td>
+                    <td class="td_contact"><div class="bottom_menu_item menuContactUs"><a href="@rootHref/ContactUs">@CSWSWEBResources.Resource.ContactUs</a></div></td>
+                    <td class="td_feedback"><div class="bottom_menu_item feedback_menu_item menuFeedBack"><a href="@rootHref/FeedBack">@CSWSWEBResources.Resource.FeedBack</a></div></td>
+                </tr>
+            </table>
+        </div>
+    </div><!--  <div class="row footer_menu_holder"> end-->
+
+    <div class="row  footer_icon_holder">
+        <div class="col-md-6 csws_col-md-6 footer_row_2_left">
+            <table style="width:100%">
+                <tr>
+                    <td><div class="facebook "><a href="https://www.facebook.com/pages/Christopher-Stewart-Wine-and-Spirits/49793071898" target="blank"><img src="~/images/btn_fb.png" border="0" /></a></div></td>
+                    <td><div class="twitter div_twitter"><a href="https://twitter.com/CSWS_BC" target="blank"><img src="~/images/btn_tw.png" border="0"/></a></div></td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-6 csws_col-md-6 footer_row_2_right">
+            <table style="width:100%">
+                <tbody>
+                    <tr>
+                        <td><div class="instagram"><a href="https://www.instagram.com/christopherstewart" target="blank"><img src="~/images/btn_ins.png" /></a></div></td>
+                        <td><div class="pinterest"><a href="https://www.pinterest.com/CSWSCanada" target="blank"><img src="~/images/btn_pin.png" /></a></div></td>
+                        <td>@*<div class="googleplus"><a href="https://plus.google.com/u/0/b/114378048241762007757/+Christopherstewartwineandspirits" target="blank"><img src="~/images/btn_gp.png" /></a></div>*@</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="copyright">@CSWSWEBResources.Resource.Copyright @DateTime.Now.Year @CSWSWEBResources.Resource.CSWSARR</div><!-- /copyright -->
+
+</footer>

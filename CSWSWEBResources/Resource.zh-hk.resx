@@ -1,0 +1,870 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutContent_1" xml:space="preserve">
+    <value>詩德有限公司總部設在加拿大，是加拿大國家進口商。精挑細選及銷售來自世界各地頂級生產商高品質的葡萄酒，烈酒，啤酒，清爽酒和清酒。</value>
+    <comment>About US</comment>
+  </data>
+  <data name="AboutContent_2" xml:space="preserve">
+    <value>我們的目標是通過廣泛的研究和對品質的不繼追求，為客人帶來獨特和業界領先地位的產品。我們的產品組合正是我們致力努力不懈的最好見証。</value>
+    <comment>About US</comment>
+  </data>
+  <data name="AboutContent_3" xml:space="preserve">
+    <value>在2013年4月，我們更將國際業務擴展至中國。我們的亞洲總部設於香港。</value>
+    <comment>About US</comment>
+  </data>
+  <data name="AboutMe" xml:space="preserve">
+    <value>關於我</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="AboutUs" xml:space="preserve">
+    <value>關於我們</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="ACCOUNT_ACTIVE_EMAIL_CONTENT" xml:space="preserve">
+    <value>您好 {0},
+                                                           &lt;BR&gt;&lt;BR&gt;
+                                                            請按以下連結登記成為ChristopherStewart.com網站的業界賬户。
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            &lt;a href="http://www.christopherstewart.com/{1}/account/activeaccount/{2}"&gt;http://www.christopherstewart.com/{1}/account/activeaccount/{2}&lt;/a&gt;
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            如不能按入連結，請透過複製以上網頁到您的網頁瀏覽器。
+                                                            &lt;BR&gt;&lt;BR&gt;&lt;BR&gt;
+                                                            感謝您的支持，
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            詩德團隊 &lt;BR&gt;
+                                                            ****************************
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            如果您沒有登記成為ChristopherStewart.com的業界賬户，
+                                                            但有人錯誤輸入您的電郵地址登記賬户，請您不用理會此訊息。
+                                                            &lt;BR&gt;
+                                                            為保護您的私隱安全，我們只會發送此訊息到户口內指定電郵地址。</value>
+    <comment>Acitive account</comment>
+  </data>
+  <data name="ACTIVE_ACCOUNT_EMAIL_SUBJECT" xml:space="preserve">
+    <value>ChristopherStewart.com 帳戶註冊</value>
+    <comment>Acitive account</comment>
+  </data>
+  <data name="ActivtionExpired" xml:space="preserve">
+    <value>啟動時限已過</value>
+    <comment>Acitive account</comment>
+  </data>
+  <data name="Agency" xml:space="preserve">
+    <value>代理商</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="ArtGallery" xml:space="preserve">
+    <value>藝術畫廊</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="ArtGalleryImgLink" xml:space="preserve">
+    <value>gallery_img_hk</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="BringTheBest" xml:space="preserve">
+    <value>呈獻佳釀，品味人生!™</value>
+    <comment>About us</comment>
+  </data>
+  <data name="Broker" xml:space="preserve">
+    <value>經紀人</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="Canada" xml:space="preserve">
+    <value>Canada</value>
+  </data>
+  <data name="CaseSensitive" xml:space="preserve">
+    <value>六至八個字母符號。可區分大小寫</value>
+    <comment>Reset password</comment>
+  </data>
+  <data name="CfrmEmailAdd" xml:space="preserve">
+    <value>電郵確認</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CfrmPswd" xml:space="preserve">
+    <value>密碼確認</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CfrmRobot" xml:space="preserve">
+    <value>請確認你不是自動程式</value>
+    <comment>Share</comment>
+  </data>
+  <data name="ChangeEmail" xml:space="preserve">
+    <value>更改電郵</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ChangeEmailCapital" xml:space="preserve">
+    <value>更改電郵</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>更改密碼</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ChangePasswordCapital" xml:space="preserve">
+    <value>更改密碼</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ChangeYourPswd" xml:space="preserve">
+    <value>更改您的密碼</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CHEInfo" xml:space="preserve">
+    <value>請輸入新的電郵以及您現時有密碼</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="CHPInfo" xml:space="preserve">
+    <value>若要更改密碼，請輸入您現時的密碼及新密碼</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>城市</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ClickUploadImg" xml:space="preserve">
+    <value>點擊上傳照片</value>
+    <comment>Profile</comment>
+  </data>
+  <data name="ClickView" xml:space="preserve">
+    <value>按此進入</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CName" xml:space="preserve">
+    <value>公司名稱</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ContactPhone" xml:space="preserve">
+    <value>聯絡電話</value>
+    <comment>Contact is</comment>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>聯絡我們</value>
+    <comment>Contact us</comment>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>版權 ©</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>國家</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CreateNewPswd" xml:space="preserve">
+    <value>重設密碼</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CSS_buttons_pannel" xml:space="preserve">
+    <value>buttons_pannel</value>
+  </data>
+  <data name="CSS_left_items" xml:space="preserve">
+    <value>left_items</value>
+  </data>
+  <data name="CSS_right_items" xml:space="preserve">
+    <value>right_items</value>
+  </data>
+  <data name="CSWS" xml:space="preserve">
+    <value>詩德有限公司</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CSWSARR" xml:space="preserve">
+    <value>詩德有限公司版權所有，不得轉載</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CSWSDescription" xml:space="preserve">
+    <value>詩德有限公司精挑細選及銷售來自世界各地頂級生產商高品質的葡萄酒，烈酒，啤酒，清爽酒和清酒。</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CSWSLogoImage" xml:space="preserve">
+    <value>logo_zh.png</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSWSQuote" xml:space="preserve">
+    <value>詩德酒名言</value>
+    <comment>Quote</comment>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>現時密碼</value>
+    <comment>Global</comment>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>用戶名稱</value>
+    <comment>Global</comment>
+  </data>
+  <data name="DSAndWHS" xml:space="preserve">
+    <value>分銷商／批發商</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="EditProfilePhoto" xml:space="preserve">
+    <value>編輯個人相片</value>
+    <comment>Profile</comment>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>電郵</value>
+    <comment>Global</comment>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>電郵地址</value>
+    <comment>Global</comment>
+  </data>
+  <data name="EMAIL_SHARE_CONTENT" xml:space="preserve">
+    <value>{0}
+                                                &lt;BR&gt;&lt;BR&gt;
+                                                請按以下連結查看或下載畫冊封面 "{1}"
+                                                &lt;BR&gt;&lt;BR&gt;
+                                                &lt;a href="http://www.christopherstewart.com/{2}/image/{3}"&gt;http://www.christopherstewart.com/{2}/image/{3}&lt;/a&gt;
+                                                &lt;BR&gt;&lt;BR&gt;&lt;BR&gt;
+                                                希望您會喜歡，
+                                                &lt;BR&gt;&lt;BR&gt;
+                                                {4}
+                                                 &lt;BR&gt;&lt;BR&gt;&lt;BR&gt;
+                                                &lt;font size='1'&gt;版權通告 － 這附件圖像為詩德有限公司的獨立資產。此附件圖像只供個人用途，不可用作任何商業用途。
+
+                                                &lt;BR&gt;
+                                                版權所有 {5} 詩德有限公司.&lt;/font&gt;</value>
+    <comment>Share</comment>
+  </data>
+  <data name="EMAIL_SHARE_SENDDER_MSG" xml:space="preserve">
+    <value>您好 {0},    &lt;BR&gt;&lt;BR&gt;                            
+
+                          {1} 發給您來自詩德公司高解像畫冊封面"{2}" 的鏈接</value>
+    <comment>Share</comment>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>傳真</value>
+    <comment>Contact us</comment>
+  </data>
+  <data name="FDBKComments" xml:space="preserve">
+    <value>評語</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="FeedBack" xml:space="preserve">
+    <value>意見反映</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="FeedBKContent_1" xml:space="preserve">
+    <value>詩德有限公司在業務各個方面不斷追求卓越表現。從產品質素，客戶服務方案，以及網站教育內容，我們都重視您的意見。</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="FeedBKContent_2" xml:space="preserve">
+    <value>如果你對這些題目有任何建議或意見 － 或對詩德有限公司其他方面有任何提議 － 請填寫以下表格並告訴我們。</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="FeedBKContent_3" xml:space="preserve">
+    <value>我們重視您的意見及建議。我們會盡快回覆。多謝！</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="FeedBKSubmission" xml:space="preserve">
+    <value>意見提交</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="FName" xml:space="preserve">
+    <value>名字</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ForgetPswd" xml:space="preserve">
+    <value>忘記密碼</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ForgotPswd" xml:space="preserve">
+    <value>忘記密碼</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>主頁</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="HongKong" xml:space="preserve">
+    <value>香港</value>
+    <comment>Contact</comment>
+  </data>
+  <data name="Hospitality" xml:space="preserve">
+    <value>酒店餐飲</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="HtmlLang" xml:space="preserve">
+    <value>en</value>
+    <comment>html language in title</comment>
+  </data>
+  <data name="ImageSaveHR" xml:space="preserve">
+    <value>請按此保存高解像畫冊封面</value>
+    <comment>Image</comment>
+  </data>
+  <data name="Importer" xml:space="preserve">
+    <value>入口商</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="Industry" xml:space="preserve">
+    <value>業內登入</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="JS_MSG_FILE" xml:space="preserve">
+    <value>~/js/language/message.zh-hk.js</value>
+    <comment>JS</comment>
+  </data>
+  <data name="LanCode" xml:space="preserve">
+    <value>en</value>
+    <comment>Global</comment>
+  </data>
+  <data name="LetsFindYRAcnt" xml:space="preserve">
+    <value>搜尋你的帳戶</value>
+    <comment>Reset password</comment>
+  </data>
+  <data name="LName" xml:space="preserve">
+    <value>姓氏</value>
+    <comment>Global</comment>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>登出</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>傳播媒體</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>信息</value>
+    <comment>Global</comment>
+  </data>
+  <data name="MyAccount" xml:space="preserve">
+    <value>我的帳户</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>姓名</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Negociant" xml:space="preserve">
+    <value>酒商</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="NewLContent" xml:space="preserve">
+    <value>取得第一手資訊！獲取有關推廣活動，新產品及更多不同的資訊，直接寄到你的電子郵箱。</value>
+    <comment>Newsletter</comment>
+  </data>
+  <data name="NewPswd" xml:space="preserve">
+    <value>新密碼</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>通訊</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="NewsLetterTitle" xml:space="preserve">
+    <value>加入通訊</value>
+    <comment>Newsletter</comment>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>至</value>
+    <comment>Global</comment>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>同意</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>密碼</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PassworfCfrm" xml:space="preserve">
+    <value>密碼確認</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>電話</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="PleaseEnterCName" xml:space="preserve">
+    <value>請輸入公司名稱。</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="PleaseEnterFName" xml:space="preserve">
+    <value>請輸入名稱</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="PleaseEnterLName" xml:space="preserve">
+    <value>請輸入姓氏</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="PleaseEnterValidEmail" xml:space="preserve">
+    <value>請輸入正確的電郵地址</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="PleaseEnterValidPswd" xml:space="preserve">
+    <value>請輸入正確密碼，密碼必須由最少六個字母符號組成。</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="PleaseFillComment" xml:space="preserve">
+    <value>請填寫意見內容.</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="Portfolio" xml:space="preserve">
+    <value>產品介紹</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="PortfolioCapital" xml:space="preserve">
+    <value>產品介紹</value>
+    <comment>Home</comment>
+  </data>
+  <data name="PortfolioInfo" xml:space="preserve">
+    <value>2016年12月版本已推出</value>
+    <comment>Home</comment>
+  </data>
+  <data name="Producer" xml:space="preserve">
+    <value>生產商</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>我的資訊</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Profit" xml:space="preserve">
+    <value>Profit</value>
+  </data>
+  <data name="PRO_AB" xml:space="preserve">
+    <value>艾伯塔省</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_BC" xml:space="preserve">
+    <value>不列顛哥倫比亞省</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_HK" xml:space="preserve">
+    <value>香港</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_MB" xml:space="preserve">
+    <value>馬尼托巴省</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_NB" xml:space="preserve">
+    <value>新不倫瑞克省</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_NS" xml:space="preserve">
+    <value>新斯科舍省</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_ON" xml:space="preserve">
+    <value>安大略省</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_QB" xml:space="preserve">
+    <value>魁北克省</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_SK" xml:space="preserve">
+    <value>薩斯喀徹溫省</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Quote" xml:space="preserve">
+    <value>名言</value>
+    <comment>Quote</comment>
+  </data>
+  <data name="QuoteOfDay" xml:space="preserve">
+    <value>今日名言</value>
+    <comment>Home</comment>
+  </data>
+  <data name="Quotes" xml:space="preserve">
+    <value>名言</value>
+    <comment>Quote</comment>
+  </data>
+  <data name="Quotes_MSG" xml:space="preserve">
+    <value>名言</value>
+    <comment>Quote</comment>
+  </data>
+  <data name="RechapchaLink" xml:space="preserve">
+    <value>https://www.google.com/recaptcha/api.js?hl=zh-HK</value>
+    <comment>Share</comment>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>地區</value>
+  </data>
+  <data name="ResetEmail" xml:space="preserve">
+    <value>重設電郵</value>
+    <comment>Reset password</comment>
+  </data>
+  <data name="ResetPswd" xml:space="preserve">
+    <value>重設密碼</value>
+    <comment>Reset password</comment>
+  </data>
+  <data name="RESET_PSWD_EMAIL_CONTENT" xml:space="preserve">
+    <value>尊敬的會員,
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            根據要求，請按照下列步驟重新進入 ChristopherStewart.com。
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            
+
+1.請按以下連結選擇一個新密碼。
+
+ 
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            &lt;a href="https://industry.christopherstewart.com/{0}/account/resetpassword/{1}"&gt;https://industry.christopherstewart.com/{0}/account/resetpassword/{1}&lt;/a&gt;
+                                                             &lt;BR&gt;&lt;BR&gt;
+                                                            
+
+如不能按入連結，請複製以上網頁到你的網頁瀏覽器。
+
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            
+2.按照屏幕上的說明選擇一個新的密碼。選擇密碼後，您將自動進入ChristopherStewart.com。
+
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            
+3.以後您可以通過輸入你的電郵地址和這個密碼登入ChristopherStewart.com。
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            
+
+如有任何疑問，請發郵件至 &lt;a href="mailto:info@ChristopherStewart.com" target="_top"&gt;info@ChristopherStewart.com&lt;/a&gt;; 請不要回覆此郵件。
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            
+詩德有限公司客戶服務
+                                                            &lt;a href="mailto:info@ChristopherStewart.com" target="_top"&gt;info@ChristopherStewart.com&lt;/a&gt;
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            ***************************
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                           
+
+如果您沒有申請ChristopherStewart.com的ID和密碼，但有人錯誤輸入你的電郵地址，請你不用理會此訊息。
+                                                            &lt;BR&gt;
+                                                            或如果你願意，你可以到上面的網址選擇帳戶新密碼。為保護你的私隱安全，我們只會發送此訊息到户口內指定電郵地址。
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            &lt;font size='1'&gt;版權所有 {2} 詩德有限公司.&lt;/font&gt;</value>
+    <comment>Reset password</comment>
+  </data>
+  <data name="RESET_PSWD_EMAIL_SUBJECT" xml:space="preserve">
+    <value>ChristopherStewart.com 帳戶申請</value>
+    <comment>Reset password</comment>
+  </data>
+  <data name="RetailSales" xml:space="preserve">
+    <value>零售商</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="RPEmail" xml:space="preserve">
+    <value>收件人電郵</value>
+    <comment>Share</comment>
+  </data>
+  <data name="RPName" xml:space="preserve">
+    <value>收件人名稱</value>
+    <comment>Share</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>搜尋</value>
+    <comment>Quote</comment>
+  </data>
+  <data name="SearchQuote" xml:space="preserve">
+    <value>搜尋名言</value>
+    <comment>Quote</comment>
+  </data>
+  <data name="SelectCity" xml:space="preserve">
+    <value>選擇城市</value>
+    <comment>Global</comment>
+  </data>
+  <data name="SendMeNews" xml:space="preserve">
+    <value>同意詩德有限公司寄出通訊給我。你可以隨時取消訂閱通訊。</value>
+    <comment>Newsletter</comment>
+  </data>
+  <data name="ShareHR" xml:space="preserve">
+    <value>分享高解像畫冊</value>
+    <comment>Share</comment>
+  </data>
+  <data name="ShareHRArt" xml:space="preserve">
+    <value>分享高解像畫冊封面</value>
+    <comment>Share</comment>
+  </data>
+  <data name="ShareInfo" xml:space="preserve">
+    <value>若要分享圖像，請填寫以下資料。</value>
+    <comment>Share</comment>
+  </data>
+  <data name="ShareTitle" xml:space="preserve">
+    <value>分享高解像畫冊封面</value>
+    <comment>Share</comment>
+  </data>
+  <data name="SHARE_EMAIL_SUBJECT" xml:space="preserve">
+    <value>分享來自詩德的高解像畫冊封面</value>
+    <comment>Share</comment>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>登入</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="SignInDHAct" xml:space="preserve">
+    <value>還未建立帳戶</value>
+    <comment>Sign in</comment>
+  </data>
+  <data name="SignInTitle" xml:space="preserve">
+    <value>輸入你的業內電郵及密碼</value>
+    <comment>Sign in</comment>
+  </data>
+  <data name="SignUpNow" xml:space="preserve">
+    <value>馬上登記</value>
+    <comment>Sign in</comment>
+  </data>
+  <data name="SignupRemember" xml:space="preserve">
+    <value>保持登入狀態</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="SignUpSegment" xml:space="preserve">
+    <value>請選擇行業類別</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="SignUpTitle" xml:space="preserve">
+    <value>建立您的業界賬户</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="Sincerely" xml:space="preserve">
+    <value>致以誠摯的問候</value>
+    <comment>Global</comment>
+  </data>
+  <data name="SorrySessionExpired" xml:space="preserve">
+    <value>對不起，重設限時已過。</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="SpecialCharatorAvoidCommonWds" xml:space="preserve">
+    <value>使用特別字母符號。避免常用詞語或名字。</value>
+    <comment>Reset password</comment>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>提交</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>產品介紹</value>
+    <comment>??</comment>
+  </data>
+  <data name="ThankYouForRegisting" xml:space="preserve">
+    <value>多謝您登記成為詩德網站ChristopherStewart.com的業界賬户。</value>
+    <comment>Acitve account</comment>
+  </data>
+  <data name="TheCSWSTeam" xml:space="preserve">
+    <value>詩德團隊</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Tollfree" xml:space="preserve">
+    <value>免費撥打</value>
+    <comment>Contact us</comment>
+  </data>
+  <data name="WeWillVerifyAccount" xml:space="preserve">
+    <value>我們會核實你的業界狀況並於三個工作天內啟動您的帳戶。我們會盡快以電郵回覆有關您的帳戶啟動安排。</value>
+    <comment>Acitve account</comment>
+  </data>
+  <data name="WineMaker" xml:space="preserve">
+    <value>釀酒師</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="YouCanUnSub" xml:space="preserve">
+    <value />
+    <comment>Newsletter</comment>
+  </data>
+  <data name="YRCRTEmail" xml:space="preserve">
+    <value>您現時的電郵</value>
+    <comment>Global</comment>
+  </data>
+  <data name="YRName" xml:space="preserve">
+    <value>您的名字</value>
+    <comment>Share</comment>
+  </data>
+  <data name="ZipCode" xml:space="preserve">
+    <value>郵區編號</value>
+    <comment>Profile</comment>
+  </data>
+  <data name="CSSTitleFontSize" xml:space="preserve">
+    <value>title_ft_size_cn</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="IndustryPortfolio" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PleaseEnterName" xml:space="preserve">
+    <value>请输入您的姓名</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>分享</value>
+    <comment>Share</comment>
+  </data>
+  <data name="PLSENTERRCPName" xml:space="preserve">
+    <value>請輸入收件人名稱</value>
+    <comment>Share</comment>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>登入</value>
+  </data>
+  <data name="ActiveAccount" xml:space="preserve">
+    <value>賬戶註冊</value>
+  </data>
+  <data name="ChangeProfile" xml:space="preserve">
+    <value>更改個人資訊</value>
+  </data>
+  <data name="YREmail" xml:space="preserve">
+    <value>你的電郵</value>
+    <comment>Share</comment>
+  </data>
+  <data name="HongKongAddress" xml:space="preserve">
+    <value>香港 上環德輔道中199號 無限極廣場12樓</value>
+    <comment>Contact</comment>
+  </data>
+  <data name="QuoteMenu" xml:space="preserve">
+    <value>名言</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="LoadingImg" xml:space="preserve">
+    <value>正在下載圖片，請稍後</value>
+    <comment>Gallery</comment>
+  </data>
+  <data name="CSSPTFINFOHolder" xml:space="preserve">
+    <value>ptfInfoHolder_zh</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSPTFTitleHolder" xml:space="preserve">
+    <value>ptfTitleHolder_zh</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSQTSPACETEXT" xml:space="preserve">
+    <value>quote_space_text_zh</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSHKNameHolder" xml:space="preserve">
+    <value>hongkong_name_zh</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSRegionCL1" xml:space="preserve">
+    <value>region_col_1_zh</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSRegionCL2" xml:space="preserve">
+    <value>region_col_2_zh</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSRegionCL3" xml:space="preserve">
+    <value>region_col_3_zh</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSRegionCL4" xml:space="preserve">
+    <value>region_col_4_zh</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSBodySpace" xml:space="preserve">
+    <value>body_zh</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSS_TD_SHARE_INPUT_CPT" xml:space="preserve">
+    <value>td_share_input_caption_zh</value>
+    <comment>CSS</comment>
+  </data>
+</root>

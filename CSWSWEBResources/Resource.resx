@@ -1,0 +1,859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutUs" xml:space="preserve">
+    <value>About Us</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="ArtGallery" xml:space="preserve">
+    <value>Art Gallery</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="ClickView" xml:space="preserve">
+    <value>Click to View</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contact Us</value>
+    <comment>Contact us</comment>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>Copyright ©</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CSS_buttons_pannel" xml:space="preserve">
+    <value>buttons_pannel</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSS_left_items" xml:space="preserve">
+    <value>left_items</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSS_right_items" xml:space="preserve">
+    <value>right_items</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSWSARR" xml:space="preserve">
+    <value>Christopher Stewart Wine &amp; Spirits. All rights reserved</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CSWSLogoImage" xml:space="preserve">
+    <value>logo.png</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSWSQuote" xml:space="preserve">
+    <value>Christopher Stewart Quote</value>
+    <comment>Quote</comment>
+  </data>
+  <data name="FeedBack" xml:space="preserve">
+    <value>Feedback</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="HtmlLang" xml:space="preserve">
+    <value>en</value>
+    <comment>html language in title</comment>
+  </data>
+  <data name="Industry" xml:space="preserve">
+    <value>Industry</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Newsletter</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="NewsLetterTitle" xml:space="preserve">
+    <value>Newsletter Sign Up</value>
+    <comment>Newsletter</comment>
+  </data>
+  <data name="Portfolio" xml:space="preserve">
+    <value>Portfolio</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="PortfolioCapital" xml:space="preserve">
+    <value>PORTFOLIO</value>
+    <comment>Home</comment>
+  </data>
+  <data name="PortfolioInfo" xml:space="preserve">
+    <value>2016 December Edition Available</value>
+    <comment>Home</comment>
+  </data>
+  <data name="Quote" xml:space="preserve">
+    <value>Quote</value>
+    <comment>Quote</comment>
+  </data>
+  <data name="ShareHR" xml:space="preserve">
+    <value>Share this in Hi-Res</value>
+    <comment>Share</comment>
+  </data>
+  <data name="AboutContent_1" xml:space="preserve">
+    <value>Christopher Stewart Wine &amp; Spirits Inc. is a Canadian-based national importer dedicated to selecting and marketing high quality wines, spirits, beers, coolers and sakes from top producers around the World.</value>
+    <comment>About US</comment>
+  </data>
+  <data name="AboutContent_2" xml:space="preserve">
+    <value>Our goal is to bring unique and industry leading products to our customers through extensive research and an endless pursuit of quality. Our portfolio is an excellent reflection of our commitment to these on-going efforts.</value>
+    <comment>About US</comment>
+  </data>
+  <data name="AboutContent_3" xml:space="preserve">
+    <value>In April of 2013, we expanded our operations internationally to China, with our Asian head office located in Hong Kong.</value>
+    <comment>About US</comment>
+  </data>
+  <data name="BringTheBest" xml:space="preserve">
+    <value>Bringing the world's best to you!™</value>
+    <comment>About us</comment>
+  </data>
+  <data name="CSWS" xml:space="preserve">
+    <value>Christopher Stewart Wine &amp; Spirits</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+    <comment>Global</comment>
+  </data>
+  <data name="FDBKComments" xml:space="preserve">
+    <value>Comments</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="FeedBKContent_1" xml:space="preserve">
+    <value>At Christopher Stewart Wine &amp; Spirits, we are constantly striving for excellence in all aspects of our business. From the quality of our products, our Customer Service programs, and the educational content on our website, we value your opinion.</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="FeedBKContent_2" xml:space="preserve">
+    <value>If you have any suggestions or feedback on these topics - or any other aspect of Christopher Stewart - please complete the form below and send us your thoughts.</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="FeedBKContent_3" xml:space="preserve">
+    <value>We value your comments and opinions and will return to you as soon as we can. Thank you!</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="FeedBKSubmission" xml:space="preserve">
+    <value>Feedback Submission</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Global</comment>
+  </data>
+  <data name="NewLContent" xml:space="preserve">
+    <value>Be the first to know! Get the latest news on upcoming events, new products and more, delivered straight to your inbox!</value>
+    <comment>Newsletter</comment>
+  </data>
+  <data name="SendMeNews" xml:space="preserve">
+    <value>Send me newsletters from Christopher Stewart Wine &amp; Spirits.</value>
+    <comment>Newsletter</comment>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+    <comment>Global</comment>
+  </data>
+  <data name="YouCanUnSub" xml:space="preserve">
+    <value>You can unsubscribe at any time.</value>
+    <comment>Email</comment>
+  </data>
+  <data name="CfrmRobot" xml:space="preserve">
+    <value>Confirm you are not a robot</value>
+    <comment>Share</comment>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+    <comment>Global</comment>
+  </data>
+  <data name="RPEmail" xml:space="preserve">
+    <value>Recipient's email</value>
+    <comment>Share</comment>
+  </data>
+  <data name="RPName" xml:space="preserve">
+    <value>Recipient's name</value>
+    <comment>Share</comment>
+  </data>
+  <data name="ShareHRArt" xml:space="preserve">
+    <value>Share Hi-Res Cover Art</value>
+    <comment>Share</comment>
+  </data>
+  <data name="ShareInfo" xml:space="preserve">
+    <value>To share the images please fill the information in below.</value>
+    <comment>Share</comment>
+  </data>
+  <data name="ShareTitle" xml:space="preserve">
+    <value>Share Hi-Res Cover Art</value>
+    <comment>Share</comment>
+  </data>
+  <data name="YREmail" xml:space="preserve">
+    <value>Your email</value>
+    <comment>Share</comment>
+  </data>
+  <data name="YRName" xml:space="preserve">
+    <value>Your name</value>
+    <comment>Share</comment>
+  </data>
+  <data name="ImageSaveHR" xml:space="preserve">
+    <value>Please click here to save this high resolution cover art</value>
+    <comment>Image</comment>
+  </data>
+  <data name="AboutMe" xml:space="preserve">
+    <value>About Me</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="Agency" xml:space="preserve">
+    <value>Agency</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="Broker" xml:space="preserve">
+    <value>Broker</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="CfrmEmailAdd" xml:space="preserve">
+    <value>Confirm Email address</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CfrmPswd" xml:space="preserve">
+    <value>Confirm Password</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ChangeEmail" xml:space="preserve">
+    <value>Change email</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ChangeEmailCapital" xml:space="preserve">
+    <value>Change Email</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ChangePasswordCapital" xml:space="preserve">
+    <value>Change Password</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CHEInfo" xml:space="preserve">
+    <value>Enter a new email address and your current password below.</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="CHPInfo" xml:space="preserve">
+    <value>To change your password,enter your current password and a new password.</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CName" xml:space="preserve">
+    <value>Company Name</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ContactPhone" xml:space="preserve">
+    <value>Contact Phone</value>
+    <comment>Contact is</comment>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+    <comment>Global</comment>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Current Password</value>
+    <comment>Global</comment>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Display Name</value>
+    <comment>Global</comment>
+  </data>
+  <data name="DSAndWHS" xml:space="preserve">
+    <value>Distributor/Wholesaler</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="EditProfilePhoto" xml:space="preserve">
+    <value>Edit Profile Photo</value>
+    <comment>Profile</comment>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Emaill address</value>
+    <comment>Global</comment>
+  </data>
+  <data name="FName" xml:space="preserve">
+    <value>First Name</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ForgotPswd" xml:space="preserve">
+    <value>Forgot password</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Hospitality" xml:space="preserve">
+    <value>Hospitality</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="Importer" xml:space="preserve">
+    <value>Importer</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="LName" xml:space="preserve">
+    <value>Last Name</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Media</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="Negociant" xml:space="preserve">
+    <value>Negociant</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="NewPswd" xml:space="preserve">
+    <value>New Password</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PassworfCfrm" xml:space="preserve">
+    <value>Password Confirmation</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Producer" xml:space="preserve">
+    <value>Producer</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profile</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Quotes" xml:space="preserve">
+    <value>Quotes</value>
+    <comment>Quote</comment>
+  </data>
+  <data name="RetailSales" xml:space="preserve">
+    <value>Retail Sales</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+    <comment>Quote</comment>
+  </data>
+  <data name="SearchQuote" xml:space="preserve">
+    <value>Search Quote</value>
+    <comment>Quote</comment>
+  </data>
+  <data name="SelectCity" xml:space="preserve">
+    <value>Select city</value>
+    <comment>Global</comment>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Sign In</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="SignInDHAct" xml:space="preserve">
+    <value>Don't have an account</value>
+    <comment>Sign in</comment>
+  </data>
+  <data name="SignInTitle" xml:space="preserve">
+    <value>Enter your industry email&lt;br&gt;
+and password</value>
+    <comment>Sign in</comment>
+  </data>
+  <data name="SignUpNow" xml:space="preserve">
+    <value>Sing up now</value>
+    <comment>Sign in</comment>
+  </data>
+  <data name="SignupRemember" xml:space="preserve">
+    <value>Remember sign in information</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="SignUpSegment" xml:space="preserve">
+    <value>Select your industry segment</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="SignUpTitle" xml:space="preserve">
+    <value>Create Your Christopher Stewart Industry Account</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="WineMaker" xml:space="preserve">
+    <value>Wine Maker</value>
+    <comment>Sign up</comment>
+  </data>
+  <data name="YRCRTEmail" xml:space="preserve">
+    <value>Your current email address is</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ZipCode" xml:space="preserve">
+    <value>Zip/Postal Code</value>
+    <comment>Profile</comment>
+  </data>
+  <data name="ActivtionExpired" xml:space="preserve">
+    <value>Your activation has been expired.</value>
+    <comment>Acitive account</comment>
+  </data>
+  <data name="CaseSensitive" xml:space="preserve">
+    <value>8 to 16 characters. Case sensitive.</value>
+    <comment>Reset password</comment>
+  </data>
+  <data name="ChangeYourPswd" xml:space="preserve">
+    <value>Change Your Password</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ClickUploadImg" xml:space="preserve">
+    <value>Click to upload image</value>
+    <comment>Profile</comment>
+  </data>
+  <data name="CreateNewPswd" xml:space="preserve">
+    <value>Create a new password</value>
+    <comment>Global</comment>
+  </data>
+  <data name="ForgetPswd" xml:space="preserve">
+    <value>Forget Password</value>
+    <comment>Global</comment>
+  </data>
+  <data name="LetsFindYRAcnt" xml:space="preserve">
+    <value>Let's find your account</value>
+    <comment>Reset password</comment>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PleaseEnterCName" xml:space="preserve">
+    <value>Please enter Company name.</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="PleaseEnterFName" xml:space="preserve">
+    <value>Please enter First name.</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="PleaseEnterLName" xml:space="preserve">
+    <value>Please enter Last name.</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="PleaseEnterValidEmail" xml:space="preserve">
+    <value>Please enter a valid email address.</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="PleaseEnterValidPswd" xml:space="preserve">
+    <value>Please enter the valid password, password must be at least 6 charactors.</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="Profit" xml:space="preserve">
+    <value>Profit</value>
+  </data>
+  <data name="ResetEmail" xml:space="preserve">
+    <value>Reset Email</value>
+    <comment>Reset password</comment>
+  </data>
+  <data name="ResetPswd" xml:space="preserve">
+    <value>Reset Password</value>
+    <comment>Reset password</comment>
+  </data>
+  <data name="Sincerely" xml:space="preserve">
+    <value>Sincerely,</value>
+    <comment>Global</comment>
+  </data>
+  <data name="SorrySessionExpired" xml:space="preserve">
+    <value>Sorry your reset session has expired.</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="SpecialCharatorAvoidCommonWds" xml:space="preserve">
+    <value>Special characters. Avoid common words and names.</value>
+    <comment>Reset password</comment>
+  </data>
+  <data name="ThankYouForRegisting" xml:space="preserve">
+    <value>Thank you for registering for an Industry Account with ChristopherStewart.com.</value>
+    <comment>Acitve account</comment>
+  </data>
+  <data name="TheCSWSTeam" xml:space="preserve">
+    <value>The Christopher Stewart Team</value>
+    <comment>Global</comment>
+  </data>
+  <data name="WeWillVerifyAccount" xml:space="preserve">
+    <value>We will now verify your industry status and active your account within 3 business days and email you back as soon as it is ready.</value>
+    <comment>Acitve account</comment>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+    <comment>Contact us</comment>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Log Out</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="MyAccount" xml:space="preserve">
+    <value>My Account</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Summary</value>
+    <comment>??</comment>
+  </data>
+  <data name="Tollfree" xml:space="preserve">
+    <value>Toll free</value>
+    <comment>Contact us</comment>
+  </data>
+  <data name="JS_MSG_FILE" xml:space="preserve">
+    <value>~/js/language/message.en.js</value>
+    <comment>JS</comment>
+  </data>
+  <data name="QuoteOfDay" xml:space="preserve">
+    <value>QUOTE OF THE DAY</value>
+    <comment>Home</comment>
+  </data>
+  <data name="Canada" xml:space="preserve">
+    <value>Canada</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>of</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="PleaseFillComment" xml:space="preserve">
+    <value>Please fill out the comment</value>
+    <comment>Feedback</comment>
+  </data>
+  <data name="Quotes_MSG" xml:space="preserve">
+    <value>Quotes</value>
+    <comment>Quote</comment>
+  </data>
+  <data name="EMAIL_SHARE_SENDDER_MSG" xml:space="preserve">
+    <value>Hi {0},
+                                                      &lt;BR&gt;&lt;BR&gt;    
+                                                      {1} has sent you a link to the Christopher Stewart Cover Art "{2}" in High Resolution.</value>
+    <comment>Share</comment>
+  </data>
+  <data name="SHARE_EMAIL_SUBJECT" xml:space="preserve">
+    <value>Shared Hi-Res Cover Art From Christopher Stewart Wine &amp; Spirits</value>
+    <comment>Share</comment>
+  </data>
+  <data name="ACCOUNT_ACTIVE_EMAIL_CONTENT" xml:space="preserve">
+    <value>Hi {0},
+                                                           &lt;BR&gt;&lt;BR&gt;
+                                                            Please click on the link below to complete the registration process for your ChristopherStewart.com account.
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            &lt;a href="http://www.christopherstewart.com/{1}/account/activeaccount/{2}"&gt;http://www.christopherstewart.com/{1}/account/activeaccount/{2}&lt;/a&gt;
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            If the link is not clickable, you can copy and paste the address into your Web browser's Address window. 
+                                                            &lt;BR&gt;&lt;BR&gt;&lt;BR&gt;
+                                                            Thanks,
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            The Christopher Stewart Team&lt;BR&gt;
+                                                            ****************************
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            If you did not request to register for a ChristopherStewart.com account, 
+                                                            someone has mistakenly entered your email address when registering. 
+                                                            &lt;BR&gt;
+                                                            Please ignore this message. To protect your privacy, 
+                                                            we will only send this information to the email address on file for this account.</value>
+    <comment>Acitive account</comment>
+  </data>
+  <data name="ACTIVE_ACCOUNT_EMAIL_SUBJECT" xml:space="preserve">
+    <value>ChristopherStewart.com Account Registration</value>
+    <comment>Acitive account</comment>
+  </data>
+  <data name="EMAIL_SHARE_CONTENT" xml:space="preserve">
+    <value>{0}
+                                                &lt;BR&gt;&lt;BR&gt;
+                                                Please click the link below to view and/or download the cover art "{1}"
+                                                &lt;BR&gt;&lt;BR&gt;
+                                                &lt;a href="http://www.christopherstewart.com/{2}/image/{3}"&gt;http://www.christopherstewart.com/{2}/image/{3}&lt;/a&gt;
+                                                &lt;BR&gt;&lt;BR&gt;&lt;BR&gt;
+                                                Enjoy,
+                                                &lt;BR&gt;&lt;BR&gt;
+                                                {4}
+                                                 &lt;BR&gt;&lt;BR&gt;&lt;BR&gt;
+                                                &lt;font size='1'&gt;Copyright Notice - The attached image is the sole property of Christopher Stewart Wine &amp; Spirits. The attached image may be used for personal use only and may not be used for a commercial purpose.
+                                                &lt;BR&gt;
+                                                Copyright {5} Christopher Stewart Wine &amp; Spirits Inc.&lt;/font&gt;</value>
+    <comment>Share</comment>
+  </data>
+  <data name="RESET_PSWD_EMAIL_CONTENT" xml:space="preserve">
+    <value>Dear member,
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            Per your request, please follow these steps to regain access to ChristopherStewart.com.
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            1. Click the link below to choose a new password.
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            &lt;a href="https://industry.christopherstewart.com/{0}/account/resetpassword/{1}"&gt;https://industry.christopherstewart.com/{0}/account/resetpassword/{1}&lt;/a&gt;
+                                                             &lt;BR&gt;&lt;BR&gt;
+                                                            If the link is not clickable, you can copy and paste the address into your Web browser's Address bar.
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            2. Follow the instructions on the screen to choose a new password. After you have chosen a password you will automatically enter ChristopherStewart.com.
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            3. In the future you can log in to ChristopherStewart.com by entering your email address and this password.
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            If you have any questions, write to &lt;a href="mailto:info@ChristopherStewart.com" target="_top"&gt;info@ChristopherStewart.com&lt;/a&gt;; do not reply to this message.
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            Christopher Stewart Customer Service
+                                                            &lt;a href="mailto:info@ChristopherStewart.com" target="_top"&gt;info@ChristopherStewart.com&lt;/a&gt;
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            ***************************
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            If you did not request your ID and password for ChristopherStewart.com, someone has mistakenly entered your email address when requesting their password. 
+                                                            &lt;BR&gt;
+                                                            Please ignore this message, or, if you wish, you may go to the address above to select a new password for your account. To protect your privacy, we will only send this information to the email address on file for this account.
+                                                            &lt;BR&gt;&lt;BR&gt;
+                                                            &lt;font size='1'&gt;Copyright {2} Christopher Stewart Wine &amp; Spirits Inc.&lt;/font&gt;</value>
+    <comment>Reset password</comment>
+  </data>
+  <data name="RESET_PSWD_EMAIL_SUBJECT" xml:space="preserve">
+    <value>ChristopherStewart.com Account Request</value>
+    <comment>Reset password</comment>
+  </data>
+  <data name="LanCode" xml:space="preserve">
+    <value>en</value>
+    <comment>Global</comment>
+  </data>
+  <data name="RechapchaLink" xml:space="preserve">
+    <value>https://www.google.com/recaptcha/api.js?hl=en</value>
+    <comment>Share</comment>
+  </data>
+  <data name="ArtGalleryImgLink" xml:space="preserve">
+    <value>gallery_img_en</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSWSDescription" xml:space="preserve">
+    <value>Christopher Stewart Wine &amp; Spirits is dedicated to selecting and importing high quality wines, spirits, beers, coolers and sakes from top producers around the world.</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_AB" xml:space="preserve">
+    <value>Alberta</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_BC" xml:space="preserve">
+    <value>British Columbia</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_HK" xml:space="preserve">
+    <value>Hong Kong</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_MB" xml:space="preserve">
+    <value>Manitoba</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_NB" xml:space="preserve">
+    <value>New Brunswick</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_NS" xml:space="preserve">
+    <value>Nova Scotia</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_ON" xml:space="preserve">
+    <value>Ontario</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_QB" xml:space="preserve">
+    <value>Quebec</value>
+    <comment>Global</comment>
+  </data>
+  <data name="PRO_SK" xml:space="preserve">
+    <value>Saskatchewan</value>
+    <comment>Global</comment>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="CSSTitleFontSize" xml:space="preserve">
+    <value>title_ft_size_en</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="IndustryPortfolio" xml:space="preserve">
+    <value>Portfolio</value>
+    <comment>Portfolio</comment>
+  </data>
+  <data name="PleaseEnterName" xml:space="preserve">
+    <value>Please enter your name.</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="PLSENTERRCPName" xml:space="preserve">
+    <value>Please enter the valid recipient's email address.</value>
+    <comment>Share</comment>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="ActiveAccount" xml:space="preserve">
+    <value>Active Account</value>
+  </data>
+  <data name="ChangeProfile" xml:space="preserve">
+    <value>Change Profile</value>
+  </data>
+  <data name="HongKong" xml:space="preserve">
+    <value>Hong Kong</value>
+    <comment>Contact</comment>
+  </data>
+  <data name="HongKongAddress" xml:space="preserve">
+    <value>Level 12, Infinitus Plaza, 199 Des Voeux Road Central, Sheung Wan, Hong Kong.</value>
+    <comment>Contact</comment>
+  </data>
+  <data name="QuoteMenu" xml:space="preserve">
+    <value>Quotes</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="LoadingImg" xml:space="preserve">
+    <value>Loading, please wait</value>
+    <comment>Gallery</comment>
+  </data>
+  <data name="CSSPTFINFOHolder" xml:space="preserve">
+    <value>ptfInfoHolder_en</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSPTFTitleHolder" xml:space="preserve">
+    <value>ptfTitleHolder_en</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSQTSPACETEXT" xml:space="preserve">
+    <value>quote_space_text_en</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSHKNameHolder" xml:space="preserve">
+    <value>hongkong_name_en</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSRegionCL1" xml:space="preserve">
+    <value>region_col_1_en</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSRegionCL2" xml:space="preserve">
+    <value>region_col_2_en</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSRegionCL3" xml:space="preserve">
+    <value>region_col_3_en</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSRegionCL4" xml:space="preserve">
+    <value>region_col_4_en</value>
+    <comment>CSS</comment>
+  </data>
+  <data name="CSSBodySpace" xml:space="preserve">
+    <value />
+    <comment>CSS</comment>
+  </data>
+  <data name="CSS_TD_SHARE_INPUT_CPT" xml:space="preserve">
+    <value>td_share_input_caption_en</value>
+    <comment>CSS</comment>
+  </data>
+</root>

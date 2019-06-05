@@ -1,0 +1,209 @@
+<%@language=vbscript%>
+<%option explicit%>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--link rel="icon" href="favicon.ico" -->
+	<link rel="icon" type="image/png"  href="images/Address-bar-icon.png">
+    <title>Feedback</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/navbar.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- project sources-->
+    
+   	  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+   	 <link rel="stylesheet" type="text/css" href="css/contactus.css">
+
+      <!-- #include file="common.asp"-->
+  </head>
+
+  <body>
+<%
+	
+  dim province_id
+  province_id = Request("province_id")
+  
+  if request("ischanged")="1" then
+        dim isSend   
+        isSend=0
+        if request("isSend") ="on" then 
+            isSend =1
+        end if
+          dim isSave
+          isSave =0
+        
+          isSave = save2db(isSend)   
+
+    end if
+
+%>
+    <div class="container">
+
+      <!-- Static navbar -->
+		<div class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="menu-active"><a class="menuHome" href="index.html">Home</a></li>
+						<li><a class="menuPortfolio" href="">Portfolio</a></li>
+						<li><a class="menuGallery" href="gallery.html">Art Gallery</a></li>
+						<li><a class="menuAboutUs" href="aboutus.html">About Us</a></li>
+						<li><a class="menuContactUs" href="contactus.html">Contact Us</a></li>
+						<li><a class="menuFeedBack" href="feedback.asp">Feedback</a></li>
+						<li><a class="menuNewsLetter" href="newsletter.asp">Newsletter</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div><!--/.container-fluid -->
+		</div><!--/navbar navbar-defaul -->
+
+		<div class="wrapper">
+			<div  class="feedback_bk">
+				<div class="content" >
+			
+				<span class="title">Feedback</span>
+				<div style="height:2px;"></div>
+				<p>At Christopher Stewart Wine & Spirits, we are constantly striving for excellence in all aspects of our business. From the quality of our products, our Customer Service programs, and the educational content on our website, we value your opinion.
+</p>
+				<p>If you have any suggestions or feedback on these topics - or any other aspect of Christopher Stewart - please complete the form below and send us your thoughts.</p>
+				<p>We value your comments and opinions and will return to you as soon as we can. Thank you!</p>
+				<span class="controltext">Feedback Submission</span>
+				<div style="height:10px;"></div>
+                <form id="frmfeedback" action="feedback.asp" method="post">
+				<table class="controltext"><tr><td>Name<span class="requiredstar">*</span></td><td style="padding-left:10px;"><input id="visitorname" name="visitorname" class="vistorname feedback_inputs" maxlength="25" /> </td><tr>
+				<tr><td style="padding-top:10px;">Email<span class="requiredstar">*</span></td><td style="padding-top:10px;padding-left:10px"><input name="emailaddress" id="emailaddress" class="emailaddress feedback_inputs" maxlength="50" /> </td><tr>
+				
+				</table>
+	
+				
+				<!--span class="controltext">Email: </span><span style="padding-left:14px;"><input  class="feedback_inputs" /></span-->
+				<div style="height:18px;"></div>
+				<div style="height:150px; vertical-algin:middle;">
+				<span class="controltext">Comments<span class="requiredstar">*</span> </span><br><span style="padding-left:0px;"><textarea  name="content" type="text" class="feedback_textarea" id="fdbkcontent" maxlength="550"/></textarea></span></div>
+				
+				<div><p><input  id="isSend" type="checkbox" checked class="sendCheckbox"/> &nbsp;<span >Send me newsletters from Christopeher Stewart Wine & Spirits.</span><br><span style="padding-left:20px;">You can unsubscribe at any time.</span></p></div>
+				<div style="height:10px;"></div>
+				<div> <button type="submit" formaction="feedback.asp" formmethod="post" class="btn btn-xs btn-danger btn_submit">Submit</button></div> 
+           
+    
+                    <input type="hidden" id="ischanged" name="ischanged"  value="0" /> 
+					
+					<input type="hidden" class="province_id" name="province_id"  value="<%=province_id%>">  
+                </form>
+			</div >
+			
+		</div> <!-- /wrapper -->
+		
+	
+   
+   
+   <div class="bottom">
+    
+		  	<!--ul>
+               <li><a href="https://www.facebook.com/pages/Christopher-Stewart-Wine-and-Spirits/49793071898" target="blank" class="facebook"></a></li>
+                <li><a href="https://twitter.com/CSWS_Inc" target="blank" class="twitter"></a><li>
+                <li><a href="#" class="map" ></a><li>
+        	</ul-->
+        	<div class="buttons_pannel">
+        	 	<div style="float:left;" class="facebook"><a href="https://www.facebook.com/pages/Christopher-Stewart-Wine-and-Spirits/49793071898" target="blank" ></a></div>
+            	<div style="float:left;" class="twitter"><a href="https://twitter.com/@CSWS_BC" target="blank" ></a></div>		            
+             		<div style="float:left;" class="map"><a class="provincemap" href=""></a></div>
+				<div style="float:left; display:table-cell" ><div class="regionText" href=""></div></div>
+				 
+			</div>
+      
+	<div class="copyright"></div><!-- /copyright -->
+  
+  
+    </div><!-- /bottom -->
+  <div> <!-- /container -->
+
+
+       <%
+            dim savedID
+            savedID =0
+            if isSave = 1 then
+                savedID = 2        
+        end if %>
+
+     
+       <input  type="hidden" class="isSaved" value="<%=savedID%>" >
+  
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+
+
+     
+          <%
+	function save2db(isSend)
+		save2db = 0
+		dim objCon
+		dim objRec2
+		dim isshare
+		dim strsql
+
+		save2db = 0
+		set objCon=  GetConnection()
+
+						
+        strSQL = "insert feedback(visitor_name,email_address,content,when_entered) "
+		strSQL =strSQL + "values ( "
+	    strSQL =strSQL + "'" + setempname2z(strsqltoDB(Request("visitorname"))) +"',"
+        strSQL =strSQL + "'" + setempname2z(strsqltoDB(Request("emailaddress"))) +"',"
+        strSQL =strSQL + "'" + setempname2z(strsqltoDB(Request("content"))) +"',"
+	    strSQL =strSQL + "NOW())"
+		
+		objCon.Execute strSQL 
+		set objRec2= nothing
+		set objCon=nothing
+
+         if isSend = 1 then               
+                call saveSubscriber(Request("emailaddress"),Request("visitorname"))
+          end if
+
+		save2db = 1
+		
+	end function
+
+
+   %>
+  </body>
+</html>

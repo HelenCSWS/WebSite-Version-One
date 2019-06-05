@@ -1,0 +1,10 @@
+.newsletter_img{
+	background-image:url('../images/bkgrdimgs/newsletter.jpg'); 
+}
+
+@media (max-width: 327px) {
+    .pages_inputs{
+        width: 180%;
+    }
+}
+

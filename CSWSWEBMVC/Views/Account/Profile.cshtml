@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = @CSWSWEBResources.Resource.Profile;
+    ViewBag.BKImagHolder = "<div class=\"background_image_holder signin_img\">";
+    Layout = "~/Views/Shared/_csLayout.cshtml";
+}
+@Styles.Render("~/Content/signup.css")
+
+<div class="content signup_opactiy">
+
+    <div class="signup_title">@CSWSWEBResources.Resource.Profile</div>
+
+    <form name="frm_profile" id="frm_profile">
+        <table class="profile_table">
+            <tr>
+                <td class="td_title_holder td_email" colspan="2" style="text-align:center;">
+
+                    <div class="col-md-12 portrait_big_holder">
+
+                        <div class="div_profile_image">
+                            <img class="img_profile" id="profile_img" />
+                        </div>
+
+                        <div class="div_edit_link">
+                            <a href="" id="edit_image" class="upload_image_link" title="@CSWSWEBResources.Resource.ClickUploadImg">@CSWSWEBResources.Resource.EditProfilePhoto</a>
+                        </div>
+
+                        <input type="file" class="hidden_file_control" name="upload_image" id="upload_image" />
+
+                        <input class="hidden_control" name="profile_image" id="profile_image" />
+
+                        <input class="hidden_control" name="org_img" id="org_img" />
+                        
+
+                        <input class="hidden_control" name="imageChanged" id="imageChanged" value="0" />
+
+                        <!--div><a id="del_big_image" class="entry_control_label upload_image_link">Delete image</a><--div -->
+                    </div>
+
+                </td>
+            </tr>
+            <tr><td class="td_email">@CSWSWEBResources.Resource.EmailAddress</td><td class="td_email_val"><div id="email_address"></div></td></tr>
+            <tr>
+                <td class="td_change_holder"></td>
+                <td class="td_change_holder">
+                    <table class="table_text_change_profile">
+                        <tr>
+                            <td width="50%" class="td_change_holder"><a class="change_text" id="link_change_email">@CSWSWEBResources.Resource.ChangeEmailCapital</a></td>
+                            <td class="td_change_holder td_password" width="50%"><a class="change_text" id="link_change_password">@CSWSWEBResources.Resource.ChangePasswordCapital</a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr><td class="td_profile_control_holder td_title_holder">@CSWSWEBResources.Resource.FName</td><td class="td_profile_control_holder"><input class="profile_control" name="first_name" id="first_name" placeholder="@CSWSWEBResources.Resource.FName" required oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterFName')" oninput="setCustomValidity('')"></td></tr>
+            <tr><td class="td_profile_control_holder td_title_holder profile_last_name_holder">@CSWSWEBResources.Resource.LName</td><td class="td_profile_control_holder profile_last_name_holder"><input class="profile_control" name="last_name" id="last_name" placeholder="@CSWSWEBResources.Resource.LName" required oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterLName')" oninput="setCustomValidity('')"></td></tr>
+            <tr><td class=""></td><td><div class="nick_error" id="nickname_error"></div></td></tr>
+            <tr><td class="td_profile_control_holder td_title_holder">@CSWSWEBResources.Resource.DisplayName</td><td class="td_profile_control_holder"><input class="profile_control" name="username" id="username" placeholder="@CSWSWEBResources.Resource.DisplayName" /></td></tr>
+            <tr><td class="td_profile_control_holder td_title_holder">@CSWSWEBResources.Resource.ContactPhone</td><td class="td_profile_control_holder"><input type="tel" pattern="[0-9]{10}" class="profile_control" id="phone" name="phone" placeholder="@CSWSWEBResources.Resource.ContactPhone" /></td></tr>
+            <tr><td class="td_profile_control_holder td_title_holder">@CSWSWEBResources.Resource.Country</td><td class="td_profile_control_holder"><select class="profile_control" name="country" placeholder="@CSWSWEBResources.Resource.Country" id="select_country"></select></td></tr>
+            <tr><td class="td_profile_control_holder td_title_holder">@CSWSWEBResources.Resource.City</td><td class="td_profile_control_holder"><select class="profile_control" name="city" placeholder="@CSWSWEBResources.Resource.City" id="select_city"><option selected>@CSWSWEBResources.Resource.SelectCity</option></select></td></tr>
+            <tr><td class="td_profile_control_holder td_title_holder">@CSWSWEBResources.Resource.ZipCode</td><td class="td_profile_control_holder"><input class="profile_control" id="postal_code" name="postal_code" placeholder="@CSWSWEBResources.Resource.ZipCode" /></td></tr>
+            <tr><td class="td_profile_control_holder td_title_holder">@CSWSWEBResources.Resource.AboutMe</td><td class="td_profile_control_holder"><textarea name="aboutme" id="aboutme" type="text" class="feedback_textarea pages_inputs profile_aboutme" maxlength="550"></textarea></td></tr>
+            
+        </table>
+        <div class="signup_title profile_submit_holder "> <button type="submit" formmethod="post" class="btn btn-xs btn-danger signup_submit btn_submit_profile">@CSWSWEBResources.Resource.Submit</button></div>
+        <input type="hidden" id="user_id" name="user_id" value="" />
+        <input type="hidden" id="index_id" name="index_id" value="" />
+        
+    </form>
+</div><!--div class="content"-->
+       
+
+@Scripts.Render("~/js/profile.js")

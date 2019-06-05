@@ -1,0 +1,204 @@
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\CSWSWEBMVC.dll.config
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\CSWSWEBMVC.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\CSWSWEBMVC.pdb
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Antlr3.Runtime.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\EntityFramework.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\EntityFramework.SqlServer.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.Core.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Security.Cookies.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Security.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Security.Facebook.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Security.Google.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Security.OAuth.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Security.Twitter.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Web.Infrastructure.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Newtonsoft.Json.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Owin.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Net.Http.Formatting.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.Helpers.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.Http.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.Http.WebHost.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.Mvc.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.Optimization.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.Razor.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.WebPages.Deployment.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.WebPages.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.WebPages.Razor.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\WebGrease.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.Helpers.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.Mvc.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.Optimization.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.Razor.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.WebPages.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.WebPages.Deployment.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.WebPages.Razor.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Antlr3.Runtime.pdb
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Newtonsoft.Json.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Net.Http.Formatting.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.Http.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\System.Web.Http.WebHost.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\EntityFramework.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\EntityFramework.SqlServer.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.Core.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Security.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Security.Facebook.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Security.Cookies.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Security.OAuth.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Security.Google.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Security.Twitter.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\obj\Debug\CSWSWEBMVC.csprojResolveAssemblyReference.cache
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\obj\Debug\CSWSWEBMVC.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\obj\Debug\CSWSWEBMVC.pdb
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\CSWS_Conponent.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\CSWS_Conponent.pdb
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\CSWSWEBResources.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\CSWSWEBResources.pdb
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\zh-HK\CSWSWEBResources.resources.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\fr-ca\CSWSWEBResources.resources.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBMVC\bin\MySql.Data.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\CSWSWEBMVC.dll.config
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\CSWSWEBMVC.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\CSWSWEBMVC.pdb
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Antlr3.Runtime.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\CSWSWEBResources.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\CSWS_Conponent.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\EntityFramework.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\EntityFramework.SqlServer.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.Core.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Cookies.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Facebook.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Google.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.OAuth.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Twitter.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Web.Infrastructure.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Newtonsoft.Json.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Owin.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Net.Http.Formatting.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Helpers.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Http.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Http.WebHost.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Mvc.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Optimization.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Razor.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.WebPages.Deployment.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.WebPages.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.WebPages.Razor.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\WebGrease.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\CSWSWEBResources.pdb
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\CSWS_Conponent.pdb
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Helpers.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Mvc.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Optimization.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Razor.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.WebPages.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.WebPages.Deployment.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.WebPages.Razor.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Antlr3.Runtime.pdb
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Newtonsoft.Json.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Net.Http.Formatting.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Http.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Http.WebHost.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\EntityFramework.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\EntityFramework.SqlServer.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.Core.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Facebook.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Cookies.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.OAuth.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Google.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Twitter.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\fr-ca\CSWSWEBResources.resources.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\zh-HK\CSWSWEBResources.resources.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\obj\Debug\CSWSWEBMVC.csprojResolveAssemblyReference.cache
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\obj\Debug\CSWSWEBMVC.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\obj\Debug\CSWSWEBMVC.pdb
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\CSWSWEBMVC.dll.config
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\CSWSWEBMVC.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\CSWSWEBMVC.pdb
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Antlr3.Runtime.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\CSWSWEBResources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\CSWS_Conponent.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\EntityFramework.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\EntityFramework.SqlServer.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Google.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Newtonsoft.Json.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Owin.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Net.Http.Formatting.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Helpers.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Http.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Http.WebHost.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Mvc.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Optimization.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Razor.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.WebPages.Deployment.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.WebPages.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.WebPages.Razor.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\WebGrease.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\CSWSWEBResources.pdb
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\CSWS_Conponent.pdb
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Helpers.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Mvc.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Optimization.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Razor.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.WebPages.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.WebPages.Deployment.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.WebPages.Razor.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Antlr3.Runtime.pdb
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Newtonsoft.Json.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Net.Http.Formatting.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Http.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\System.Web.Http.WebHost.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\EntityFramework.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\EntityFramework.SqlServer.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Google.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\fr-ca\CSWSWEBResources.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\bin\zh-HK\CSWSWEBResources.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\obj\Debug\CSWSWEBMVC.csprojAssemblyReference.cache
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\obj\Debug\CSWSWEBMVC.csproj.CoreCompileInputs.cache
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\obj\Debug\CSWSWEBMVC.csproj.CopyComplete
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\obj\Debug\CSWSWEBMVC.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBMVC\obj\Debug\CSWSWEBMVC.pdb

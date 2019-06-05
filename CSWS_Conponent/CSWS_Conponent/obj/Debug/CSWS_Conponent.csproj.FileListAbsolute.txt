@@ -1,0 +1,25 @@
+J:\Project\CSWSWEB V2\CSWSWEB\CSWS_Conponent\CSWS_Conponent\obj\Debug\CSWS_Conponent.csprojResolveAssemblyReference.cache
+J:\Project\CSWSWEB V2\CSWSWEB\CSWS_Conponent\CSWS_Conponent\bin\Debug\CSWS_Conponent.dll
+J:\Project\CSWSWEB V2\CSWSWEB\CSWS_Conponent\CSWS_Conponent\bin\Debug\CSWS_Conponent.pdb
+J:\Project\CSWSWEB V2\CSWSWEB\CSWS_Conponent\CSWS_Conponent\bin\Debug\Newtonsoft.Json.dll
+J:\Project\CSWSWEB V2\CSWSWEB\CSWS_Conponent\CSWS_Conponent\obj\Debug\CSWS_Conponent.dll
+J:\Project\CSWSWEB V2\CSWSWEB\CSWS_Conponent\CSWS_Conponent\obj\Debug\CSWS_Conponent.pdb
+J:\MVCPractice\CSWSWEBMVC\CSWS_Conponent\CSWS_Conponent\bin\Debug\CSWS_Conponent.dll
+J:\MVCPractice\CSWSWEBMVC\CSWS_Conponent\CSWS_Conponent\bin\Debug\CSWS_Conponent.pdb
+J:\MVCPractice\CSWSWEBMVC\CSWS_Conponent\CSWS_Conponent\bin\Debug\Newtonsoft.Json.dll
+J:\MVCPractice\CSWSWEBMVC\CSWS_Conponent\CSWS_Conponent\obj\Debug\CSWS_Conponent.csprojResolveAssemblyReference.cache
+J:\MVCPractice\CSWSWEBMVC\CSWS_Conponent\CSWS_Conponent\obj\Debug\CSWS_Conponent.dll
+J:\MVCPractice\CSWSWEBMVC\CSWS_Conponent\CSWS_Conponent\obj\Debug\CSWS_Conponent.pdb
+J:\MVCPractice\CSWSWEBMVC - Released\CSWS_Conponent\CSWS_Conponent\bin\Debug\CSWS_Conponent.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWS_Conponent\CSWS_Conponent\bin\Debug\CSWS_Conponent.pdb
+J:\MVCPractice\CSWSWEBMVC - Released\CSWS_Conponent\CSWS_Conponent\bin\Debug\Newtonsoft.Json.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWS_Conponent\CSWS_Conponent\obj\Debug\CSWS_Conponent.csprojResolveAssemblyReference.cache
+J:\MVCPractice\CSWSWEBMVC - Released\CSWS_Conponent\CSWS_Conponent\obj\Debug\CSWS_Conponent.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWS_Conponent\CSWS_Conponent\obj\Debug\CSWS_Conponent.pdb
+D:\MVCPractice\CSWSWEBMVC - Released\CSWS_Conponent\CSWS_Conponent\bin\Debug\CSWS_Conponent.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWS_Conponent\CSWS_Conponent\bin\Debug\CSWS_Conponent.pdb
+D:\MVCPractice\CSWSWEBMVC - Released\CSWS_Conponent\CSWS_Conponent\obj\Debug\CSWS_Conponent.csprojAssemblyReference.cache
+D:\MVCPractice\CSWSWEBMVC - Released\CSWS_Conponent\CSWS_Conponent\obj\Debug\CSWS_Conponent.csproj.CoreCompileInputs.cache
+D:\MVCPractice\CSWSWEBMVC - Released\CSWS_Conponent\CSWS_Conponent\obj\Debug\CSWS_Conponent.csproj.CopyComplete
+D:\MVCPractice\CSWSWEBMVC - Released\CSWS_Conponent\CSWS_Conponent\obj\Debug\CSWS_Conponent.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWS_Conponent\CSWS_Conponent\obj\Debug\CSWS_Conponent.pdb

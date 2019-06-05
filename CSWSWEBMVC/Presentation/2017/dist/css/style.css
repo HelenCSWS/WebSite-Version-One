@@ -1,0 +1,116 @@
+ html, body {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        z-index: -10000;
+    }
+    body {
+        font-family:'Titillium Web', sans-serif;
+        font-size: 16px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .swiper-slide {
+/*        background-position: center center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+         background-attachment: fixed;*/
+         height: auto;
+         overflow-x: hidden;
+         overflow-y: auto;
+/*         overflow-x: hidden;*/
+    }
+
+
+/****************************/
+/*Arrow*/
+/****************************/
+.arrows button{
+  border: none;
+    background-color: transparent;
+    height: 60px;
+  vertical-align: middle;
+  width: 40px;
+  cursor: pointer;
+}
+
+.arrows{
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+}
+
+.arrow_r::before,
+.arrow_l::before{
+  content: '';
+  width: 28px;
+  height: 28px;
+  border: 0px;
+  border-top: solid 3px white;
+  border-right: solid 3px white;
+  cursor: pointer;
+}
+
+
+.arrow_r::before{
+  right: 16px;
+  margin-right: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  display: inline;
+  margin-top: -16px;
+}
+
+.arrow_l::before{
+  left: 16px;
+  margin-top: -13px;
+  -ms-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  position: absolute;
+  display: inline;
+}
+
+.arrow_r_black::before,
+.arrow_l_black::before{
+  content: '';
+  width: 29px;
+  height: 29px;
+  border: 0px;
+  border-top: solid 3px black;
+  border-right: solid 3px black;
+}
+
+
+.arrow_r_black::before{
+  right: 15px;
+  margin-top: -13px;
+  margin-right: 0;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+}
+.arrow_l_black::before{
+  left: 15px;
+  margin-top: -13px;
+  -ms-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  position: absolute;
+

@@ -1,0 +1,563 @@
+
+
+
+.quote_img{
+	background-image:url('../images/bkgrdimgs/quote.jpg'); 
+}
+
+#img_small_portrait{
+     height:138px;
+     width: 138px;
+     border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+#img_large_portrait{
+    height:210px;
+     width: 210px;
+     border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+.quote_space{
+	height:140px;
+}
+
+.container_table{
+	width:100%;
+	height:650px;
+}
+
+.quote_table{
+	width:992px;
+	height:450px;;
+	background-color:white;
+	margin:auto;
+	opacity:0.92;
+    letter-spacing:0px;
+
+}
+
+.background_image_holder{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center
+}
+
+.quote_content {	
+	padding-top:20px;
+	height:410px;
+	width:992px;
+	background-color:#FAFAFA;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	opacity: 0.9;
+	/*font-family:"Times New Roman",'Microsoft YaHei','cwtexhei';*/
+}
+
+.quote_title_holder{
+	font-size:20px;
+	padding-top:15px;
+	padding-bottom:10px;
+	color:#696969;
+	font-family:"Source Sans Pro",'Microsoft YaHei';
+}
+
+.quote_of_day_title_holder{
+	font-size:20px;
+	padding-top:50px;
+	padding-bottom:0px;
+	color:#696969;
+	font-family:"Source Sans Pro",'Microsoft YaHei';
+	padding-left:243px;
+    text-align:center;
+
+}
+
+  .arrow_div {
+  display:block;
+    top: 20px;
+    width: 40px;
+    height: 60px;
+    text-align: center;
+    color: #FFF;
+    background-color: #000;
+    opacity: 0.3;
+    font: 44px Arial,sans-serif;
+}
+
+.prev{
+	text-decoration: none;
+}
+.prev_holder,.next_holder,.middle_content{
+	height: 100px;
+}
+/*
+.prev-stage span,
+ .next-stage span {
+  
+    display:block;
+    top: 0px;
+    width: 40px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    background-color: #835C3B;
+    opacity: 0.3;
+    font: 44px Arial, sans-serif;
+	text-decoration: none;
+    
+ }
+ */
+.prev-stage:hover img,
+.next-stage:hover img
+{
+    opacity: 1;
+
+}
+
+.img_arrow{
+    opacity: 0.3;
+}
+.prev-stage:hover,
+.next-stage:hover 
+{
+    display: block;
+	text-decoration: none;
+    cursor:pointer;
+}
+
+
+.prev-stage,
+.next-stage {
+    text-decoration: none;
+    outline: none;
+  
+}
+
+/*------------------------------------*/
+
+.navigate_holder
+{
+	width:40px;
+	background-color:#FAFAFA;
+}
+
+
+.author_holder,.career_holder,.life_holder,.notable_holder,dot_holder{
+    color:#835C3B; 
+}
+.middle_holder{
+	width:100%;
+	color:#835C3B; 
+}
+
+.col-md-6,.col-md-1,.col-md-3,.col-md-5,.col-md-10,.col-md-2,.col-md-11,.col-md-4,.col-md-8
+{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.big_portrait_holder{
+		text-align:center;
+		padding-left: 0px;
+		width:30%;
+		padding-top:28px;
+
+	}
+	
+.search_portrait_holder{
+	
+		width:70%;
+	
+
+	}
+.author_dot{
+	font-size:16px;
+}
+.birth_holder
+{
+	width:49%;
+	text-align:right;
+}
+
+.dieth_holder
+{
+	width:49%;
+	text-align:left;
+}
+
+.bar_holder
+{
+	width:2%;
+  
+}
+
+.life_info_all{
+    display:none;
+}
+
+.life_info_1{
+    display:none;
+}
+
+.life_holder{
+    width:100%;
+  
+}
+
+
+.quote_holder
+{	
+	font-style:italic;
+	padding-left: 10px;
+	padding-right:150px;
+	height:138px;
+    overflow:auto;
+}
+.table_quote_text_holder{
+    width:100%;
+    height:100%;
+    letter-spacing:0px;
+   
+}
+
+
+
+.result_quote_holder{
+	padding-right:10px;
+	padding-top:0px;
+	
+}
+.td_middle_holder{
+    width:100%;
+}
+.quote_detail_table{
+	margin-left:auto;
+	margin-right:auto;
+	height:100%;
+    width:100%;
+	
+}
+.qoute_detail_text{
+	height:100%;
+	vertical-align:middle;
+}
+.col-md-10{
+display:table-cell;
+	vertical-align:middle;
+}
+
+.quote_holder,.author_holder
+{
+	font-size:15px;
+	font-family:Arial,'Helvetica','Microsoft YaHei';
+    letter-spacing:0px;
+
+}
+
+.author_holder
+{
+	font-size:17px;
+	padding-top:0px;
+}
+
+.career_holder,.life_holder
+{
+	font-size:13px;
+}
+.career_holder
+{
+	padding-bottom:10px;
+    letter-spacing:0px;
+    
+}
+
+
+
+.notable_onfirst{
+    display:none;
+}
+.notable_holder
+{
+	padding-top:0px;
+	font-family:sans-serif,'Microsoft YaHei';
+	font-size:12px; 
+   
+}
+.notable_on2nd{
+    padding-top:10px;
+     height:80px;
+}
+.notable_details
+{
+	font-style:italic;
+}
+.numbers_holder{
+	padding-top:20px;
+	font-size:13px;
+	font-style:italic;
+	padding-bottom:20px;
+}
+
+.search_controls_holder{
+	margin:auto;
+	width:800px;
+
+}
+
+.search_for_holder
+{
+	font-family:"Source Sans Pro", 'Microsoft YaHei';
+}
+
+.search_control
+{
+	font-family:sans-serif;
+	font-size:12px;
+	width:120px;
+	color:#696969;
+	text-align:center;
+}
+
+.search_btn_holder
+{
+	padding-top:18px;
+	padding-bottom:18px;
+}
+
+.btn_search_quote
+{
+	width: 80px;
+}
+
+.buttons_holder{
+	padding-bottom: 55px;
+	font-size:12px;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.buttons_holder_result{
+    padding-top: 15px;
+	padding-bottom: 40px;
+}
+
+.search_quote_link{
+text-decoration:none;
+}
+
+/*.share_holder{
+text-align:right;
+}*/
+
+.table_searchs{
+width:100%;
+}
+
+
+.row_holder{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.right_details_holder{
+    width:912px;
+}
+
+@media (max-width: 640px) {
+    .author_dot {
+        display: none;
+    }
+
+    .right_details_holder {
+        width: 100%;
+    }
+
+
+ 
+    /*   .career_holder{
+       height:100%;
+
+   }    .life_info_all {
+        height: 100%;
+    }*/
+    .notable_on2nd {
+        height: 100%;
+    }
+
+     .td_middle_holder{
+           vertical-align:middle;
+       }
+   
+}
+@media (max-width: 992px) {
+  
+  /* .career_holder{
+       height:100%;
+
+   }   .life_holder{
+       height:100%;
+ */
+   .notable_on2nd{
+          height:100%;
+   }
+  
+     .right_details_holder{
+    width:100%;
+    }
+
+	.container_table
+	{
+		height:800px;
+	}
+	.quote_img{
+		background-image:url('../images/bkgrdimgs/quote-high.jpg'); 
+	}
+
+    .quote_of_day_title_holder{
+		padding-left:0px;
+		padding-top:15px;
+	}
+	.buttons_holder{
+		padding-bottom:25px;
+	}
+  .quote_content,.middle_holder{
+    width: 100%;
+	
+  }
+
+	.big_portrait_holder{
+		width:100%;
+	}
+    .search_portrait_holder{
+	
+		width:100%;
+	
+
+	}
+  .bar_holder{
+	display:none;
+  }
+  
+  .dieth_holder,.birth_holder{
+	width:100%;
+	text-align:center;
+	}
+	
+	.quote_table{
+	width:100%;
+	}
+	
+	.dot_holder{
+		display:none;
+	}
+	.notable_holder{
+		padding-top:5px;
+	}
+	
+	.quote_holder
+	{	
+		padding-top:20px;
+		padding-right:20px;
+		
+		height:100%;
+
+	}
+
+    .col-md-10{
+    display:block;
+	
+}
+	
+	.author_holder{
+		padding-top:10px;
+	}
+	
+	.portrait_holder{
+		text-align:center;
+	
+	}
+	
+	
+	.search_controls_holder{
+		
+		width:280px;
+	}
+
+	.left_type_holders{
+		/*text-align:right;*/
+	}
+	
+	.right_type_holders{
+		/*text-align:left;*/
+	}
+
+    .right_details_holder{
+        width:100%;
+    }
+}
+
+@media (max-width: 360px) 
+{
+  .quote_table{
+      height:100%;
+  }
+
+   /*    .career_holder{
+       height:100%;
+
+   }*/
+       .td_middle_holder{
+           vertical-align:top;
+       }
+   .notable_on2nd{
+          height:100%;
+   }
+     .right_details_holder{
+    width:100%;
+}
+  .search_controls_holder{
+
+		width:100%;
+	}
+}
+
+@media (min-width: 640px) {
+    .career_holder {
+        height: 29.5px;
+    } 
+    .life_holder {
+        height: 20px;
+    }
+    .career_holder_on2nd{
+          height:40px;
+    }
+}
+@media (max-width: 420px) 
+{
+  .quote_table{
+      height:100%;
+ }
+
+
+
+   
+
+.td_middle_holder{
+           vertical-align:top;
+       }
+
+.td_navigate_holder{
+    vertical-align:top;
+    padding-top:200px;
+}
+  
+ 
+
+  
+}
+

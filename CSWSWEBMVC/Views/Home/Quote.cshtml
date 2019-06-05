@@ -1,0 +1,112 @@
+﻿@Scripts.Render("~/js/quote.js")
+@{
+    ViewBag.Title = @CSWSWEBResources.Resource.Quote;
+    ViewBag.BKImagHolder = "<div class=\"background_image_holder quote_img\">";
+    Layout = "~/Views/Shared/_csLayout.cshtml";
+}
+@Styles.Render("~/Content/quote.css")
+
+<form id="quote">
+    <table class="container_table">
+        <tr>
+            <td>
+                <table class="quote_table">
+                    <tr>
+                        <td class="td_navigate_holder">
+                            <div class="navigate_holder"> <a href="#" class="prev prev-stage btnRotateQT" direction="prev" ><img class="img_arrow" src="~/images/arrow_prev.jpg"></a></div>
+
+                        </td>
+
+                        <td class="td_middle_holder">
+                            <!-- middle td starts here  -->
+                            <div class="middle_holder">
+                                <div class="quote_title_holder"><span class="titleT" id="quote_title">@CSWSWEBResources.Resource.Quote</span></div>
+                                <div class="row  row_holder">
+                                    <div class="portrait_holder col-md-2"><img id="img_small_portrait" src=""></div>
+
+                                    <div class="quote_holder col-md-10">
+                                        <table class="table_quote_text_holder">
+                                            <tr><td><div id="quote_text"></div><div id="publication"></div></td></tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="author_holder"><span class="author_dot">....................&nbsp;&nbsp;&nbsp;&nbsp;</span><span id="quote_author"></span><span class="author_dot">&nbsp;&nbsp;&nbsp;&nbsp;....................</span></div>
+                            <div class="career_holder" id="career">Writer - Novelist</div>
+                            <div class="life_holder row row_holder life_info_1">
+                                <div class="col-md-12 life_holder" id="life_info"></div>
+                            </div>
+                            <div class="life_holder row row_holder life_info_all">
+                                <div class="col-md-5 birth_holder" id="birth_info"></div>
+                                <div class="col-md-2 bar_holder">&nbsp;|&nbsp;</div>
+                                <div class="col-md-5 dieth_holder" id="death_info"></div>
+                            </div>
+
+                            <div class="notable_holder notable_onfirst"><span class="notable_details" id="notable_work"></span></div>
+
+                            <div class="dot_holder">.............................................................................................................................................................................................................................</div>
+
+                            <div class="quote_title_holder search_for_holder">@CSWSWEBResources.Resource.SearchQuote</div>
+
+                            <div class="row search_controls_holder">
+                                <div class="col-md-4 left_search_control_holder">
+                                    <table class="table_searchs">
+                                        <tr>
+                                            <td class="left_type_holders">
+                                                <select class="search_control" alt="Quote type" id="s_qType" name="s_qType" nameholder="qType"></select>
+                                            </td>
+                                            <td class="right_type_holders">
+                                                <select class="search_control" alt="Author" id="s_author" name="s_author" nameholder="author"></select>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-md-4 mildde_search_control_holder">
+                                    <table class="table_searchs">
+                                        <tr>
+                                            <td class="left_type_holders">
+                                                <select class="search_control" alt="Career" id="s_career" name="s_career" nameholder="career"></select>
+                                            </td>
+                                            <td class="right_type_holders">
+                                                <select class="search_control" alt="Source" id="s_source" name="s_source" nameholder="source"></select>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-md-4 right_search_control_holder">
+                                    <table class="table_searchs">
+                                        <tr>
+
+                                            <td class="left_type_holders">
+                                                <select class="search_control" alt="Genre" id="s_genre" name="s_genre" nameholder="genre"></select>
+                                            </td>
+                                            <td class="right_type_holders">
+                                                <select class="search_control industy_select" alt="Country of Source" id="s_pCountry" name="s_pCountry" nameholder="pCountry"></select>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </div><!-- end of right_search_control_holder -->
+                            </div><!-- end of rowsearch_controls_holder -->
+                            <!--<div class="search_title search_btn_holder"><button type="submit" formmethod="post" class="btn btn-xs btn-danger btn_search_quote">Search</button></div>-->
+
+                            <div class="search_title search_btn_holder"><button type="submit" formmethod="post" class="btn btn-xs btn-danger btn_search_quote">@CSWSWEBResources.Resource.Search</button></div>
+
+                        </td><!-- middle td ends here-->
+                        <!-- next button-->
+                        <td class="td_navigate_holder">
+                            <!-- div class="navigate_holder"><a class="next next-stage" id="next_quote"><span>&rsaquo;</span></a></div -->
+                            <div class="navigate_holder"> <a href="#" class="next next-stage btnRotateQT" direction="next" ><img class="img_arrow" src="~/images/arrow_next.jpg"></a></div>
+                        </td>
+                    </tr>
+                </table><!-- quote talbe ends here-->
+            </td>
+        </tr>
+    </table><!-- container table ends here-->
+</form>
+<input type="hidden" id="quote_id"          value="0" />
+<input type="hidden" id="today_quote_id"    value="1" />
+<input type="hidden" id="cursor_id"         value="0" />
+<input type="hidden" id="isSearchQuote"     value="1" />
+

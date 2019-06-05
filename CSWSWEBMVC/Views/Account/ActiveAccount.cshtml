@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = @CSWSWEBResources.Resource.ActiveAccount;
+    ViewBag.BKImagHolder = "<div class=\"background_image_holder signin_img\">";
+    Layout = "~/Views/Shared/_csLayout.cshtml";
+}
+@Styles.Render("~/Content/signup.css")
+<div class="signin_space"></div>
+<div class="signin_content signin_opactiy active_content">
+    <div class="content-middle-holder">
+
+
+
+        <div class="active_account control_holder act_actived">
+            <div class="active_message" id="fname"></div>
+            <div class="active_message msg_holder">@CSWSWEBResources.Resource.ThankYouForRegisting</div>
+            <div class="active_message msg_holder">@CSWSWEBResources.Resource.WeWillVerifyAccount</div>
+            <div class="active_message msg_holder">@CSWSWEBResources.Resource.Sincerely</div>
+            <div class="active_message msg_holder">@CSWSWEBResources.Resource.TheCSWSTeam</div>
+
+            <div class="signup_title control_holder active_btn_holder"> <button class="btn btn-xs btn-danger signup_submit btn_active">OK</button></div>
+        </div>
+
+        <div class="active_account control_holder act_failed">
+            <div class="active_message" id="fname"></div>
+            <div class="active_message msg_holder">@CSWSWEBResources.Resource.ThankYouForRegisting</div>
+            <div class="active_message msg_holder">@CSWSWEBResources.Resource.ActivtionExpired</div>
+            <div class="active_message msg_holder">@CSWSWEBResources.Resource.Sincerely</div>
+            <div class="active_message msg_holder">@CSWSWEBResources.Resource.TheCSWSTeam</div>
+
+            <div class="signup_title control_holder active_btn_holder"> <button class="btn btn-xs btn-danger signup_submit btn_active">@CSWSWEBResources.Resource.OK</button></div>
+        </div>
+
+    </div>
+</div><!--div class="content"-->
+
+    @Scripts.Render("~/js/signup.js")

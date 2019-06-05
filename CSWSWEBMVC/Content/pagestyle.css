@@ -1,0 +1,285 @@
+@import '//fonts.googleapis.com/css?family=Source Sans Pro:300,400,500italic|Source Sans Pro:300,400,100italic';
+/* GLOBAL STYLES: common styles on each page ( not include menu and bottom)
+
+-------------------------------------------------- */
+.background_image_holder {
+    background-position: center center;
+}
+
+.title{
+	font-family: 'Source Sans Pro', "Microsoft YaHei"; 
+	font-weight:100;
+	margin-bottom:2px;
+}
+
+.title_ft_size_en{
+	font-size:23pt;	
+}
+
+.title_ft_size_cn{
+	font-size:19pt;	
+}
+
+/*==================================*/
+.content {
+	
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:10px;
+	height:650px;
+	width:417px;
+	background-color:#FFFFFF;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	opacity: 0.92;
+    font-size:8.5pt;
+	font-weight:700;
+}
+
+.contentholder {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	font-size:9pt;
+	font-weight: 400;
+	line-height:1.3;
+}
+
+
+.content p{ 
+ font-size:9pt;
+ font-weight: 400;
+ line-height:1.3;
+}
+
+.sp_no_letter_space{
+    letter-spacing:0px;
+}
+/*controls*/
+.pages_inputs{
+    font-family:Source Sans Pro,'Microsoft YaHei';
+	border: 1px solid #DCDCDC;
+	height:20px;
+	width:100%;
+    font-size:9pt;
+    padding-left: 8px;
+    font-weight:300;
+}
+.controltext{
+	font-size:8.5pt;
+	font-weight:700;
+    width:100%;
+}
+.td_input_caption{
+    width:48px;
+}
+.td_input_top_space{
+    padding-top:10px;
+}
+.td_share_input_caption_en{
+    width:113px;
+}
+
+.td_share_input_caption_zh{
+    width:73px;
+}
+.td_share_input_caption_fr{
+    width:129px;
+}
+
+
+.feedback_textarea{
+ 	border: 1px solid #DCDCDC;
+	height:100px;
+	width:100%;
+	resize: none;
+}
+
+/*------------ display proper page on mobile----------*/
+@media (max-width: 327px) {
+    .pages_inputs{
+        width: 180%;
+    }
+}
+
+
+/*------------------ contact page style ---------------------*/
+.contact_us_img{
+	background-image:url('../images/bkgrdimgs/contactus.jpg'); 
+}
+.contact_content{
+    width:440px;
+}
+.canada{
+	color:#8a2d29;
+	font-weight:700;
+	font-size:9pt;
+}
+
+.space{
+	height:1px;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.arealine {
+	margin-top:2px;
+	margin-bottom:8px;
+	border: 0;
+	height: 1px;
+	background: #C0C0C0;    
+}
+
+
+.btn_submit{
+    width:70px;
+}
+
+.email-contact {
+    color: #2c5296;
+    text-decoration:underline;
+    
+}
+/*---------------- feedback page style ----------------------*/
+.feedback_img {
+    background-image: url('../images/bkgrdimgs/feedback.jpg');
+}
+
+
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+/*------------ newsletter page style ---------------------------*/
+
+.newsletter_img{
+	background-image:url('../images/bkgrdimgs/newsletter.jpg'); 
+}
+
+
+/*------------------------- share page style -----------------*/
+
+.share_img{
+	background-image:url('../images/bkgrdimgs/share.jpg'); 
+}
+
+.share_opacity{
+    width:450px;
+}
+/*------------------------- potofolio page style -----------------*/
+
+.portfolio_img{
+	background-image:url('../images/bkgrdimgs/portfolio.jpg'); 
+    height: 720px;
+}
+
+.openPortfolio{
+     text-decoration:none;
+     color:#5b5b5b;
+}
+
+.openPortfolio:hover, .openPortfolio:focus{
+     text-decoration:none;
+     color:#5b5b5b;
+}
+.potfolio_content{
+    background-image:url('../images/bkgrdimgs/ps-button.png'); 
+    height:211px;
+	max-width:211px;
+	
+	margin-left:auto;
+	margin-right:auto;
+    margin-top:95px;
+	text-align:center;
+    text-decoration:none;
+	opacity: 0.92;
+}
+.portfolio_text_holder{
+    height:214px;
+
+  -webkit-border-radius: 99px;-moz-border-radius: 99px;border-radius: 99px;
+  text-decoration:none;
+}
+
+/*.portfolio_summary_text,.portfolio_text{
+    font-size:18pt;
+    text-decoration:none;
+    padding-top:74px;
+    color:#5b5b5b;
+}*/
+
+.portfolio_summary_text,.portfolio_text{
+    font-size:16pt;
+    text-decoration:none;
+    padding-top:74px;
+    color:#5b5b5b;
+}
+
+.portfolio_summary_text{
+    line-height:25px;
+    padding-top:79px;
+
+}
+.portfolio_text{
+    padding-top:0px;
+    height:40px;
+}
+.protfolio_clickview_text{
+    padding-top:18px;
+    font-size:11pt;
+
+}
+@media (max-width: 327px) {
+	.share_inputs{
+		width:120%;
+	}
+}
+
+.HR_image_wrapper{
+      
+	z-index:-1;
+
+}
+.imaqe_bk{
+	
+	padding-left:25px;
+	padding-right:25px;
+	height:607px;
+	width:100%;
+	background-color:#f3f3f3;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	opacity: 0.92;
+}
+.image_content {
+	height:552px;
+	width:426px;
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+
+}
+.image_title{
+    margin-top:7px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-size:9pt;
+}
+.a_hResImage{
+    font-size:9pt;
+}
+
+.img_hResImage{
+    width:100%;
+    height:100%;
+}

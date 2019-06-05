@@ -1,0 +1,58 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="@CSWSWEBResources.Resource.CSWSDescription">
+    <meta name="author" content="Christopher Stewart Wine & Spirits">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="p:domain_verify" content="9f42a9b77a7e31aeaf7dc7f0d21b4f59" />
+    <!--link rel="icon" href="favicon.ico" -->
+    <link rel="icon" type="image/png" href="images/Address-bar-icon.png">
+    <link rel="canonical" href="http://www.christopherstewart.com/" />
+    <title>@ViewBag.Title</title>
+
+    @Styles.Render("~/Content/css")
+
+    @Styles.Render("~/Content/pagestyle.css")
+
+      
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+    @Scripts.Render("~/js/ie10-viewport-bug-workaround.js")
+    @Scripts.Render("https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+    @Scripts.Render("~/js/bootstrap.min.js")
+
+</head>
+<body>
+  
+                
+ 
+    <!-- body start-->
+    @RenderBody()
+    <!-- body end-->
+
+  
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+    @Scripts.Render(@CSWSWEBResources.Resource.JS_MSG_FILE)
+
+    @Scripts.Render("https://code.jquery.com/ui/1.10.2/jquery-ui.js")
+  
+    @Scripts.Render("~/js/jsCookies.js")
+
+    @Scripts.Render("~/js/gbscript.js")
+  
+    @RenderSection("scripts", required: false)
+
+
+
+
+</body>
+</html>

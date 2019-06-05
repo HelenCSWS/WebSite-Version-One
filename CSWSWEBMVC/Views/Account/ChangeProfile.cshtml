@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = @CSWSWEBResources.Resource.ChangeProfile;
+    Layout = "~/Views/Shared/_csPopUpLayout.cshtml";
+}
+@Styles.Render("~/Content/signup.css")
+
+<!-- middle content -->
+
+<div class="content-middle-holder">
+    <form name="frm_update_profile" id="frm_update_profile">
+        <div class="div_change_email_holder">
+            <div class="signup_title signin_text_holder profile_title">@CSWSWEBResources.Resource.ChangeEmailCapital</div>
+
+            <div id="change-email-div">
+                <div class="signup_title sub_title_holder">@CSWSWEBResources.Resource.CHEInfo</div>
+                <div class="signup_title sub_title_holder">@CSWSWEBResources.Resource.YRCRTEmail: <span id="email_address"></span></div>
+            </div>
+            <div class="signup_title control_holder">
+                <input type="email" class="signup_control signin_input email" name="email" id="email" placeholder="@CSWSWEBResources.Resource.EmailAddress" autocomplete="off" title="@CSWSWEBResources.Resource.Email" required oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterValidEmail')" oninput="setCustomValidity('')"/>
+                
+
+            </div>
+
+            <div class="signup_title control_holder">
+                <input type="email" class="signup_control email" name="cfm_email" id="cfm_email" placeholder="@CSWSWEBResources.Resource.CfrmEmailAdd" autocomplete="off" title="@CSWSWEBResources.Resource.Email" required oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterValidEmail')" oninput="setCustomValidity('')"/>
+
+            </div>
+       
+
+            <div class="signup_title control_holder">
+                <input type="password" class="signup_control signin_input" name="password" placeholder="@CSWSWEBResources.Resource.CurrentPassword" id="password" required oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterValidPswd')" oninput="setCustomValidity('')" />
+            </div>
+        </div>
+
+        <div class="div_change_password_holder">
+            <div class="signup_title signin_text_holder profile_title">@CSWSWEBResources.Resource.ChangePasswordCapital</div>
+
+            <div id="change-password-div">
+                <div class="signup_title sub_title_holder">@CSWSWEBResources.Resource.CHPInfo</div>
+            </div>
+
+            <div class="signup_title control_holder">
+                <input type="password" class="signup_control signin_input" name="old_password" placeholder="@CSWSWEBResources.Resource.CurrentPassword" id="old_password" autofocus="autofocus" pattern=".{0-9}|.{6,}" title="@CSWSWEBResources.Resource.CurrentPassword" oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterValidPswd')" required />
+            </div>
+
+            <div class="signup_title control_holder">
+                <input type="password" class="signup_control signin_input" name="new_password" placeholder="@CSWSWEBResources.Resource.NewPswd" id="new_password" pattern=".{0-9}|.{6,}" title="@CSWSWEBResources.Resource.NewPswd" oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterValidPswd')" required />
+            </div>
+            <div class="signup_title control_holder">
+                <input type="password" class="signup_control signin_input" name="confirm_password" placeholder="@CSWSWEBResources.Resource.PassworfCfrm" id="cfm_password" pattern=".{0-9}|.{6,}" title="@CSWSWEBResources.Resource.PassworfCfrm" oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterValidPswd')" required />
+            </div>
+        </div>
+
+        <div class="error_msg profile_duplicate " id="email_error"></div>
+        <input type="hidden" name="index_id" id="index_id" value="0">
+        <input type="hidden" name="user_id" placeholder="user_id" id="user_id" value="0">
+
+        <div class="signup_title control_holder"><button type="submit" formmethod="post" class="btn btn-xs btn-danger signup_submit btn_reset btn_reset_profile">@CSWSWEBResources.Resource.Submit</button></div>
+    </form>
+
+</div>
+
+@Scripts.Render("~/js/profile.js")
+@Scripts.Render("~/js/signup.js")

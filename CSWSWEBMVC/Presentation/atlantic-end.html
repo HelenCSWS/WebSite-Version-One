@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Christopher Stewart Wine &amp; Spirits</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="dist/css/swiper.css"> 
+    <!-- Style Sheet CSS -->
+ <link rel="stylesheet" href="dist/css/intro.css">
+ <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/province.css">
+    <link rel="stylesheet" href="dist/css/performance.css">
+ <link rel="stylesheet" href="dist/css/asia.css">
+ <link rel="stylesheet" href="dist/css/custom.css">
+  <link rel="stylesheet" href="dist/css/social.css">
+ <!-- FontAwsome -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400i" rel="stylesheet">
+<!-- GetJQ -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    function toWest(){
+    var num = document.getElementById('at_num').value;
+    // alert(num);
+    location.href = "west-east.html?" + escape(num);
+    }
+    </script>
+<body onload="atlanticPlay();" >
+<div class="swiper-container">
+        <div class="swiper-wrapper">
+<!-- ////////// Atlantic ///////////// -->
+            <div class="swiper-slide" id="at_bg">
+
+                <div class="di_wrapp">
+                    <div class="di_dis">
+                        <div class="div_title">Christopher Stewart Wine &amp; Spirits</div>
+                             <div class="div_title_sub">Provincial Sales Management</div>
+                            <div class="line_white"></div>
+                            <div class="area_name">Atlantic Canada</div>
+                            <p class="div_info">Eastern Canada (New Brunswick, Prince Edward Island, Nova Scotia, and NewFoundland &amp; Labrador) is smallest region in Canada by overall sales yet an integral and important part of the overall market including building and maintaining national brands.</p>
+                    </div>
+                        <div id="atlantic_container">
+                            <canvas id="atlantic_canvas" width="900" height="570"></canvas>
+                            <div id="atlantic_overlay_container" style="display: none;">
+                            </div>
+                        </div>
+                </div>
+                    <div class="arrows" >
+                        <button href="#" id="at_num" onclick="toWest();" value="7" class="arrow_l" style="z-index: 100;"></button>
+                    </div>  
+                    <div class="swiper-button-next swiper-button-white"></div>
+            </div> 
+ <!-- ////////// End Atlantic  ///////////// -->
+  <!-- ////////// NB ///////////// -->
+             <div class="swiper-slide" id="nb_bg"> 
+                    <div class="pro_wrapp">
+                        <div class="pro_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/atlantic/bastille_btl.png" />
+                        </div>
+                        <div class="pro_dis">
+                            <div class="pro_title">Christopher Stewart Wine &amp; Spirits</div>
+                             <div class="pro_title_sub">Provincial Sales Management</div>
+                            <div class="line_white"></div>
+                            <img class="pro_map" src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/maps/nb_map.svg" >
+                            <div class="pro_name">New Brunswick and Prince Edward Island </div>
+                            <p class="pro_info">                               
+                            The Province of New Brunswick is fully government controlled and has 40+ Corporate Stores, 80+ Agency Stores that are privately operated and 10+ Manufacture’s Agency Stores. All purchases are though Alcohol New Brunswick Liquor (ANBL) tenders. Prince Edward Island is fully government controlled and has 25 Corporate Stores. Christopher Stewart has it's own sales representation for the provinces. 
+                            </p>
+                            <div class="sm_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/atlantic/bastille_btl_small.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white" onclick="atlanticPlay();"></div> 
+            </div>
+<!-- ////////// End NB ///////////// -->  
+  <!-- ////////// NS ///////////// -->
+             <div class="swiper-slide" id="ns_bg"> 
+                    <div class="pro_wrapp">
+                        <div class="pro_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/ns/killepitsch.png" />
+                        </div>
+                        <div class="pro_dis">
+                            <div class="pro_title">Christopher Stewart Wine &amp; Spirits</div>
+                             <div class="pro_title_sub">Provincial Sales Management</div>
+                            <div class="line_white"></div>
+                            <img class="pro_map" src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/maps/ns_map.svg" >
+                            <div class="pro_name">Nova Scotia</div>
+                            <p class="pro_info">                               
+                            The province of Nova Scotia operates 100+ Retail Stores and 4 Private Agency Stores. All purchases are though Nova Scotia Liquor Corporation (NSLC) tenders. Christopher Stewart has it's own sales representation in the province.
+                            </p>
+                            <div class="sm_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/ns/killepitsch_small.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div> 
+            </div>
+<!-- ////////// End NS ///////////// -->
+  <!-- ////////// NS ///////////// -->
+             <div class="swiper-slide" id="nl_bg"> 
+                    <div class="pro_wrapp">
+                        <div class="pro_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/nl/pojega.png" />
+                        </div>
+                        <div class="pro_dis">
+                            <div class="pro_title">Christopher Stewart Wine &amp; Spirits</div>
+                             <div class="pro_title_sub">Provincial Sales Management</div>
+                            <div class="line_white"></div>
+                            <img class="pro_map" src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/maps/nl_map.svg" >
+                            <div class="pro_name">Newfoundland and Labrador</div>
+                            <p class="pro_info">                               
+                            The province of Newfoundland and Labrador operates 28 retail stores and services over 140 agency stores in the smaller communities. All purchases are though Newfoundland Labrador Liquor Corporation (NLC) tenders. Christopher Stewart has full market coverage in the market.
+                            </p>
+                            <div class="sm_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/nl/pojega_small.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-button-white" onclick="play_tree();"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div> 
+            </div>
+<!-- ////////// End NS ///////////// -->
+<!-- ////////// Peformance ///////////// -->
+             <div class="swiper-slide" id="per_bg"> 
+                    <div class="per_wrapp">
+                        <div class="per_contents">
+                            <div class="per_title">Christopher Stewart Wine &amp; Spirits</div>      
+                            <div class="per_title_sub">Performance</div>
+                            <div class="line_white"></div>
+                            <p class="per_info">
+                            Christopher Stewart has been serving the Canadian market for 16 years and has experienced excellent growth in every year for both our agency and our partner producers. This growth is not by chance and has come with a very focused effort to expand our distribution network, provide excellent customer service &amp; support, producing industry best marketing materials, and ensuring that our sale force is constantly growing on a professional level. 
+                            </p>
+                        </div> 
+                        <div id="tree" class="tree_container"></div>   
+                        </div>
+            <div class="swiper-button-next swiper-button-white" id="down_btn_hk"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div>
+            </div>
+<!-- ////////// End Pe ///////////// -->
+<!-- ////////// HK ///////////// -->
+            <div class="swiper-slide" id="international_bg">
+                <div class="down_Box_asia">
+                    <div class="asia_title">Christopher Stewart Wine &amp; Spirits</div>   
+                    <div class="asia_title_sub">International Operations</div>
+                    <div class="area_name">Hong Kong and Macau</div>
+                </div>
+          
+                         <div class="blue_box">
+                                <p class="blue_box_cont">In April 2013 we launched full operations in Asia. Christopher Stewart Wine &amp; Spirits Asia is based in Hong Kong and is operating as a full service Importer and Distributor for the regions of Hong Kong SAR and Macau SAR. We bring stability and a reliable opportunity to our supplier partners who wish to import their products into China. We do this by ensuring proper planning for market entry, world class brand representation, careful planning of transportation, storage &amp; delivery of the products the purchaser, and full clarity to the placement of the products in the markets. 
+                                </p>       
+                        </div>
+                <div class="swiper-button-next swiper-button-white" onclick="asiaPlay();"></div>
+                <div class="swiper-button-prev swiper-button-white" ></div> 
+            </div>
+<!-- ////////// End HK ///////////// -->
+<!-- ////////// ma ///////////// -->
+         <div class="swiper-slide" id="cn_bg">         
+                <div class="di_wrapp">
+                <div class="di_dis">
+                    <div class="div_title">Christopher Stewart Wine &amp; Spirits</div>
+                         <div class="div_title_sub">International Operations</div>
+                        <div class="line_white"></div>
+                        <div class="area_name">Hong Kong and Macau</div>
+                        <p class="div_info">Hong Kong and Macau is a very open market with exceptional opportunities and a minimum level of government oversight.</p>
+                </div>
+                    <div id="asia_container" width="640" height="491">
+                        <canvas id="asia_canvas" width="640" height="491" style="width:640px;height:491px"></canvas>
+                        <div id="asia_overlay_container"></div>
+                    </div>
+                </div>  
+                      <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div>
+                </div>
+<!-- ////////// End Ma ///////////// -->
+<!-- ////////// HK ///////////// -->
+                <div class="swiper-slide" id="hk_bg" > 
+                    <div class="pro_wrapp">
+                        <div class="pro_btl">
+                            <img src="images/Teso_btl.png" />
+                        </div>
+                        <div class="pro_dis">
+                            <div class="pro_title">Christopher Stewart Wine &amp; Spirits</div>
+                             <div class="pro_title_sub">Hong Kong Sales Management</div>
+                            <div class="line_white"></div>
+                            <img class="pro_map" src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/hk_map.svg" >
+                            <p class="pro_info">                               
+                            Hong Kong has a population of approximately 7.5 million people and is the 4th highest population density in the world. This market is currently seen as the most competitive wine market in the world today with virtually no government regulation or taxes on Wine or Beer. It also acts as a gateway for brokers to move large quantities of wine into mainland China. While this market is a vexing one to enter for Producers Christopher Stewart focuses on proper brand building, has a full team based in the market, provides 24 hour turnaround for customer deliveries, and sells only to on and off premise accounts.
+                            </p>
+                            <div class="sm_btl">
+                            <img src="images/Teso_btl_sm.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white" ></div> 
+            </div>
+<!-- ////////// End HK ///////////// -->
+<!-- ////////// MA ///////////// -->
+                <div class="swiper-slide" id="ma_bg"> 
+                    <div class="pro_wrapp">
+                        <div class="pro_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/lolea_btl.png" />
+                        </div>
+                        <div class="pro_dis">
+                            <div class="pro_title">Christopher Stewart Wine &amp; Spirits</div>
+                             <div class="pro_title_sub">Macau Sales Management</div>
+                            <div class="line_white"></div>
+                            <img class="pro_map" src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/ma_map.svg" >
+                            <p class="pro_info">                               
+                            Macau has a relatively small population of approximately 650,000 people but it is the gaming capital of Asia receiving almost 31 million visitors annually. It also has the world’s highest population density. The opportunities for Wine and Spirit sales are high through the Casino Hotels and on premise accounts. In 2018 a bridge linking Hong Kong directly to Macau will be completed making distribution much more efficient. Christopher Stewart services the market from our Hong Kong sales team.
+                            </p>
+                            <div class="sm_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/lolea_btl_sm.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-button-white" id="down_btn_custom"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div> 
+            </div>
+<!-- ////////// End MA ///////////// -->
+
+<!-- ////////// Custum ///////////// -->
+             <div class="swiper-slide" style="background-color: white;">
+                <div class="down_Box_custom">
+                        <div class="cu_title" >Christopher Stewart Wine &amp; Spirits</div>      
+                        <div class="cu_title_sub">Custom Marketing Materials</div>
+                </div>
+                    <div class="tab">
+                      <button class="tablinks" onclick="openArt(event, 'CoverArt')" id="defaultOpen">Cover Art</button>
+                      <button class="tablinks" onclick="openArt(event, 'FeaturePages')">Feature Page</button>
+                      <button class="tablinks" onclick="openArt(event, 'Poster')">Poster</button>
+                      <button class="tablinks" onclick="openArt(event, 'BackerCard')">Backer Card</button>
+                      <button class="tablinks" onclick="openArt(event, 'Others')">Others</button>
+                    </div>
+                    <div class="Line_gray"></div>
+                    <div class="tab_size">
+                        <div id="CoverArt" class="tabcontent">
+                          <div class="productName">Cover Art</div>
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/cover1.jpg" class="firstImage" />
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/cover2.jpg" class="secondImage" />
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/cover3.jpg" class="otherImage" />
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/cover4.jpg" class="otherImage" />
+                        </div>
+                        <div id="FeaturePages" class="tabcontent">
+                          <div class="productName">Feature Pages</div>
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/feature1.jpg" class="firstImage"/>
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/feature2.jpg" class="secondImage"/>
+                         <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/feature3.jpg" class="otherImage"/>
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/feature4.jpg" class="otherImage"/>
+                        </div>
+                        <div id="Poster" class="tabcontent">
+                          <div class="productName">Poster</div>
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/poster1.jpg" class="firstImage"/>
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/poster2.jpg" class="secondImage"/>
+                           <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/poster3-2.jpg" class="otherImage"/>
+                        </div>
+                        <div id="BackerCard" class="tabcontent">
+                          <div class="productName">Backer Card</div>
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/backer1.jpg" class="firstImage"/>
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/backer3.jpg" class="secondImage"/>
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/backer4.jpg" class="otherImage"/>
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/backer2-2.jpg" class="otherImage"/>
+                        </div>
+                        <div id="Others" class="tabcontent">
+                          <div class="productName">Others</div>
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/menu.jpg" class="firstImage"/>
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/tent.jpg" class="secondImage"/>
+                          <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/gallery/fly.jpg" class="otherImage"/>
+                        </div>
+                    </div>
+                    <div class="cu_contents">
+                                    <em>Examples of print marketing materials</em>
+                                    <br>
+                                    <p style="margin-top: 15px;">Christopher Stewart believes in working closely with our producer partners to achieve success in our markets.</p>
+                                    <p>We look forward to further exploring this opportunity together.</p>
+                                    <a class="LinkBtn" href='http://www.christopherstewart.com/en-ca/Gallery' target="_blank">
+                            Art Gallery Page <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                            </a>
+                    </div>
+                            
+                <div class="swiper-button-next swiper-button-black" id="down_btn_social"></div>
+                    <div class="swiper-button-prev swiper-button-black"  onclick="asiaPlay();"></div> 
+            </div>
+<!-- ////////// End c ///////////// -->
+<!-- ////////// SNS ///////////// -->
+        <div class="swiper-slide" style="background-color: white;">
+                <div class="down_Box_social">
+                <div class="cu_title" >Christopher Stewart Wine &amp; Spirits</div>      
+                <div class="cu_title_sub">Social Media Marketing Promotion</div>
+                </div>
+                <div class="social_wrapp">
+                    <p class="social_dis">Today no marketing effort is complete without a strong presence on Social Media. Christopher Stewart maintains 13 different Social Media sites in 3 languages. We have a full team within Christopher Stewart dedicated to Social Media campaigns and we have over 30,000+ followers, the largest of any Agency in Canada.</p>
+                    
+                    <div class="social_contents">
+                      <a href="https://www.instagram.com/christopherstewart/" target="_blank"><img class="social_thumbnail" src="images/instagram.jpg"></a>
+                      <a href="https://www.instagram.com/christopherstewart/" target="_blank">
+                        <div class="social_name">English <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </a>
+                      <a href="https://www.instagram.com/christopherstewartquebec/" target="_blank">
+                        <div class="social_name">Quebec (French) <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </a>
+                       <a href="https://www.instagram.com/christopherstewartasia/" target="_blank">
+                        <div class="social_name">Asia (English) <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </a>
+                    </div>
+
+                    <div class="social_contents">
+                      <a href="https://twitter.com/CSWS_BC" target="_blank"><img class="social_thumbnail" src="images/twitter.jpg"></a>
+                      <a href="https://twitter.com/CSWS_BC" target="_blank">
+                        <div class="social_name">English <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </a>
+                      <a href="https://twitter.com/CSVS_QC" target="_blank">
+                        <div class="social_name">Quebec (French) <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </a>
+                       <a href="https://twitter.com/CSWSAsia" target="_blank">
+                        <div class="social_name">Asia (English) <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </a>
+                    </div>
+
+                    <div class="social_contents">
+                      <a href="https://www.facebook.com/ChristopherStewartWineandSpirits/" target="_blank"><img  src="images/fb.jpg" class="social_thumbnail"/></a>
+                      <a href="https://www.facebook.com/ChristopherStewartWineandSpirits/" target="_blank">
+                        <div class="social_name">English <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </a>
+                      <a href="https://www.facebook.com/ChristopherStewartVinsetSpiritueux/" target="_blank">
+                        <div class="social_name">Quebec (French) <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </a>
+                       <a href="https://www.facebook.com/CSWSAsia/" target="_blank">
+                        <div class="social_name">Asia (English) <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </a>
+                    </div>
+            </div>
+                <div class="swiper-button-next swiper-button-black"></div>
+           <div class="swiper-button-prev swiper-button-black"></div>            
+        </div>
+<!-- ////////// SNS ///////////// -->
+<!-- ////////// index ///////////// -->
+            <div class="swiper-slide" style="background-color: white;">
+                <div class="logo">
+                <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/logo.png"  />
+                <div style="height: 30px;"></div>
+                <div class="slogan">Thank you</div>
+                <div style="height: 30px;"></div>
+                <a class='LinkBtn' href='http://www.christopherstewart.com' target="_blank">Vist Our Website <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </div></a>
+                <div class="swiper-button-prev swiper-button-black"></div> 
+                <div class="arrows" style="left: 100%;">  
+                    <a href="index.html"><div class="arrow_r_black"></div></a>
+                </div>
+            </div>
+<!-- ////////// End ///////////// -->
+  
+	</div>
+	</div>
+  <script type="text/javascript">
+    $(function() {
+        $("#down_btn_hk").on('click', function() { 
+            $(".down_Box_asia").slideDown("slow");
+        });
+    });
+     $(function() {
+        $("#down_btn_custom").on('click', function() { 
+            $(".down_Box_custom").slideDown("slow");
+        });
+    });
+      $(function() {
+        $("#down_btn_social").on('click', function() { 
+            $(".down_Box_social").slideDown("slow");
+        });
+    });
+</script>
+    <!-- Swiper JS -->
+    <script src="dist/js/swiper.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    spaceBetween: 30,
+    effect: 'fade',
+    initialSlide: 0,
+    loop: false
+    });
+</script>
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="atlantic.js"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function atlanticPlay() {
+    canvas = document.getElementById("atlantic_canvas");
+    anim_container = document.getElementById("atlantic_container");
+    dom_overlay_container = document.getElementById("atlantic_overlay_container");
+    var comp=AdobeAn.getComposition("79CE66D4C8CE4CF5902622A9F6386E70");
+    var lib=comp.getLibrary();
+    atlantic_handleComplete({},comp);
+}
+function atlantic_handleComplete(evt,comp) {
+    //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+    var lib=comp.getLibrary();
+    var ss=comp.getSpriteSheet();
+    exportRoot = new lib.atlantic();
+    stage = new lib.Stage(canvas);
+    stage.addChild(exportRoot); 
+    //Registers the "tick" event listener.
+    atlantic_fnStartAnimation = function() {
+        createjs.Ticker.setFPS(lib.properties.fps);
+        createjs.Ticker.addEventListener("tick", stage);
+    }       
+    //Code to support hidpi screens and responsive scaling.
+    function makeResponsive(isResp, respDim, isScale, scaleType) {      
+        var lastW, lastH, lastS=1;      
+        window.addEventListener('resize', resizeCanvas);        
+        resizeCanvas();     
+        function resizeCanvas() {           
+            var w = lib.properties.width, h = lib.properties.height;            
+            var iw = window.innerWidth, ih=window.innerHeight;          
+            var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;          
+            if(isResp) {                
+                if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+                    sRatio = lastS;                
+                }               
+                else if(!isScale) {                 
+                    if(iw<w || ih<h)                        
+                        sRatio = Math.min(xRatio, yRatio);              
+                }               
+                else if(scaleType==1) {                 
+                    sRatio = Math.min(xRatio, yRatio);              
+                }               
+                else if(scaleType==2) {                 
+                    sRatio = Math.max(xRatio, yRatio);              
+                }           
+            }           
+            canvas.width = w*pRatio*sRatio;         
+            canvas.height = h*pRatio*sRatio;
+            canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';               
+            canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
+            stage.scaleX = pRatio*sRatio;           
+            stage.scaleY = pRatio*sRatio;           
+            lastW = iw; lastH = ih; lastS = sRatio;     
+        }
+    }
+    makeResponsive(true,'both',false,1);    
+    AdobeAn.compositionLoaded(lib.properties.id);
+    atlantic_fnStartAnimation();
+}
+</script>
+<script src="AsiaMap.js"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function asiaPlay() {
+    canvas = document.getElementById("asia_canvas");
+    anim_container = document.getElementById("asia_container");
+    dom_overlay_container = document.getElementById("asia_overlay_container");
+    handleComplete();
+}
+function handleComplete() {
+    exportRoot = new lib.Asia6();
+    stage = new createjs.Stage(canvas);
+    stage.addChild(exportRoot); 
+    fnStartAnimation = function() {
+        createjs.Ticker.setFPS(lib.properties.fps);
+        createjs.Ticker.addEventListener("tick", stage);
+    }       
+    function makeResponsive(isResp, respDim, isScale, scaleType) {      
+        var lastW, lastH, lastS=1;      
+        window.addEventListener('resize', resizeCanvas);        
+        resizeCanvas();     
+        function resizeCanvas() {           
+            var w = lib.properties.width, h = lib.properties.height;            
+            var iw = window.innerWidth, ih=window.innerHeight;          
+            var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;          
+            if(isResp) {                
+                if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+                    sRatio = lastS;                
+                }               
+                else if(!isScale) {                 
+                    if(iw<w || ih<h)                        
+                        sRatio = Math.min(xRatio, yRatio);              
+                }               
+                else if(scaleType==1) {                 
+                    sRatio = Math.min(xRatio, yRatio);              
+                }               
+                else if(scaleType==2) {                 
+                    sRatio = Math.max(xRatio, yRatio);              
+                }           
+            }           
+            canvas.width = w*pRatio*sRatio;         
+            canvas.height = h*pRatio*sRatio;
+            canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';               
+            canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
+            stage.scaleX = pRatio*sRatio;           
+            stage.scaleY = pRatio*sRatio;           
+            lastW = iw; lastH = ih; lastS = sRatio;     
+        }
+    }
+    makeResponsive(true,'both',false,1);    
+    fnStartAnimation();
+}
+</script>
+<!-- Tab -->
+<script>
+function openArt(evt, imgName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(imgName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<script src="./SnapSVGAnimator/js/vendor/snap.svg/snap.svg-min.js"></script>
+<script src="./SnapSVGAnimator/js/SnapSVGAnimator.min.js"></script>
+<script type="text/javascript"> 
+        var jsonfile = "tree.json",
+            fps = 24,
+            width = 700,
+            height = 600,
+            comp = '',
+            AJAX_req;
+
+    AJAX_JSON_Req(jsonfile);
+
+    function handle_AJAX_Complete() {
+        if( AJAX_req.readyState == 4 && AJAX_req.status == 200 )
+        {
+            var container = document.getElementById("tree");
+            json = JSON.parse(AJAX_req.responseText);
+            comp = new SVGAnim(
+                           json,
+                            width = 700,
+            height = 600,
+                           fps
+                           );
+            container.appendChild(comp.s.node);
+        }
+    }
+
+    function AJAX_JSON_Req( url )
+    {
+        AJAX_req = new XMLHttpRequest();
+        AJAX_req.open("GET", url, true);
+        AJAX_req.setRequestHeader("Content-type", "application/json");
+        
+        AJAX_req.onreadystatechange = handle_AJAX_Complete;
+        AJAX_req.send();
+    }
+
+    function play_tree(){
+        comp.play();
+    }
+
+
+            </script>
+
+</html>

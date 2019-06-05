@@ -1,0 +1,163 @@
+.cu_title,
+.cu_title_sub{
+    font-family:'Titillium Web', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.cu_title{
+        font-size:27px;
+        font-weight: 700;
+}
+.cu_title_sub{
+    font-size:32px;
+    font-weight: 700;
+}
+.productName{
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+    color: #565656;
+    margin-bottom: 20px;
+}
+
+
+/*/////////////// Tab part ///////////////////*/
+.tab {
+overflow: hidden;
+text-align: center;
+margin: 10px auto;
+}
+
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+color: #E64C45;
+}
+/* Create an active/current tablink class */
+div.tab button.active {
+color: #8a2d29;
+}
+.down_Box_custom{
+text-align: center;
+background-color: #7f0303;
+padding: 30px 0 30px 0;
+color: white;
+width: 100%;
+margin: 0 auto ;
+ display: none;
+top: 0;
+}
+
+.cu_contents{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    color: #565656;
+}
+
+
+
+/*/////////////// Tab part ///////////////////*/
+.tab {
+overflow: hidden;
+text-align: center;
+margin: 10px auto;
+}
+/* Style the buttons inside the tab */
+.tab button {
+font-family: 'Titillium Web', sans-serif;
+text-align: center;
+margin: 20px auto;
+background-color: inherit;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 5px 15px;
+font-size: 16px;
+transition: 0.5s;
+}
+/* Change background color of buttons on hover */
+div.tab button:hover {
+color: #E64C45;
+}
+/* Create an active/current tablink class */
+div.tab button.active {
+color: #8a2d29;
+border-bottom: 0.5px solid #8a2d29;
+}
+/* Style the tab content */
+.tab_size{
+width: 80%;
+max-width: 1220px;
+text-align: center;
+margin: 0 auto;
+}
+.tabcontent {
+display: none;
+padding: 20px auto;
+text-align: center;
+width: 100%;
+}
+.firstImage, .secondImage,.otherImage{
+display: inline-block;
+margin: 5px;
+width: 22%;
+}
+
+
+@media screen and (max-width:1323px){
+    .cu_title{
+        font-size:19px !important;
+        font-weight: 400 !important;
+}
+
+}
+@media screen and (max-width:1064px) {
+
+.cu_title_sub{
+font-size:27px !important;
+}
+}
+
+@media screen and (max-width :800px) {
+    .tab_size{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    }
+    .firstImage, .secondImage{
+    display: inline-block;
+    margin: 5px;
+    width: 45%;
+    }
+    .otherImage{display: none !important;}
+    .End_Box{padding:20px;}
+
+}
+@media screen and (max-width :500px) {
+    .tab_size{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    }
+    .tab button{margin: 10px auto;}
+    .Line_gray{
+    display: block;
+    border-top: 1px solid #c1c1c1;
+    width: 80%;
+    margin: 10px auto;
+    }
+    .firstImage{
+    display: inline-block;
+    margin: 5px;
+    width: 90%;
+    }
+    .otherImage, .secondImage{
+    display: none !important;
+    }
+    .tab button {
+    padding: 5px 5px;
+    font-size: 14px;
+    transition: 0.5s;
+    }
+}

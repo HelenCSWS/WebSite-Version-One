@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = @CSWSWEBResources.Resource.Portfolio;
+    ViewBag.BKImagHolder = "<div class=\"background_image_holder portfolio_img\">";
+    Layout = "~/Views/Shared/_csLayout.cshtml";
+}
+   <!-- middle content -->
+<div class="potfolio_content signin_opactiy">
+   
+    <a href="" class="openPortfolio"><div class="portfolio_text_holder">
+                                         <div class="portfolio_summary_text">@CSWSWEBResources.Resource.Summary</div>
+        <div class="portfolio_text">@CSWSWEBResources.Resource.IndustryPortfolio</div>
+                       <div class="protfolio_clickview_text">@CSWSWEBResources.Resource.ClickView</div>
+        
+        </div></a>
+</div><!--div class="content"-->
+       
+
+@Scripts.Render("~/js/profile.js")

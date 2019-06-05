@@ -1,0 +1,11 @@
+.share_img{
+	background-image:url('../images/bkgrdimgs/share.jpg'); 
+}
+
+
+@media (max-width: 327px) {
+	.share_inputs{
+		width:120%;
+	}
+}
+

@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = @CSWSWEBResources.Resource.ShareTitle;
+    ViewBag.BKImagHolder = "<div class=\"background_image_holder share_img\">";
+    Layout = "~/Views/Shared/_csLayout.cshtml";
+}
+
+      <!-- middle content -->
+
+<form id="fm_sharegallery" class="pageForm">
+    <div class="content share_opacity">
+
+
+        <span class="title @CSWSWEBResources.Resource.CSSTitleFontSize">@CSWSWEBResources.Resource.ShareHRArt</span>
+        <div style="height:2px;"></div>
+        <p>@CSWSWEBResources.Resource.ShareInfo</p>
+        <table class="controltext" border="0">
+            <tr>
+                <td class="@CSWSWEBResources.Resource.CSS_TD_SHARE_INPUT_CPT">@CSWSWEBResources.Resource.RPName<span class="requiredstar">*</span></td>
+                <td ><input placeholder="@CSWSWEBResources.Resource.RPName" name="rcpname" id="rcpname" class="recipientname pages_inputs share_inputs" maxlength="100" oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PLSENTERRCPName')" oninput="setCustomValidity('')" required />  </td>
+            </tr>
+            <tr><td class="@CSWSWEBResources.Resource.CSS_TD_SHARE_INPUT_CPT td_input_top_space">@CSWSWEBResources.Resource.RPEmail<span class="requiredstar">*</span></td>
+            <td class="td_input_top_space"><input placeholder="@CSWSWEBResources.Resource.RPEmail" type="email" name="rcpemailaddress" id="rcpemailaddress" class="rp_emailaddress pages_inputs share_inputs" maxlength="50" oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterValidEmail')" oninput="setCustomValidity('')" required />  </tr>
+           <tr><td class="@CSWSWEBResources.Resource.CSS_TD_SHARE_INPUT_CPT td_input_top_space">@CSWSWEBResources.Resource.YRName<span class="requiredstar">*</span></td>
+            <td  class="td_input_top_space"><input placeholder="@CSWSWEBResources.Resource.YRName" name="visitorname" class="vistorname pages_inputs share_inputs" maxlength="25" oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterName')" oninput="setCustomValidity('')" required />  </td>
+    </tr>
+    <tr>
+        <td class="@CSWSWEBResources.Resource.CSS_TD_SHARE_INPUT_CPT td_input_top_space">@CSWSWEBResources.Resource.YREmail<span class="requiredstar">*</span></td>
+        <td  class="td_input_top_space">
+            <input placeholder="@CSWSWEBResources.Resource.YREmail" type="email" name="emailaddress" class="emailaddress pages_inputs share_inputs" maxlength="50" oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterValidEmail')" oninput="setCustomValidity('')" required />
+        </td>
+    </tr>
+        </table>
+        <div style="height:18px;"></div>
+     
+        <div style="height:150px;">
+            <span class="controltext">@CSWSWEBResources.Resource.Message</span><br><textarea placeholder="@CSWSWEBResources.Resource.Message" name="comments" type="text" class="feedback_textarea pages_inputs" maxlength="550"></textarea>
+        </div>
+        <div><span class="controltext">@CSWSWEBResources.Resource.CfrmRobot</span></div>
+        <div class="g-recaptcha" data-sitekey="6LdVOf4SAAAAAOwzIEmZV-hWCxhLnVcpEM4L6fLZ" theme="clean"></div>
+
+        <div style="height:1px;"></div>
+        <!--div style="float:bottom; display: table-cell;height:30px;vertical-align: text-top;">
+        <span class="controltext" style="height:20px; display:inline-block; vertical-align:middle;padding-left:0px;"><input  class="feedback_inputs" /> </span></div-->
+        <div style="height:18px;"></div>
+
+        <div>
+            <p><input name="isSend" id="isSend" type="checkbox" checked class="sendCheckbox" /> &nbsp;<span>@CSWSWEBResources.Resource.SendMeNews</span><br><span style="padding-left:20px;">@CSWSWEBResources.Resource.YouCanUnSub</span></p>
+            <input name="isSubscribe" type="hidden" id="isSubscribe" value="1">
+            <input class="culture_code" name="culture_code" type="hidden" id="culture_code" value="en-ca" />
+
+        </div>
+        <div><button type="submit" class="btn btn-xs btn-danger btn_submit">@CSWSWEBResources.Resource.Submit</button></div>
+
+        <input name="share_base" type="hidden" id="share_base" value="">
+        <input name="share_info" type="hidden" id="share_info" value="">
+
+    </div>
+</form>
+@Scripts.Render(@CSWSWEBResources.Resource.RechapchaLink)
+@Scripts.Render("~/js/Share.js")

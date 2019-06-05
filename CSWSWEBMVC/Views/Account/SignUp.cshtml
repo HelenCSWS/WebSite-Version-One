@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = @CSWSWEBResources.Resource.SignUp;
+    ViewBag.BKImagHolder = "<div class=\"background_image_holder signup_img\">";
+    Layout = "~/Views/Shared/_csLayout.cshtml";
+}
+@Styles.Render("~/Content/signup.css")
+<div class="content signup_opactiy">
+
+    <div class="signup_title">@CSWSWEBResources.Resource.SignUpTitle</div>
+
+    <form name="frm_signup" id="frm_signup">
+        <div class="signup_title select_box_holder">
+            <div class="error_msg inudstry_error_holder " id="industry_error"></div>
+            <select class="signup_control industy_select" placeholder="Industry Segment" alt="Industry Segment" name="user_type_id" id="user_type_id" onchange="setCustomValidity('')">
+                <option value="0">@CSWSWEBResources.Resource.SignUpSegment</option>
+                <option value="1">@CSWSWEBResources.Resource.Agency</option>
+                <option value="2">@CSWSWEBResources.Resource.Broker</option>
+                <option value="3">@CSWSWEBResources.Resource.DSAndWHS</option>
+                <option value="4">@CSWSWEBResources.Resource.Importer</option>
+                <option value="5">@CSWSWEBResources.Resource.Hospitality</option>
+                <option value="6">@CSWSWEBResources.Resource.Media</option>
+                <option value="7">@CSWSWEBResources.Resource.Negociant</option>
+                <option value="8">@CSWSWEBResources.Resource.Producer</option>
+                <option value="9">@CSWSWEBResources.Resource.RetailSales</option>
+                <option value="10">@CSWSWEBResources.Resource.WineMaker</option>
+            </select>
+
+        </div>
+
+        <div class="signup_title control_holder">
+            <input class="signup_control" name="first_name" placeholder="@CSWSWEBResources.Resource.FName" id="first_name" required oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterFName')" oninput="setCustomValidity('')" />
+        </div>
+
+        <div class="signup_title control_holder">
+            <input class="signup_control" name="last_name" placeholder="@CSWSWEBResources.Resource.LName" required oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterLName')" oninput="setCustomValidity('')" />
+        </div>
+        <div class="signup_title control_holder">
+            <input class="signup_control" name="company_name" placeholder="@CSWSWEBResources.Resource.CName" required oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterCName')" oninput="setCustomValidity('')" />
+        </div>
+
+        <div class="signup_title control_holder">
+            <select class="signup_control" name="country" placeholder="@CSWSWEBResources.Resource.Country" id="select_country"></select>
+        </div>
+        <div class="signup_title control_holder">
+            <select class="signup_control" name="city" placeholder="@CSWSWEBResources.Resource.City" id="select_city"><option selected>@CSWSWEBResources.Resource.SelectCity</option></select>
+        </div>
+        <div class="signup_title control_holder email_address_holder">
+            <div class="error_msg duplcate_email" id="email_error"></div>
+            <div class="email_input_holder"><input type="email" class="signup_control email" name="email" id="email" placeholder="@CSWSWEBResources.Resource.EmailAddress" title="@CSWSWEBResources.Resource.EmailAddress" required oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterValidEmail')" oninput="setCustomValidity('')" /></div>
+        </div>
+
+
+        <div class="signup_title control_holder">
+            <input type="email" class="signup_control email" name="cfm_email" id="cfm_email" placeholder="@CSWSWEBResources.Resource.CfrmEmailAdd" autocomplete="off" title="@CSWSWEBResources.Resource.EmailAddress" required oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterValidEmail')" oninput="    setCustomValidity('')" />
+        </div>
+
+        <div class="signup_title control_holder signup_password_holder">
+            <div class="error_msg signup_password_error_holder " id="signup_password_error"></div>
+            <input type="password" class="signup_control" id="password" name="password" placeholder="@CSWSWEBResources.Resource.Password" pattern=" .{0-9}|.{6,}" title="@CSWSWEBResources.Resource.Password" required oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterValidPswd')" oninput="    setCustomValidity('')" />
+        </div>
+        <div class="signup_title control_holder">
+            <input type="password" class="signup_control" id="cfm_password" name="repassword" placeholder="@CSWSWEBResources.Resource.PassworfCfrm" pattern=" .{0-9}|.{6,}" title="@CSWSWEBResources.Resource.Password" required oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterValidPswd')" oninput="    setCustomValidity('')">
+        </div>
+
+        <div class="signup_title signup_submit_holder"> <button type="submit" formmethod="post" class="btn btn-xs btn-danger signup_submit btn_signup_submit">@CSWSWEBResources.Resource.Submit</button></div>
+
+        <input class="culture_code" type="hidden" name="culture_code" id="culture_code" value="en-ca" />
+
+    </form>
+</div><!--div class="content"-->
+       
+
+@Scripts.Render("~/js/signup.js")

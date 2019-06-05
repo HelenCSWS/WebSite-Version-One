@@ -1,0 +1,360 @@
+/*
+.wrapper {
+    max-width: 1024px;
+    width: 1024px;
+    padding: 0 0px 0px 0px;
+    margin: auto;
+}
+*/
+
+
+/** Stage container **/
+/** whole width = image width*3+ border*4 **/
+.connected-carousels .stage {
+    /*width: 1024px;*/
+    height: 442px;
+    margin: 0px auto;
+    position: relative;
+    text-align:center;
+}
+
+
+/** Navigation container **/
+
+.connected-carousels .navigation {
+    margin: 0px auto;
+    position: relative;
+}
+
+/** Shared carousel styles **/
+
+.connected-carousels .carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.connected-carousels .carousel ul {
+/*    width: 20000em;*/
+/*    left: - 1830px;*/
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.connected-carousels .carousel li {
+    float: left;
+}
+
+/** Stage carousel specific styles **/
+
+.connected-carousels .carousel-stage {
+    height: 440;
+    border: 0px solid #fff;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+   /* -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;*/
+}
+
+.connected-carousels .carousel-stage  li{
+    border: 1px solid #fff;
+}
+
+.connected-carousels .carousel-stage img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+}
+
+/** Navigation carousel specific styles **/
+
+.connected-carousels .carousel-navigation {
+    height: 60px;
+    width: 100%;
+    background: #fff;
+    /*border: 10px solid #fff;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;*/
+}
+
+.connected-carousels .carousel-navigation li {
+    cursor: pointer;
+    width: 47px;
+    height: 47px;
+    border: 1px solid #fff;
+    margin:1.5px;
+}
+
+
+.connected-carousels .carousel-navigation li img {
+    display: block;
+    border: 1px solid #fff;
+    position: absolute;
+}
+
+.connected-carousels .carousel-navigation li.active img {
+/* border-color: #ccc;*/
+   border: 1px solid #000;
+}
+
+/** Stage carousel controls **/
+
+.connected-carousels .prev-stage,
+.connected-carousels .next-stage {
+    position: absolute;
+    top: 195px;
+    width: 340px;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    visibility: hidden;
+}
+
+.connected-carousels .prev-stage.inactive,
+.connected-carousels .next-stage.inactive {
+    display: block;
+}
+
+.connected-carousels .prev-stage span,
+.connected-carousels .next-stage span {
+    position: absolute;
+    top: 0px;
+    width: 40px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    opacity: 0.3;
+    font: 44px Arial, sans-serif;
+     /* -webkit-border-radius: 30px;
+       -moz-border-radius: 30px;
+            border-radius: 30px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;*/
+}
+
+.connected-carousels .prev-stage span {
+    right: 0px;
+}
+
+.connected-carousels .next-stage span {
+    left: 0px;
+}
+
+.connected-carousels .prev-stage:hover span,
+.connected-carousels .next-stage:hover span {
+    opacity: 1;
+}
+
+/** Navigation carousel controls **/
+
+.connected-carousels .prev-navigation,
+.connected-carousels .next-navigation {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: grey;
+    text-decoration: none;
+    font: 42px/35px Arial;
+    font-weight:100;
+}
+
+.connected-carousels .prev-navigation {
+    left: -22px;
+    top: 9px;
+    text-indent: 6px;
+}
+
+.connected-carousels .next-navigation {
+    right: -15px;
+    top: 9px;
+    text-indent: 20px;
+}
+
+.connected-carousels .prev-navigation.inactive,
+.connected-carousels .next-navigation.inactive {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.connected-carousels .prev-navigation:hover ,
+.connected-carousels .next-navigation:hover {
+    color: #D1D0CE;
+    display: block;
+}
+
+
+.fade-left {
+    position: absolute;
+    left:0px;
+    width:341px;
+    height:100%;
+    background: linear-gradient(to left, rgba( 255, 255, 255, 0.4 ) 0%, rgba( 255, 255, 255, 1 ) 80% );
+}
+
+.fade-right {
+    position: absolute;
+    right:0px;
+    width:340px;
+    height:100%;
+   background: linear-gradient(to right, rgba( 255, 255, 255, 0.4 ) 0%, rgba( 255, 255, 255, 1 ) 80% );
+}
+
+.imageText, .imageText-prev {
+    margin-top:10px;
+    text-align: center;
+    color:grey;
+    font-weight: 500;
+    height: 22px;
+}
+.shareContainer{
+    margin: auto;
+    height:25px;
+    margin-top:7px;
+    margin-bottom:10px;
+}
+.divShare{
+   margin-left:auto;
+   margin-right:auto;
+   text-align:center;
+   /* width: 120px;
+    float:left;*/
+}
+
+
+
+.Sharelink {
+ 
+    text-decoration:none;
+    text-align: center;
+    color:#6892D0;
+    font-size:9pt;
+}
+.spCboYear{
+    margin-left:0px; 
+    width:120px;
+    float:left;
+    visibility:hidden;
+}
+
+.years {
+    font-size:14pt;
+    text-align: center;
+    color:#C0C0C0;
+    margin:3px;
+    font-weight:100;
+}
+
+.years .active {
+    font-weight:100;
+     color: grey;
+}
+
+.years  a{
+ 	letter-spacing:-1;
+    margin:9px;
+    text-decoration:none;
+    color:#C0C0C0;
+}
+
+.years a:hover {
+    color:#696969; /*dim gray*/
+}
+
+.shareData {
+    visibility:hidden;
+}
+
+.busy-indicator {
+    visibility: hidden;
+    position: absolute;
+    top: 300px;
+    font-size: 25px;
+    font-weight:100;
+}
+
+@media (min-width: 769px) {
+    .wrapper {
+        width: 1024px;
+    }
+    .connected-carousels .prev-stage {
+        left: 1px;
+    }
+    .connected-carousels .next-stage {
+        right: -1px;
+    }
+    .connected-carousels .prev-stage span, .connected-carousels .next-stage span {
+        opacity: 0.3;
+    }
+    .connected-carousels .prev-stage, .connected-carousels .next-stage, .imageText-prev  {
+        display: none;
+    }
+    .fade-left, .fade-right, .navigation, .imageText {
+        display: block;
+    }
+	.years{
+	display:block;
+	}
+	.spCboYear{
+		display: none;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	.spCboYear{
+		display: block-inline;
+	}
+	
+    .wrapper {
+        width: 340px;
+    }
+    .connected-carousels .prev-stage {
+        left: 1px;
+    }
+    .connected-carousels .next-stage {
+        right: 1px;
+    }
+    .connected-carousels .prev-stage span, .connected-carousels .next-stage span {
+        opacity: 0.5;
+    }
+    .connected-carousels .prev-stage, .connected-carousels .next-stage, .imageText-prev {
+        display: block;
+    }
+    .fade-left, .fade-right, .navigation, .imageText {
+        display: none;
+    }
+    .connected-carousels .prev-stage, .connected-carousels .next-stage {
+        width: 40px;
+    }
+	.years{
+	display:none;
+	}
+    .divShare{
+   
+    width: 120px;
+    float:left;}
+    .shareContainer{
+   padding-left:40px;
+    }
+	
+}
+
+/*
+@media (max-width: 342px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+*/

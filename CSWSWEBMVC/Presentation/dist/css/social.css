@@ -1,0 +1,84 @@
+
+
+/* ///////////// Social ///////////////*/
+.down_Box_social{
+	text-align: center;
+background-color: #3f6fb1;
+padding: 30px 0 30px 0;
+color: white;
+width: 100%;
+margin: 0 auto ;
+ display: none;
+top: 0;
+}
+
+.Line_gray{display: none;}
+
+a{
+text-decoration: none;
+color: #7f0303;
+z-index: 200;
+}
+a.LinkBtn{
+font-size: 19px;
+transition: 0.5s;
+z-index: 200;
+text-align: center;
+}
+i{
+transition: 0.5s;
+margin-right: 0;
+}
+a.LinkBtn:hover{
+opacity: 0.5;
+}
+
+.social_name{
+    font-size: 16px;
+    color: #565656;
+    text-align: center;
+    margin-left: -40px;
+    transition: 0.5s;
+
+}
+
+.social_dis{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.social_name:hover{
+	color: #8a2d29;
+}
+.social_wrapp{
+    text-align: center;
+    margin: 50px auto;
+    max-width: 1024px;
+}
+
+.social_contents{
+	margin-top: 50px;
+display: inline-block;
+vertical-align: top;
+
+}
+.social_thumbnail{
+	width: 280px;
+	margin: 0 10px;
+	transition: 0.2s;
+}
+.social_thumbnail:hover{
+	width: 300px;
+}
+
+.social{
+display: inline-block;
+margin: 20px 10px;
+}
+.contact{
+border-top: 1px solid #c1c1c1;
+width: 80%;
+margin: 20px auto;
+text-align: center;
+}

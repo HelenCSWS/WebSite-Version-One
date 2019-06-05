@@ -1,0 +1,40 @@
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBResources\bin\Debug\CSWSWEBResources.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBResources\bin\Debug\CSWSWEBResources.pdb
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBResources\obj\Debug\CSWSWEBResources.csprojResolveAssemblyReference.cache
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBResources\obj\Debug\CSWSWEBResources.Resource.resources
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBResources\obj\Debug\CSWSWEBResources.csproj.GenerateResource.Cache
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBResources\obj\Debug\CSWSWEBResources.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBResources\obj\Debug\CSWSWEBResources.pdb
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBResources\bin\Debug\zh-HK\CSWSWEBResources.resources.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBResources\obj\Debug\CSWSWEBResources.Resource.zh-HK.resources
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBResources\obj\Debug\zh-HK\CSWSWEBResources.resources.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBResources\bin\Debug\fr-ca\CSWSWEBResources.resources.dll
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBResources\obj\Debug\CSWSWEBResources.Resource.fr-ca.resources
+J:\MVCPractice\CSWSWEBMVC\CSWSWEBResources\obj\Debug\fr-ca\CSWSWEBResources.resources.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\bin\Debug\CSWSWEBResources.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\bin\Debug\CSWSWEBResources.pdb
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\bin\Debug\fr-ca\CSWSWEBResources.resources.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\bin\Debug\zh-hk\CSWSWEBResources.resources.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.csprojResolveAssemblyReference.cache
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.Resource.resources
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.Resource.fr-ca.resources
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.Resource.zh-hk.resources
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.csproj.GenerateResource.Cache
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\fr-ca\CSWSWEBResources.resources.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\zh-hk\CSWSWEBResources.resources.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.dll
+J:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.pdb
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\bin\Debug\CSWSWEBResources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\bin\Debug\CSWSWEBResources.pdb
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\bin\Debug\fr-ca\CSWSWEBResources.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\bin\Debug\zh-hk\CSWSWEBResources.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.csprojAssemblyReference.cache
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.Resource.resources
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.Resource.fr-ca.resources
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.Resource.zh-hk.resources
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.csproj.GenerateResource.cache
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.csproj.CoreCompileInputs.cache
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\fr-ca\CSWSWEBResources.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\zh-hk\CSWSWEBResources.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSWEBResources\obj\Debug\CSWSWEBResources.pdb

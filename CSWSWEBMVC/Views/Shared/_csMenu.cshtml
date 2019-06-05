@@ -1,0 +1,79 @@
+﻿@model CSWSWEBMVC.Models.MenuItems
+@{string rootHref = @Model.RootHrefCulture;}
+
+<div class="container">
+    <div class="navbar navbar-default menu_holder" role="navigation">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="@rootHref"><img width="212" height="49" src="~/Images/@CSWSWEBResources.Resource.CSWSLogoImage"></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right menuUL">
+                    <li class="menuli"><a class="menuPortfolio" href="">@CSWSWEBResources.Resource.Portfolio</a></li>
+                    <li class="menuli"><a href="@rootHref/Gallery">@CSWSWEBResources.Resource.ArtGallery</a></li>
+                    <li class="menuli"><a href="@rootHref/Quote">@CSWSWEBResources.Resource.QuoteMenu</a></li>
+                    <li class="menuli"><a href="@rootHref/Newsletter">@CSWSWEBResources.Resource.Newsletter</a></li>
+
+                    @{
+                        if (Request.Cookies["user_session"] == null) // not signed in yet
+                        {
+                            <li class="menuli signin_menu">
+                                <a href="@Model.CSWSIndsutryHref/Account/SignIn">@CSWSWEBResources.Resource.Industry</a>
+                            </li>
+                        }
+                        else // signed in
+                        {
+                            <li class="dropdown menuli profile_menu">
+                                <a href="" class="entry_dropdown_toggle dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">@CSWSWEBResources.Resource.MyAccount</a>
+                                <ul class="dropdown-menu cs_dropdow_menu" role="menu">
+                                    <li>@Html.ActionLink(@CSWSWEBResources.Resource.Profile, "Profile", "Account")</li>
+
+                                    <li><a href="@Model.CSWSDomainHref" class="menuLogout">@CSWSWEBResources.Resource.LogOut</a></li>
+                                </ul>
+                            </li>
+                        }
+                    }
+                    <li class="dropdown menuli changelan">
+                        <a href="" class="entry_dropdown_toggle dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <table class="table_lang_icon">
+                                <tr>
+                                    <td class="td_lang_icon"><img class="img_lang_icon" src="~/images/btn_lang.png"></td>
+                                    <td>@Model.MenuItemParent<span class="caret"></span></td>
+                            </table>
+                        </a>
+                        <ul class="dropdown-menu cs_dropdow_menu" role="menu">
+                            <li>
+                                <a href="~/@Model.MenuItemSub_1_lanCode/SwitchLanguage">
+                                    <table>
+                                        <tr>
+                                            <td class="td_lang_icon td_lan_icon_leftspace"><img class="img_lang_icon" src="~/images/btn_lang.png"></td>
+                                            <td>@Model.MenuItemSub_1</td>
+                                        </tr>
+                                    </table>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="~/@Model.MenuItemSub_2_lanCode/SwitchLanguage">
+                                    <table>
+                                        <tr>
+                                            <td class="td_lang_icon td_lan_icon_leftspace "><img class="img_lang_icon" src="~/images/btn_lang.png"></td>
+                                            <td>@Model.MenuItemSub_2</td>
+                                        </tr>
+                                    </table>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+    </div><!--/navbar navbar-defaul -->
+</div><!-- container -->

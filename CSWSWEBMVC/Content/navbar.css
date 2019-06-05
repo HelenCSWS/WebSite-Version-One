@@ -1,0 +1,221 @@
+
+
+/* Version 1 style not in version 2 */
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.container-fluid > .navbar-header {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding-top: 0px;
+ /* vertical-align: center;*/
+}
+
+
+
+.menu-holder{
+background-color:white;
+opacity:0.92;
+z-index:999;
+}
+
+.transparent_menu{
+background-color:white;
+opacity:0.92;
+}
+
+.profile_menu{
+    display:none;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+----------[---------------------------------------- */
+
+.changelan{
+    letter-spacing:0px;
+}
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.home-icon{
+    padding:16px;
+  background-image:url('../images/bkgrdimgs/contactus.jpg'); 
+}
+
+
+
+/* Flip around the padding for proper display in narrow viewports */
+/*.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  
+
+}*/
+
+
+/*customize navbar */
+
+.navbar-inverse {
+	font-family: "Source Sans Pro", "Microsoft YaHei"; 
+    background-color: white;
+	border-color: white;
+   
+}
+
+
+/*version 1 still using in version 2*/
+
+
+.navbar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: black;
+    background-color: transparent;
+}
+
+.navbar-default {
+ 
+  margin-top:10px;
+  background-color: white; 
+  border-color: white;
+  
+  border:0px solid white;
+
+  
+  font-family: 'Source Sans Pro', "Microsoft YaHei"; 
+  
+}
+
+
+
+.navbar-nav > li > a{
+    text-align: center;
+}
+
+
+/*.navbar-collapse {
+  padding-right: 0px;
+  padding-left: 0px;
+ 
+}*/
+
+.menu-active > li > a {
+    color: #000;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #;
+    background-color: #FFF;
+}
+
+
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #DDD;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #DDD;
+}
+
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.cs_dropdow_menu{
+   
+    min-width:130px;
+}
+.td_lang_icon{
+    padding-right:6px;
+  
+}
+
+.td_lan_icon_leftspace{
+    padding-left:0px;
+    height:0px;
+}
+
+
+.img_lang_icon{
+    margin-bottom:3px;
+    height:16px;
+    width:16px;
+}
+
+.table_lang_icon{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+
+
+@media (max-width: 330px) {
+  .navbar {
+    width: 320px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 1024px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-brand,  .navbar-collapse {
+    padding-left: 30px;
+  }
+}
+
+.navbar-nav > li > a {
+  padding-left: 15px;
+  padding-right: 15px;
+}

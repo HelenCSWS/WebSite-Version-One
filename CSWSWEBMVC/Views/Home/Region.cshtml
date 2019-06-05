@@ -1,0 +1,57 @@
+﻿
+
+@{
+    ViewBag.Title = @CSWSWEBResources.Resource.Region;
+  
+    ViewBag.BKImagHolder = "";
+    Layout = "~/Views/Shared/_csLayout.cshtml";
+}
+@Styles.Render("~/Content/region.css")
+<div class="wrapper regionwraper">
+    <div class="region_bk background_img">
+        <div class="regionmap container"><img class="mapimage" src="~/images/maps/canada.png" /></div>
+        <!--div class="regions"-->
+        <div class="row region_row">
+            <div class="col-md-1 region_col_md_1 @CSWSWEBResources.Resource.CSSRegionCL1">
+                <div class="region_title">@CSWSWEBResources.Resource.Region</div>
+            </div>
+            <div class="col-md-4 region_col_md_4 @CSWSWEBResources.Resource.CSSRegionCL2">
+                <table class="region_names">
+                    <tr>
+                        <td><a id="bcmap" href="\" data-proid="1">@CSWSWEBResources.Resource.PRO_BC</a></td>
+                        <td><a id="abmap" href="\" data-proid="2">@CSWSWEBResources.Resource.PRO_AB</a></td>
+                        <td><a id="skmap" href="" data-proid="6">@CSWSWEBResources.Resource.PRO_SK</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-3 region_col_md_3 @CSWSWEBResources.Resource.CSSRegionCL3">
+                <table class="region_names ">
+                    <tr>
+                        <td><a id="mbmap" href="/" data-proid="3">@CSWSWEBResources.Resource.PRO_MB</a></td>
+                        <td><a id="onmap" href="/" data-proid="4">@CSWSWEBResources.Resource.PRO_ON</a></td>
+                        <td><a id="qbmap" href="/" data-proid="5">@CSWSWEBResources.Resource.PRO_QB</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-4 region_col_md_4 @CSWSWEBResources.Resource.CSSRegionCL4">
+                <table border="0" class="region_names">
+                    <tr>
+                        <td class="NB_name"><a id="nbmap" href="" data-proid="7">@CSWSWEBResources.Resource.PRO_NB</a></td>
+                        <td ><a id="nsmap" href="/" data-proid="8">@CSWSWEBResources.Resource.PRO_NS</a></td>
+                        <td class="hk_image"><img src="~/images/maps/vertical-line.png" /></td>
+                        <td>
+                            <div class="hongkong_image"><img src="~/images/maps/hongkong_thumbnail.png" /></div>
+                            <div class="@CSWSWEBResources.Resource.CSSHKNameHolder"><a id="hkmap" href="" data-proid="9">@CSWSWEBResources.Resource.PRO_HK</a></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div><!--<div class="row region_row">-->
+
+    </div><!--<div class="region_bk background_img">-->
+
+</div> <!-- /wrapper -->
+
+@Scripts.Render("~/js/region.js")
+
+

@@ -1,0 +1,446 @@
+.pro_wrapp{
+	width: 100%;
+	max-width: 1024px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	position: absolute;
+/*	top: 50%;*/
+	left: 50%;
+	-webkit-transform: translateX(-50%); 
+	transform: translateX(-50%);
+	font-family:'Titillium Web', sans-serif;
+	padding-top: 5%;
+}
+.pro_dis, .pro_btl{
+	display: inline-block;
+	vertical-align: top; 
+}
+.pro_btl{
+width:30%;
+padding-right: 15px;
+}
+.pro_btl img{
+	width: 90%;
+}
+
+
+.pro_dis{
+width: 50%;
+padding-left: 15px;
+}
+.line_white{
+border: 0.5px solid white;
+width: 100%;
+margin: 15px auto;
+}
+
+/*Font*/
+.pro_title,
+.pro_title_sub,
+.pro_name,
+.pro_info{
+	font-family:'Titillium Web', sans-serif;
+	color: white;
+	text-align: left;
+}
+
+.pro_title,
+.div_title{
+		font-size:27px;
+		font-weight: 400;
+		color: white;
+}
+.pro_title_sub,
+.div_title_sub{
+	font-size:32px;
+	font-weight: 700;
+	color: white;
+}
+.pro_name, .area_name{
+	font-size:27px;
+	font-weight: 700;
+	color: white;
+}
+
+.pro_info,
+.div_info{
+	font-size:16px;
+	font-weight: 400;
+	color: white;
+}
+
+
+/*Gin mare page */
+
+.pro_dis_gin{
+	display: inline-block;
+/*	margin-top: 15%;*/
+	vertical-align: top; 
+
+}
+.pro_dis_gin{
+	width:52%;
+}
+
+.pro_dis_gin{
+	position: absolute;
+	right:8.3%;
+}
+.btl_gin{
+	display: inline-block;
+	width: 900px;
+	margin-top: -50px;
+	vertical-align: top; 
+	z-index: 1;
+	margin-left: -55%;
+}
+
+.btl_gin img{
+	width: 95%;
+	z-index: 1;
+}
+
+.pro_trophy{
+display: inline-block;
+	width: 420px;
+	vertical-align: top; 
+	z-index: 1;
+	margin-left: -40px;
+}
+
+.pro_trophy img{
+	width: 90%;
+	z-index: 1;
+}
+
+/*bg */
+
+#bc_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/bc/csbkimg.jpg)center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+
+#ab_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/ab/cloud_bg.jpg) center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%; height: 100%;
+}
+#sk_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/sk/brio_bg.jpg) center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%; height: 100%;
+}
+
+
+#mb_bg{
+background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/mb/ginmare_bg_4.jpg) center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%; height: 100%;
+}
+
+#on_bg{
+background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/on/on_bg.jpg) center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%; height: 100%;
+
+}
+
+#qu_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/qu/rindo_bg.jpg) center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%; height: 100%;
+}
+
+#nb_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/atlantic/bastille_bg.jpg) center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%; height: 100%;
+}
+#ns_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/ns/killepitsch_bg.jpg) center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%; height: 100%;
+}
+#nl_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/nl/pojega_bg.jpg) center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+/*divided page*/
+.di_wrapp{
+	width: 77%;
+	max-width: 1024px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%); 
+	transform: translateX(-50%);
+	font-family:'Titillium Web', sans-serif;
+	padding-top: 4.5%;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.di_dis{
+	margin: 0 auto;
+}
+
+#west_container,
+#east_container{
+	display: block;
+	text-align: center;
+	margin: 20px auto 0 auto;
+}
+
+#west_canvas,
+#east_canvas{
+	width: 709px !important;
+	height: 456px !important;
+}
+#atlantic_container{
+	display: block;
+	text-align: center;
+	margin: 30px auto 0 auto;
+}
+#atlantic_canvas{
+	width:720px !important;
+	height:456px !important;
+}
+#asia_container{
+	display: block;
+	text-align: center;
+	margin: 30px auto 0 auto;
+	
+}
+#asia_canvas{
+	width:560px !important;
+	height:430px !important;
+}
+
+#west_overlay_container,
+#east_overlay_container,
+#asia_overlay_container{
+	vertical-align: top;
+	display: none;
+}
+
+#west_bg{
+background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/westernImage.jpg) center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-color: #2d9cb8;
+width: 100%;
+height: 100%;
+}
+#east{
+background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/easternImage.jpg)center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-color: #2d9cb8;
+width: 100%;
+height: 100%;
+}
+#at_bg{
+background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/atlanticImage.jpg) center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-color: #2d9cb8;
+width: 100%; height: 100%;
+}
+#cn_bg{
+background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/macauImage.jpg) center center ;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-color: #2d9cb8;
+width: 100%; height: 100%;
+}
+
+
+/*media page*/
+@media screen and (max-width:797px){
+	.pro_trophy{
+	width: 300px;
+	margin-left: -40px;
+}
+} 
+@media screen and (max-width:768px) {
+
+.pro_btl,.btl_gin, .pro_trophy{display: none;}
+.pro_dis{
+	width: 90%;
+	padding-left: 0;
+}
+.pro_dis_gin{
+	width: 90%;
+	right: 4%;
+}
+.pro_title,
+.pro_title_sub,
+.pro_name,
+.pro_info{
+	text-align: center !important;
+}
+#bc_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/bc/bc_smcover.jpg)center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#ab_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/ab/cloud_smbg.jpg)center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#sk_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/sk/brio_smbg.jpg)center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#mb_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/mb/ginmare_smbg.jpg)center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#on_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/on/on_bg_sm.jpg)center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#qu_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/qu/rindo_smbg.jpg)center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#nb_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/atlantic/bastille_sm_bg.jpg) center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#ns_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/ns/killepitsch_sm_bg.jpg) center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#nl_bg{
+	background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/nl/pojega_sm_bg.jpg) center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#west_container,
+#east_container,
+#atlantic_container,
+#asia_container{
+	margin: -10px auto 0 -30px;
+}
+}
+
+@media screen and (max-width:944px){
+
+ .div_title_sub,
+ .pro_title_sub,
+ .area_name{
+font-size:20px!important;
+} 
+.div_title{
+font-size:16px!important;
+}
+
+.pro_map{
+ 	width: 65%;
+ }
+#west_canvas,
+#east_canvas,
+ #atlantic_canvas,
+ #asia_canvas{
+	width:100% !important;
+	height: 100% !important;
+}
+
+}
+
+
+@media screen and (max-width:1064px) {
+
+.div_title_sub,
+.pro_title_sub{
+font-size:27px ;
+}
+
+
+}
+
+@media screen and (max-width:1323px){
+    .div_title{
+		font-size:19px;
+		font-weight: 400 !important;
+}
+.di_dis{
+	width: 80% !important;
+}
+	 .btl_gin img{
+		width: 80%;
+}
+    .pro_title{
+		font-size:19px!important;
+		font-weight: 400 !important;
+}
+}

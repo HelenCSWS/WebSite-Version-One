@@ -1,0 +1,345 @@
+/* Region page STYLES
+-------------------------------------------------- */
+.region_bk{
+	background-color: #f3f3f3;
+	text-align:center;
+}
+
+.mapimage{
+height:100%;
+width:100%;
+}
+
+/*.regions{	
+	height:40px;
+	width:1024px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:right;
+}*/
+
+/*.regions ul{
+ 
+	margin-left:auto;
+	margin-right:auto;
+	list-style: outside none none;
+}
+
+.regions li{
+ 
+float:left;
+}*/
+
+
+.regionmap{
+	padding-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.background_img {
+	width:100%;
+	height:607px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/*.imaqe_bk{
+	
+	padding-left:25px;
+	padding-right:25px;
+	height:607px;
+	width:100%;
+	background-color:#f3f3f3;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	opacity: 0.92;
+}*/
+/*.image_content {
+	height:552px;
+	width:426px;
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+
+}*/
+/*.image_title{
+margin-top:7px;
+margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size:9pt;
+}*/
+/*.a_hResImage{
+font-size:9pt;
+}*/
+
+/*.canada{
+	color:#8a2d29;
+	font-weight:700;
+	font-size:9pt;
+	
+}*/
+
+/*.space{
+	height:1px;
+}*/
+
+
+
+/*h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}*/
+
+/*.arealine {
+	margin-top:2px;
+	margin-bottom:8px;
+	border: 0;
+	height: 1px;
+	background: #C0C0C0;    
+}*/
+
+
+
+.region_row {
+margin-left:0px;
+margin-right:0px;
+}
+
+.col-md-5, .col-md-6{
+padding-left:0px;
+padding-right:0px;
+}
+
+
+
+.region_names a{
+ font-size:9pt;
+ text-decoration:none;
+ color:black;
+}
+
+.region_names a:hover{
+  color:#6892D0;
+}
+
+.region_names  td{
+    vertical-align:bottom;
+} 
+
+.region_title{
+    font-size:23pt;	 font-family: 'Source Sans Pro'; font-weight:100;
+    text-align:center;
+}
+
+.region_title, .col-md-1{
+    height:55px;
+    display:table-cell;
+    vertical-align:bottom;
+    padding-top:7px;
+}
+
+.hongkong_name_zh{
+    text-align:center;
+    padding-left:0px;
+}
+
+.region_col_md_4 tr td:last-child, .region_col_md_3 tr td:last-child {
+    text-align:right;
+}
+  .region_names{
+    width:100%;
+    float:left;
+    text-align:left;
+}
+@media (max-width: 991px) {
+    .background_img{
+        height: 607px;
+        padding-bottom:10px;
+    }
+    .region_title, .col-md-1{
+        height:45px;
+        padding-top:0px;
+    }
+    .row{
+        margin-top:-13px;
+    }
+    .hk_image, .hongkong_image {
+        display:none;
+    }
+	
+  
+	 .region_col_md_4 tr td:first-child, .region_col_md_3 tr td:first-child {
+        width:40%;
+    }
+	
+	.region_col_md_4 tr td:nth-child(2) , .region_col_md_3 tr td:nth-child(2) {
+        width:32%;
+    }
+	.region_col_md_4 tr td:nth-child(3) , .region_col_md_3 tr td:nth-child(3) {
+        width:28%;
+    }
+	
+	.region_col_md_4 tr td:last-child, .region_col_md_3 tr td:last-child {
+    text-align:left;
+}
+    .hongkong_name_zh
+    {
+        text-align:left;
+        padding-left:0px;
+    }
+	
+}
+
+@media (min-width: 992px) {
+	  .regionmap{
+	
+	height:500px;
+	
+}
+    
+
+    .region_col_md_3,.region_col_md_4,.region_col_md_1{
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .hk_image{
+        padding-left:0px;
+    }
+    .hongkong_image{
+        padding-left:0px;
+    }
+    .background_img{
+    height: 607px;
+    }
+    .region_names  td{
+        height:55px;
+    }
+     .region_col_md_3 tr td:first-child {
+        width:43%;
+    }
+     
+     /*multi lang start here*/
+    .region_col_1_en{
+        padding-left:15px;
+      
+        width:14%;
+    }
+    .region_col_2_en{
+        width:28%;
+    }
+
+    .region_col_3_en{
+        width:28%;
+        padding-left:40px;
+        padding-right:39px;
+    }
+    .region_col_4_en{
+        padding-right:17px;
+        width:30%;
+    }
+
+    .region_col_2_en tr td:first-child {
+        width:45%;
+    }   
+         .region_col_4_en tr td:first-child {
+        width:40%;
+    }   
+
+ .region_col_4_en tr td:last-child {  width:70px; }
+
+
+      
+       
+     .region_col_2_fr{
+        width:29%;
+    }
+    .region_col_3_fr{
+        width:24%;
+        padding-left:30px;
+        padding-right:29px; 
+    }
+    .region_col_4_fr{
+         padding-right:10px;
+        width:32%;
+    }
+  .region_col_2_fr tr td:first-child {
+        width:50%;
+    }   
+
+
+ .region_col_4_fr tr td:first-child {
+        width:42%;
+    }   
+
+ .region_col_4_fr tr td:last-child {
+     padding-left:5px;
+        width:20%;
+    }
+
+
+   .region_col_1_zh{     
+       padding-left:15px;
+        width:12%;
+      
+    }
+     .region_col_2_zh{
+       
+        width:29%;
+    }
+    .region_col_3_zh{
+        padding-left:40px;
+        padding-right:40px;
+        width:30%;
+ 
+    }
+    .region_col_4_zh{
+         padding-right:10px;
+        width:28%;
+    }
+  
+
+  .region_col_2_zh tr td:first-child {
+        width:46%;
+    }   
+   .region_col_3_zh tr td:first-child {
+        width:42%;
+    }   
+ 
+
+ .region_col_4_zh tr td:first-child {
+        width:40%;
+    }   
+
+ 
+ .region_col_4_zh tr td:last-child {
+     padding-left:5px;
+        width:20%;
+    }
+
+}
+
+@media (max-width: 332px) {
+    .container, .mapimage {
+        width: 332px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 1024px;
+    }
+}
+
+@media (min-width: 473px) {
+    .mapimage {
+        width: 473px;
+    }
+  
+
+}

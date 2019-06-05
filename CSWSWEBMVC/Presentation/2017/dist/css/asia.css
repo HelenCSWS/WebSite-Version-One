@@ -1,0 +1,132 @@
+#international_bg{
+background: url('https://rmssdstorage.blob.core.windows.net/www/Presentation/images/HKImage.jpg');
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 100%;
+}
+
+#hk_bg{
+        background: url('https://rmssdstorage.blob.core.windows.net/www/Presentation/images/hk_bg.jpg') center center;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 100%;
+}
+#ma_bg{
+        background: url('https://rmssdstorage.blob.core.windows.net/www/Presentation/images/ma_bg.jpg') center center;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 100%;
+}
+
+.down_Box_asia{
+text-align: center;
+background-color: #091b4a;
+padding: 30px 0 30px 0;
+color: white;
+width: 100%;
+margin: 0 auto ;
+ display: none;
+top: 0;
+}
+
+
+
+.blue_box{
+background-color: rgba(28, 79, 209,1);
+bottom: 0;
+margin: 0 auto;
+padding: 30px 0; 
+position: absolute;
+display: block;
+z-index: -1000;
+}
+
+p.blue_box_cont{
+color: white;
+margin: 0 auto;
+font-size: 19px;
+text-align: center;
+width: 60%;
+}
+
+.asia_title,
+.asia_title_sub{
+    font-family:'Titillium Web', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.asia_title{
+        font-size:27px;
+        font-weight: 700;
+}
+.asia_title_sub{
+    font-size:32px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:1323px){
+    .asia_title{
+        font-size:19px !important;
+        font-weight: 400 !important;
+      }
+      p.blue_box_cont{
+font-size: 16px;
+}
+}
+
+@media screen and (max-width:1064px) {
+
+.asia_title_sub{
+font-size:27px !important;
+}
+}@media screen and (max-width :768px){
+#hk_bg{
+        background: url('https://rmssdstorage.blob.core.windows.net/www/Presentation/images/hk_bg_sm.jpg') center center;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 100%;
+}
+#ma_bg{
+        background: url('https://rmssdstorage.blob.core.windows.net/www/Presentation/images/ma_bg_sm.jpg') center center;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 100%;
+}
+
+}
+
+@media screen and (max-width :740px){
+p.blue_box_cont{
+margin: 10px auto 10px auto;
+color: white;
+font-size: 15px;
+letter-spacing: 1;
+width: 80%;
+}
+
+#international_bg{
+	background: url('https://rmssdstorage.blob.core.windows.net/www/Presentation/images/HKImage2.jpg') center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-color: #058aef;
+}
+.blue_box{
+top: 0;
+margin: 400px auto 0 auto;
+height: 57%;
+}
+}
+

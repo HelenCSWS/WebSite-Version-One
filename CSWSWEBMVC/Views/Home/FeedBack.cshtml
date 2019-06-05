@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = @CSWSWEBResources.Resource.FeedBack;
+    ViewBag.BKImagHolder = "<div class=\"background_image_holder feedback_img\">";
+    Layout = "~/Views/Shared/_csLayout.cshtml";
+}
+
+
+
+<div class="content feedback_opactiy">
+
+    <span class="title  @CSWSWEBResources.Resource.CSSTitleFontSize">@CSWSWEBResources.Resource.FeedBack</span>
+    <div style="height:2px;"></div>
+    <p>@CSWSWEBResources.Resource.FeedBKContent_1</p>
+    <p>@CSWSWEBResources.Resource.FeedBKContent_2</p>
+    <p>@CSWSWEBResources.Resource.FeedBKContent_3</p>
+    <span class="controltext">@CSWSWEBResources.Resource.FeedBKSubmission</span>
+    <div style="height:10px;"></div>
+    <form id="fm_feedback" class="pageForm">
+        <table class="controltext">
+            <tr ><td class="td_input_caption">@CSWSWEBResources.Resource.Name<span class="requiredstar">*</span></td><td ><input id="visitorname" name="visitorname" class="pages_inputs" maxlength="25"  placeholder=@CSWSWEBResources.Resource.Name oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterName')" oninput="setCustomValidity('')" required /> </td></tr>
+            <tr><td class="td_input_caption td_input_top_space" >@CSWSWEBResources.Resource.Email<span class="requiredstar">*</span></td><td class="td_input_top_space"><input type="email" id="emailaddress" name="emailaddress" class="pages_inputs" maxlength="50" placeholder="@CSWSWEBResources.Resource.EmailAddress" title="@CSWSWEBResources.Resource.EmailAddress" required oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseEnterValidEmail')" oninput="setCustomValidity('')" /> </td></tr>
+        </table>
+
+        <!--span class="controltext">Email: </span><span style="padding-left:14px;"><input  class="feedback_inputs" /></span-->
+        <div style="height:18px;"></div>
+        <div style="height:150px;">
+            <span class="controltext">@CSWSWEBResources.Resource.FDBKComments<span class="requiredstar">*</span> </span><br><span style="padding-left:0px;"><textarea name="comments" type="text" class="feedback_textarea pages_inputs" id="fdbkcontent" maxlength="550" required placeholder="@CSWSWEBResources.Resource.FeedBack"  oninvalid="setCustomValidity('@CSWSWEBResources.Resource.PleaseFillComment')" oninput="setCustomValidity('')"></textarea></span>
+        </div>
+        <div><p><input id="isSend" name="isSend" type="checkbox" checked class="sendCheckbox" /> &nbsp;<span>@CSWSWEBResources.Resource.SendMeNews</span><br><span style="padding-left:20px;">@CSWSWEBResources.Resource.YouCanUnSub</span></p></div>
+        <div style="height:10px;"></div>
+        <input name="isSubscribe" type="hidden" id="isSubscribe" value="1">
+        <input class="culture_code" name="culture_code" id="culture_code" type="hidden" value="en-ca" />
+        <div> <button type="submit" class="btn btn-xs btn-danger btn_submit" id="feedback_submit">@CSWSWEBResources.Resource.Submit</button></div>
+
+    </form>
+</div><!--div class="content"-->

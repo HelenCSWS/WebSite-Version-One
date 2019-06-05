@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Christopher Stewart Wine &amp; Spirits</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="dist/css/swiper.css"> 
+    <!-- Style Sheet CSS -->
+ <link rel="stylesheet" href="dist/css/intro.css">
+ <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/province.css">
+ <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+function fromAt(){
+    var at_data = location.search.substring(1, location.search.length);
+    at_data = unescape(at_data);
+    if(at_data == 7){
+    swiper.slideTo(7,1,false);
+    // swiper.slideTo($(this).attr('data-slide-index'));
+    }
+    else{
+    swiper.off(false);
+    }
+}  
+// var swiper = new Swiper(...);
+// $('a[data-slide-index]').on('click', function () { swiper.slideTo($(this).attr('data-slide-index')); });
+</script>
+</head>
+<body onload="westPlay(); fromAt();">
+<div class="swiper-container">
+        <div class="swiper-wrapper">
+<!-- ////////// West ///////////// -->              
+                <div class="swiper-slide" id="west_bg">
+                <div class="swiper-button-next swiper-button-white"></div>
+                      <div class="arrows">
+                     <a href="coverage.html"><div class="arrow_l" ></div></a>
+                     </div>
+                <div class="di_wrapp">
+                <div class="di_dis">
+                    <div class="div_title">Christopher Stewart Wine &amp; Sprits</div>
+                         <div class="div_title_sub">Provincial Sales Management</div>
+                        <div class="line_white"></div>
+                        <div class="area_name">Western Canada</div>
+                        <p class="div_info">Western Canada (British Columbia, Alberta, Saskatchewan, and Manitoba) is an extremely diversified market with four completely different systems supporting the sales of Wine and Spirits across these provinces.</p>
+                </div>
+                    <div id="west_container" >
+                        <canvas id="west_canvas" width="886" height="570"></canvas>
+                        <div id="west_overlay_container" style="display: none;"></div>
+                    </div>
+                    </div>
+                     
+                </div> 
+ <!-- ////////// End West  ///////////// -->    
+ <!-- ////////// BC ///////////// -->
+             <div class="swiper-slide" id="bc_bg"> 
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white" onclick="westPlay();" ></div>
+                    <div class="pro_wrapp">
+                        <div class="pro_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/bc/wineBottle.png" />
+                        </div>
+                        <div class="pro_dis">
+                            <div class="pro_title">Christopher Stewart Wine &amp; Sprits</div>
+                             <div class="pro_title_sub">Provincial Sales Management</div>
+                            <div class="line_white"></div>
+                            <img class="pro_map" src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/maps/bc_map.svg" >
+                            <div class="pro_name">British Columbia</div>
+                            <p class="pro_info">
+                                In British Columbia we find Canada’s largest split market between government retail stores (200+) and private retail stores (700+). This requires a well-managed sales effort consisting of cross selling and servicing the BC Liquor Distribution Branch (BCLDB) stores, on premise accounts and private retail store accounts.
+                            </p>
+                            <div class="sm_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/bc/Landlust_btl.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- ////////// End BC ///////////// -->
+<!-- ////////// AB ///////////// -->
+            <div class="swiper-slide" id="ab_bg">
+                <div class="pro_wrapp">
+                        <div class="pro_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/ab/cloud_btl.png" />
+                        </div>
+                        <div class="pro_dis">
+                            <div class="pro_title">Christopher Stewart Wine &amp; Sprits</div>
+                            <div class="pro_title_sub">Provincial Sales Management</div>
+                            <div class="line_white"></div>
+                            <img class="pro_map" src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/maps/ab_map.svg" >
+                            <div class="pro_name">Alberta</div>
+                            <p class="pro_info">
+                               Alberta is Canada’s only 100% privately controlled retails sales province. In this market we have a full complement of sales consultants in both Edmonton (Alberta North) and Calgary (Alberta South) serving retailers, on-premise accounts, and fine wine and spirit stores. 
+                            </p>
+                            <div class="sm_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/ab/cloud_btl_small.png"/>
+                            </div>
+                        </div>
+                </div>
+                     <div class="swiper-button-next swiper-button-white" ></div>
+                     <div class="swiper-button-prev swiper-button-white" ></div>   
+            </div>
+<!-- ////////// End AB ///////////// -->
+<!-- ////////// SK ///////////// -->
+            <div class="swiper-slide" id="sk_bg">
+                   <div class="pro_wrapp">
+                        <div class="pro_btl">
+                            <img src="images/brio_btl.png" />
+                        </div>
+                        <div class="pro_dis">
+                            <div class="pro_title">Christopher Stewart Wine &amp; Sprits</div>
+                            <div class="pro_title_sub">Provincial Sales Management</div>
+                            <div class="line_white"></div>
+                            <img class="pro_map" src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/maps/sk_map.svg" >
+                            <div class="pro_name">Saskatchewan</div>
+                            <p class="pro_info">
+                              The Saskatchewan market is primarily controlled by the Government (SLGA) with almost all liquor sales going through Government stores; however starting in 2018 the Government has licensed 60+ private stores across the province. This will make the province the second largest in it's split channels between Government stores and Private stores after British Columbia. We support this market with in-market representation.
+                            </p>
+                            <div class="sm_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/sk/brio_btl_small.png"/>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="swiper-button-next swiper-button-white"></div>
+                     <div class="swiper-button-prev swiper-button-white" ></div>
+           </div>
+<!-- ////////// End SK ///////////// -->
+<!-- ////////// MB ///////////// -->
+            <div class="swiper-slide" id="mb_bg">
+                    <div class="swiper-button-next swiper-button-white" onclick="eastPlay();"></div>
+                     <div class="swiper-button-prev swiper-button-white" ></div>
+                   <div class="pro_wrapp">
+                        <div class="btl_gin">
+                            <img src="images/gin_btl.png" />
+                        </div>
+                            <div class="pro_dis_gin">
+                                <div class="pro_title">Christopher Stewart Wine &amp; Sprits</div>
+                                <div class="pro_title_sub">Provincial Sales Management</div>
+                                <div class="line_white"></div>
+                                <img class="pro_map" src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/maps/mb_map.svg" >
+                                <div class="pro_name">Manitoba</div>
+                                <p class="pro_info">
+                                  Manitoba is a similar market system to British Columbia with 50+ Government stores and eight private wine stores. The Government (MBLL) allows these private wine stores to sell directly to on-premise accounts (in British Columbia private retails cannot sell to on-premise accounts by law). While there are only eight private wine stores in Manitoba, the ability to sell to on-premise accounts makes them a very important part of the market. Christopher Stewart has it's own sale representation in Manitoba and we have a superb relationship with both the MBLL and the eight private wine stores. 
+                                </p>
+                                <div class="sm_btl"><img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/mb/ginmare_btl_small.png"/></div>
+                            </div>                
+                    </div>
+              </div>
+<!-- ////////// End MB ///////////// -->
+<!-- ////////// East ///////////// -->
+        <div class="swiper-slide" id="east">
+                <div class="di_wrapp">
+                    <div class="di_dis">
+                       <div class="div_title">Christopher Stewart Wine &amp; Sprits</div>
+                         <div class="div_title_sub">Provincial Sales Management</div>
+                        <div class="line_white"></div>
+                        <div class="area_name">Eastern Canada</div>
+                        <p class="div_info">
+                        Eastern Canada (Ontario and Quebec) constitutes over 60% of all Alcoholic beverage sales in the Canadian market place.
+                    </p>
+                    </div>
+                    <div id="east_container" >
+                        <canvas id="east_canvas" width="886" height="570"></canvas>
+                        <div id="east_overlay_container" style="display: none;"></div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev swiper-button-white"></div>  
+               <div class="swiper-button-next swiper-button-white"></div> 
+            </div>                 
+ <!-- ////////// End east  ///////////// -->
+ <!-- ////////// ON ///////////// -->
+               <div class="swiper-slide" id="on_bg"   >
+                    <div class="pro_wrapp">
+                        <div class="pro_trophy">
+                            <img src="images/trophy.png" />
+                        </div>
+                        <div class="pro_dis">
+                            <div class="pro_title">Christopher Stewart Wine &amp; Sprits</div>
+                             <div class="pro_title_sub">Provincial Sales Management</div>
+                            <div class="line_white"></div>
+                            <img class="pro_map" src="images/ON_map.svg" >
+                            <div class="pro_name">Ontario </div>
+                            <p class="pro_info">
+                                Ontario (LCBO) is the largest single alcohol purchaser in the world with 600+ stores and 200+ privately owned rural agency stores. In 2017 they announced a plan to introduce 150+ private supermarkets for the resale of wines through 2018. The LCBO has two primary purchasing methods; Vintages tenders for one time buys and LCBO tenders for General Listings. We have full sales coverage for the market and maintain an excellent relationship with the LCBO. In 2017 we were awarded an LCBO ELSIE Award for the "Best Food &amp; Drink Wine" launch of the year.  
+                            </p>
+                            <div class="sm_btl">
+                            <img src="images/trophy_sm.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white" onclick="eastPlay();"></div> 
+            </div>
+<!-- ////////// End ON ///////////// -->
+ <!-- ////////// QC ///////////// -->
+             <div class="swiper-slide" id="qu_bg" data-slide-index="7"> 
+                    <div class="pro_wrapp">
+                        <div class="pro_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/qu/rindo_btl.png" />
+                        </div>
+                        <div class="pro_dis">
+                            <div class="pro_title">Christopher Stewart Wine &amp; Sprits</div>
+                             <div class="pro_title_sub">Provincial Sales Management</div>
+                            <div class="line_white"></div>
+                            <img class="pro_map" src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/maps/qu_map.svg" >
+                            <div class="pro_name">Québec</div>
+                            <p class="pro_info">                               
+                            The Société des alcools du Québec (SAQ) has a total of 400+ stores throughout Québec and is the second largest purchaser of Alcohol in Canada. There are also 8,000+ grocers that are allowed sell “Vins de Qualité Certifiée” (VQC) which are primarily wines produced in Québec or from international bulk wines packaged in Québec. The SAQ purchases primarily through two major programs; Sélection tenders for one time buys and Classique tenders for general and seasonal Listings. Christopher Stewart has it's own sales representation in the province.
+                            </p>
+                            <div class="sm_btl">
+                            <img src="https://rmssdstorage.blob.core.windows.net/www/Presentation/images/qu/rindo_btl_small.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrows" style="left: 100%;">  
+                    <a href="atlantic-end.html"><div class="arrow_r"></div></a>
+                    </div>
+                    <div class="swiper-button-prev swiper-button-white"></div> 
+            </div>
+<!-- ////////// End QC ///////////// --> 
+    </div>
+    </div>
+    <script src="dist/js/swiper.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    spaceBetween: 30,
+    effect: 'fade',
+    initialSlide: 0,
+    loop: false,
+    });
+</script>
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<!-- Animation West  -->
+<script src="western.js"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, west_fnStartAnimation;
+function westPlay() {
+    canvas = document.getElementById("west_canvas");
+    anim_container = document.getElementById("west_container");
+    dom_overlay_container = document.getElementById("west_overlay_container");
+    var comp=AdobeAn.getComposition("79CE66D4C8CE4CF5902622A9F6386E70");
+    var lib=comp.getLibrary();
+    west_handleComplete({},comp);
+}
+function west_handleComplete(evt,comp) {
+    var lib=comp.getLibrary();
+    var ss=comp.getSpriteSheet();
+    exportRoot = new lib.western();
+    stage = new lib.Stage(canvas);
+    stage.addChild(exportRoot); 
+    west_fnStartAnimation = function() {
+        createjs.Ticker.setFPS(lib.properties.fps);
+        createjs.Ticker.addEventListener("tick", stage);
+    }       
+    function makeResponsive(isResp, respDim, isScale, scaleType) {      
+        var lastW, lastH, lastS=1;      
+        window.addEventListener('resize', resizeCanvas);        
+        resizeCanvas();     
+        function resizeCanvas() {           
+            var w = lib.properties.width, h = lib.properties.height;            
+            var iw = window.innerWidth, ih=window.innerHeight;          
+            var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;          
+            if(isResp) {                
+                if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+                    sRatio = lastS;                
+                }               
+                else if(!isScale) {                 
+                    if(iw<w || ih<h)                        
+                        sRatio = Math.min(xRatio, yRatio);              
+                }               
+                else if(scaleType==1) {                 
+                    sRatio = Math.min(xRatio, yRatio);              
+                }               
+                else if(scaleType==2) {                 
+                    sRatio = Math.max(xRatio, yRatio);              
+                }           
+            }           
+            canvas.width = w*pRatio*sRatio;         
+            canvas.height = h*pRatio*sRatio;
+            canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';               
+            canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
+            stage.scaleX = pRatio*sRatio;           
+            stage.scaleY = pRatio*sRatio;           
+            lastW = iw; lastH = ih; lastS = sRatio;     
+        }
+    }
+    makeResponsive(true,'both',false,1);    
+    AdobeAn.compositionLoaded(lib.properties.id);
+    west_fnStartAnimation();
+}   
+
+</script>
+<script src="eastern.js"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function eastPlay() {
+    canvas = document.getElementById("east_canvas");
+    anim_container = document.getElementById("east_container");
+    dom_overlay_container = document.getElementById("east_overlay_container");
+    east_handleComplete();
+}
+function east_handleComplete() {
+    //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+    exportRoot = new lib.eastern();
+    stage = new createjs.Stage(canvas);
+    stage.addChild(exportRoot); 
+    //Registers the "tick" event listener.
+    east_fnStartAnimation = function() {
+        createjs.Ticker.setFPS(lib.properties.fps);
+        createjs.Ticker.addEventListener("tick", stage);
+    }       
+    //Code to support hidpi screens and responsive scaling.
+    function makeResponsive(isResp, respDim, isScale, scaleType) {      
+        var lastW, lastH, lastS=1;      
+        window.addEventListener('resize', resizeCanvas);        
+        resizeCanvas();     
+        function resizeCanvas() {           
+            var w = lib.properties.width, h = lib.properties.height;            
+            var iw = window.innerWidth, ih=window.innerHeight;          
+            var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;          
+            if(isResp) {                
+                if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+                    sRatio = lastS;                
+                }               
+                else if(!isScale) {                 
+                    if(iw<w || ih<h)                        
+                        sRatio = Math.min(xRatio, yRatio);              
+                }               
+                else if(scaleType==1) {                 
+                    sRatio = Math.min(xRatio, yRatio);              
+                }               
+                else if(scaleType==2) {                 
+                    sRatio = Math.max(xRatio, yRatio);              
+                }           
+            }           
+            canvas.width = w*pRatio*sRatio;         
+            canvas.height = h*pRatio*sRatio;
+            canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';               
+            canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
+            stage.scaleX = pRatio*sRatio;           
+            stage.scaleY = pRatio*sRatio;           
+            lastW = iw; lastH = ih; lastS = sRatio;     
+        }
+    }
+    makeResponsive(true,'both',false,1);    
+    east_fnStartAnimation();
+}
+</script>
+
+</body>
+</html>

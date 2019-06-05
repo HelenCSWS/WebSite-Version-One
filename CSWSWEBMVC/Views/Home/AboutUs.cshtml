@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = @CSWSWEBResources.Resource.AboutUs;
+    ViewBag.BKImagHolder = "<div class=\"background_image_holder about_us_img\">";
+    Layout = "~/Views/Shared/_csLayout.cshtml";
+ }
+       @Styles.Render("~/Content/aboutus.css")
+
+
+        <div class="abtUsTxtContent">
+            <div class="abtUsTop">
+                <span class="title @CSWSWEBResources.Resource.CSSTitleFontSize">@CSWSWEBResources.Resource.AboutUs</span>
+                <div style="height:2px;"></div>
+                <p class="aboutus_content">@CSWSWEBResources.Resource.AboutContent_1</p>
+                <p class="aboutus_content">@CSWSWEBResources.Resource.AboutContent_2</p>
+                <p class="aboutus_content">@CSWSWEBResources.Resource.AboutContent_3</p>
+            </div>
+            <div><img class="abtUS_companyImg" src="~/images/bkgrdimgs/aboutus-map.png"></div>
+            <div class="abtUsBottom">
+                <div class="abtUS_companyInfo">@CSWSWEBResources.Resource.CSWS</div>
+                <div class="abtUS_companySlogan">@CSWSWEBResources.Resource.BringTheBest</div>
+            </div>
+        </div> <!-- /abtUsTxtContent -->
+

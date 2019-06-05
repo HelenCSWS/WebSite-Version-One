@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSWSWEBMVC", "CSWSWEBMVC\CSWSWEBMVC.csproj", "{9200E2C8-8E9B-475E-80C8-51E40D660197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSWSWEBResources", "CSWSWEBResources\CSWSWEBResources.csproj", "{0A2F7E5F-FA43-4646-8041-2C1E5B7F0F77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSWS_Conponent", "CSWS_Conponent\CSWS_Conponent\CSWS_Conponent.csproj", "{AE7EFC6A-EE08-42BC-BEC1-5A47596F94E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9200E2C8-8E9B-475E-80C8-51E40D660197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9200E2C8-8E9B-475E-80C8-51E40D660197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9200E2C8-8E9B-475E-80C8-51E40D660197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9200E2C8-8E9B-475E-80C8-51E40D660197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2F7E5F-FA43-4646-8041-2C1E5B7F0F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2F7E5F-FA43-4646-8041-2C1E5B7F0F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2F7E5F-FA43-4646-8041-2C1E5B7F0F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2F7E5F-FA43-4646-8041-2C1E5B7F0F77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7EFC6A-EE08-42BC-BEC1-5A47596F94E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7EFC6A-EE08-42BC-BEC1-5A47596F94E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7EFC6A-EE08-42BC-BEC1-5A47596F94E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7EFC6A-EE08-42BC-BEC1-5A47596F94E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

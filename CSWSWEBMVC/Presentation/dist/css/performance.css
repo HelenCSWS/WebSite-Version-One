@@ -1,0 +1,185 @@
+.per_wrapp{
+width: 100%;
+	max-width: 1024px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	position: absolute;
+/*	top: 50%;*/
+	left: 50%;
+	-webkit-transform: translateX(-50%); 
+	transform: translateX(-50%);
+	font-family:'Titillium Web', sans-serif;
+	padding-top: 5%;
+}
+
+.tree_container{
+	display:block;
+        width:100%;
+        height:auto!important;
+        text-align: center;
+        margin: 0 auto;
+}
+.tree_container{
+	max-width: 700px;
+}
+.tree_container svg{
+	 width:100%;
+        height:auto!important;
+        max-height:100%
+}
+
+.per_contents{
+width: 80%;
+text-align: center;
+margin: 0 auto;
+}
+
+#per_bg{
+		background:url(https://rmssdstorage.blob.core.windows.net/www/Presentation/images/blue_bg.jpg) center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.per_title,
+.per_title_sub,
+.per_info{
+	font-family:'Titillium Web', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.per_title{
+		font-size:27px;
+		font-weight: 700;
+}
+.per_title_sub{
+	font-size:32px;
+	font-weight: 700;
+}
+
+.per_info{
+font-size:16px;
+	font-weight: 400;
+}
+
+#chart {
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+}
+
+
+#chart #bars {
+  width: 500px;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+}
+
+#chart #bars li {
+  display: table-cell;
+  width: 60px;
+  height: 300px;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+#chart #bars li .bar {
+  display: block;
+  width: 50px;
+  background: red;
+  position: absolute;
+  bottom: 0;
+}
+
+
+#chart #bars li span {
+  color: #eee;
+  width: 100%;
+  position: absolute;
+  bottom: -2em;
+  left: 0;
+  text-align: center;
+  margin-left: -5px;
+
+}
+@media screen and (max-width:540px){
+	/*#chart {
+		width: 300px !important;
+	}
+#chart #bars {
+  width: 300px ;
+   margin: 0 auto;
+   text-align: center;
+}
+#chart #bars li{
+	 height: 200px;
+}
+#chart #bars li .bar{
+  width: 30px;
+}
+#chart #bars li span{
+font-size: 14px;
+}*/
+}
+@media screen and (max-width:768px) {
+#per_canvas, #per_container{
+display: block;
+margin: 0 auto; 
+padding: 10px; 
+}
+
+}
+@media screen and (max-width:944px){
+.per_contents{
+
+margin-top: 15%;
+}
+#per_container{
+	margin-top: 20px;
+	padding: 10px; 
+}
+.per_title,
+.per_title_sub,
+.per_info
+{
+	text-align: center !important;
+}
+.per_title_sub{
+font-size:22px !important;
+}
+.per_wrapp{
+	width: 95%;
+	padding-top: 0%;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	height: auto;
+	-webkit-transform: translate(0%, 0%); 
+	transform: translate(0%, 0%);
+	margin: 0 auto;
+}
+}
+
+
+
+
+@media screen and (max-width:1064px) {
+.per_title_sub{
+font-size:27px;
+}
+
+}
+
+@media screen and (max-width:1323px){
+
+	    .per_title{
+		font-size:19px !important;
+		font-weight: 400 !important;
+}
+}

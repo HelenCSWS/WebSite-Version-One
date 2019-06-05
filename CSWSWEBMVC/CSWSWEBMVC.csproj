@@ -1,0 +1,1013 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9200E2C8-8E9B-475E-80C8-51E40D660197}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSWSWEBMVC</RootNamespace>
+    <AssemblyName>CSWSWEBMVC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.9.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=__MvcPagesVersion__, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.2\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.2\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.2\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.2\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.2\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.1.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.1.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.1.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.0\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.0\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\mAccountController.cs" />
+    <Compile Include="Controllers\AccountProfileController.cs" />
+    <Compile Include="Controllers\AccountSessionController.cs" />
+    <Compile Include="Controllers\AddingFieldValueController.cs" />
+    <Compile Include="Controllers\CheckUserController.cs" />
+    <Compile Include="Controllers\CSWSCommController.cs" />
+    <Compile Include="Controllers\FeedBackController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\NewsLetterController.cs" />
+    <None Include="Controllers\ProvinceInfoController.bak" />
+    <Compile Include="Controllers\QuoteDetailsController.cs" />
+    <Compile Include="Controllers\QuotesController.cs" />
+    <Compile Include="Controllers\ReSetAccountController.cs" />
+    <Compile Include="Controllers\ShareGalleryController.cs" />
+    <Compile Include="Controllers\SignAccountController.cs" />
+    <Compile Include="Controllers\UpdateProfileController.cs" />
+    <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="CSWSBAL\CSWSCommBAL.cs" />
+    <Compile Include="CSWSBAL\MenuItemsBAL.cs" />
+    <Compile Include="CSWSBAL\NewsLetterBAL.cs" />
+    <Compile Include="CSWSBAL\ProvinceInfoBAL.cs" />
+    <Compile Include="CSWSBAL\QuoteBAL.cs" />
+    <Compile Include="CSWSBAL\ShareGalleryBAL.cs" />
+    <Compile Include="CSWSBAL\SignAccountBAL.cs" />
+    <Compile Include="CSWSDataAccesse\AddingFieldValueDAL.cs" />
+    <Compile Include="CSWSDataAccesse\CSWSCommDAL.cs" />
+    <Compile Include="CSWSDataAccesse\DBConnection.cs" />
+    <Compile Include="CSWSDataAccesse\NewsLetterDAL.cs" />
+    <Compile Include="CSWSDataAccesse\ProvinceInfoDAL.cs" />
+    <Compile Include="CSWSDataAccesse\QuoteDAL.cs" />
+    <Compile Include="CSWSDataAccesse\ShareGalleryDAL.cs" />
+    <Compile Include="CSWSDataAccesse\SignAccountDAL.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\CultureHelper.cs" />
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AddingFieldValue.cs" />
+    <Compile Include="Models\FeedBack.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MenuItems.cs" />
+    <Compile Include="Models\NewsLetter.cs" />
+    <Compile Include="Models\TerritoriesInfo.cs" />
+    <Compile Include="Models\Quote.cs" />
+    <Compile Include="Models\QuoteFilter.cs" />
+    <Compile Include="Models\ShareGallery.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+    <Content Include="Images\Portfolio\1.jpg" />
+    <Content Include="Images\Portfolio\10.jpg" />
+    <Content Include="Images\Portfolio\11.jpg" />
+    <Content Include="Images\Portfolio\12.jpg" />
+    <Content Include="Images\Portfolio\2.jpg" />
+    <Content Include="Images\Portfolio\3.jpg" />
+    <Content Include="Images\Portfolio\4.jpg" />
+    <Content Include="Images\Portfolio\5.jpg" />
+    <Content Include="Images\Portfolio\6.jpg" />
+    <Content Include="Images\Portfolio\7.jpg" />
+    <Content Include="Images\Portfolio\8.jpg" />
+    <Content Include="Images\Portfolio\9.jpg" />
+    <Content Include="Images\welcome\portfolio\1.jpg" />
+    <Content Include="Images\welcome\portfolio\10.jpg" />
+    <Content Include="Images\welcome\portfolio\11.jpg" />
+    <Content Include="Images\welcome\portfolio\12.jpg" />
+    <Content Include="Images\welcome\portfolio\2.jpg" />
+    <Content Include="Images\welcome\portfolio\3.jpg" />
+    <Content Include="Images\welcome\portfolio\4.jpg" />
+    <Content Include="Images\welcome\portfolio\5.jpg" />
+    <Content Include="Images\welcome\portfolio\6.jpg" />
+    <Content Include="Images\welcome\portfolio\7.jpg" />
+    <Content Include="Images\welcome\portfolio\8.jpg" />
+    <Content Include="Images\welcome\portfolio\9.jpg" />
+    <Content Include="Views\Account\SignIn.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="changeprofileinfo.html" />
+    <Content Include="Content\aboutus.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.bak.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\carousel.css" />
+    <Content Include="Content\combo.css" />
+    <Content Include="Content\demo.css" />
+    <Content Include="Content\gbstyle.css" />
+    <Content Include="Content\index.css" />
+    <Content Include="Content\jcarousel.connected-carousels.css" />
+    <Content Include="Content\jquery-confirm.css" />
+    <Content Include="Content\jquery.selectBoxIt.css" />
+    <Content Include="Content\navbar.css" />
+    <Content Include="Content\newsletter.css" />
+    <Content Include="Content\pagestyle.css" />
+    <Content Include="Content\quote.css" />
+    <Content Include="Content\region.css" />
+    <Content Include="Content\reset.css" />
+    <Content Include="Content\share.css" />
+    <Content Include="Content\signup.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="Content\welcome.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="imagedownload.asp" />
+    <Content Include="Images\accent.png" />
+    <Content Include="Images\Address-bar-icon.png" />
+    <Content Include="Images\Address-bar.ico" />
+    <Content Include="Images\arrow_left.png" />
+    <Content Include="Images\arrow_next.jpg" />
+    <Content Include="Images\arrow_prev.jpg" />
+    <Content Include="Images\arrow_right.png" />
+    <Content Include="Images\bkgrdimgs\aboutus-map.png" />
+    <Content Include="Images\bkgrdimgs\aboutus.jpg" />
+    <Content Include="Images\bkgrdimgs\bg_about.jpg" />
+    <Content Include="Images\bkgrdimgs\bg_aboutsTxt.png" />
+    <Content Include="Images\bkgrdimgs\bg_contact.jpg" />
+    <Content Include="Images\bkgrdimgs\bg_feedback.jpg" />
+    <Content Include="Images\bkgrdimgs\bg_newsletter.jpg" />
+    <Content Include="Images\bkgrdimgs\bg_share.jpg" />
+    <Content Include="Images\bkgrdimgs\contactus.jpg" />
+    <Content Include="Images\bkgrdimgs\feedback.jpg" />
+    <Content Include="Images\bkgrdimgs\newsletter.jpg" />
+    <Content Include="Images\bkgrdimgs\portfolio.jpg" />
+    <Content Include="Images\bkgrdimgs\ps-button.png" />
+    <Content Include="Images\bkgrdimgs\quote-high.jpg" />
+    <Content Include="Images\bkgrdimgs\quote.jpg" />
+    <Content Include="Images\bkgrdimgs\share.jpg" />
+    <Content Include="Images\bkgrdimgs\signin.jpg" />
+    <Content Include="Images\bkgrdimgs\signin_large.jpg" />
+    <Content Include="Images\bkgrdimgs\signup.jpg" />
+    <Content Include="Images\btn_fb_dark.png" />
+    <Content Include="Images\btn_fb_light.png" />
+    <Content Include="Images\btn_map_dark.png" />
+    <Content Include="Images\btn_map_light.png" />
+    <Content Include="Images\btn_twitter_dark.png" />
+    <Content Include="Images\btn_twitter_light.png" />
+    <Content Include="Images\bullet.png" />
+    <Content Include="Images\covers\2012\img10.jpg" />
+    <Content Include="Images\covers\2012\img10_thumb.jpg" />
+    <Content Include="Images\covers\2012\img11.jpg" />
+    <Content Include="Images\covers\2012\img11_thumb.jpg" />
+    <Content Include="Images\covers\2012\img12.jpg" />
+    <Content Include="Images\covers\2012\img12_thumb.jpg" />
+    <Content Include="Images\covers\2012\img9.jpg" />
+    <Content Include="Images\covers\2012\img9_thumb.jpg" />
+    <Content Include="Images\covers\2013\img1.jpg" />
+    <Content Include="Images\covers\2013\img10.jpg" />
+    <Content Include="Images\covers\2013\img10_thumb.jpg" />
+    <Content Include="Images\covers\2013\img11.jpg" />
+    <Content Include="Images\covers\2013\img11_thumb.jpg" />
+    <Content Include="Images\covers\2013\img12.jpg" />
+    <Content Include="Images\covers\2013\img12_thumb.jpg" />
+    <Content Include="Images\covers\2013\img13.jpg" />
+    <Content Include="Images\covers\2013\img13_thumb.jpg" />
+    <Content Include="Images\covers\2013\img14.jpg" />
+    <Content Include="Images\covers\2013\img14_thumb.jpg" />
+    <Content Include="Images\covers\2013\img15.jpg" />
+    <Content Include="Images\covers\2013\img15_thumb.jpg" />
+    <Content Include="Images\covers\2013\img16.jpg" />
+    <Content Include="Images\covers\2013\img16_thumb.jpg" />
+    <Content Include="Images\covers\2013\img1_thumb.jpg" />
+    <Content Include="Images\covers\2013\img2.jpg" />
+    <Content Include="Images\covers\2013\img2_thumb.jpg" />
+    <Content Include="Images\covers\2013\img3.jpg" />
+    <Content Include="Images\covers\2013\img3_thumb.jpg" />
+    <Content Include="Images\covers\2013\img4.jpg" />
+    <Content Include="Images\covers\2013\img4_thumb.jpg" />
+    <Content Include="Images\covers\2013\img5.jpg" />
+    <Content Include="Images\covers\2013\img5_thumb.jpg" />
+    <Content Include="Images\covers\2013\img6.jpg" />
+    <Content Include="Images\covers\2013\img6_thumb.jpg" />
+    <Content Include="Images\covers\2013\img7.jpg" />
+    <Content Include="Images\covers\2013\img7_thumb.jpg" />
+    <Content Include="Images\covers\2013\img8.jpg" />
+    <Content Include="Images\covers\2013\img8_thumb.jpg" />
+    <Content Include="Images\covers\2013\img9.jpg" />
+    <Content Include="Images\covers\2013\img9_thumb.jpg" />
+    <Content Include="Images\covers\2014\img1.jpg" />
+    <Content Include="Images\covers\2014\img10.jpg" />
+    <Content Include="Images\covers\2014\img10_thumb.jpg" />
+    <Content Include="Images\covers\2014\img11.jpg" />
+    <Content Include="Images\covers\2014\img11_thumb.jpg" />
+    <Content Include="Images\covers\2014\img12.jpg" />
+    <Content Include="Images\covers\2014\img12_thumb.jpg" />
+    <Content Include="Images\covers\2014\img13.jpg" />
+    <Content Include="Images\covers\2014\img13_thumb.jpg" />
+    <Content Include="Images\covers\2014\img14.jpg" />
+    <Content Include="Images\covers\2014\img14_thumb.jpg" />
+    <Content Include="Images\covers\2014\img15.jpg" />
+    <Content Include="Images\covers\2014\img15_thumb.jpg" />
+    <Content Include="Images\covers\2014\img16.jpg" />
+    <Content Include="Images\covers\2014\img16_thumb.jpg" />
+    <Content Include="Images\covers\2014\img1_thumb.jpg" />
+    <Content Include="Images\covers\2014\img2.jpg" />
+    <Content Include="Images\covers\2014\img2_thumb.jpg" />
+    <Content Include="Images\covers\2014\img3.jpg" />
+    <Content Include="Images\covers\2014\img3_thumb.jpg" />
+    <Content Include="Images\covers\2014\img4.jpg" />
+    <Content Include="Images\covers\2014\img4_thumb.jpg" />
+    <Content Include="Images\covers\2014\img5.jpg" />
+    <Content Include="Images\covers\2014\img5_thumb.jpg" />
+    <Content Include="Images\covers\2014\img6.jpg" />
+    <Content Include="Images\covers\2014\img6_thumb.jpg" />
+    <Content Include="Images\covers\2014\img7.jpg" />
+    <Content Include="Images\covers\2014\img7_thumb.jpg" />
+    <Content Include="Images\covers\2014\img8.jpg" />
+    <Content Include="Images\covers\2014\img8_thumb.jpg" />
+    <Content Include="Images\covers\2014\img9.jpg" />
+    <Content Include="Images\covers\2014\img9_thumb.jpg" />
+    <Content Include="Images\covers\2015\blank.jpg" />
+    <Content Include="Images\covers\2015\blank_thumb.jpg" />
+    <Content Include="Images\covers\2015\img1.jpg" />
+    <Content Include="Images\covers\2015\img10.jpg" />
+    <Content Include="Images\covers\2015\img10_thumb.jpg" />
+    <Content Include="Images\covers\2015\img11.jpg" />
+    <Content Include="Images\covers\2015\img11_thumb.jpg" />
+    <Content Include="Images\covers\2015\img12.jpg" />
+    <Content Include="Images\covers\2015\img12_thumb.jpg" />
+    <Content Include="Images\covers\2015\img13.jpg" />
+    <Content Include="Images\covers\2015\img13_thumb.jpg" />
+    <Content Include="Images\covers\2015\img14.jpg" />
+    <Content Include="Images\covers\2015\img14_thumb.jpg" />
+    <Content Include="Images\covers\2015\img15.jpg" />
+    <Content Include="Images\covers\2015\img15_thumb.jpg" />
+    <Content Include="Images\covers\2015\img16.jpg" />
+    <Content Include="Images\covers\2015\img16_thumb.jpg" />
+    <Content Include="Images\covers\2015\img1_thumb.jpg" />
+    <Content Include="Images\covers\2015\img2.jpg" />
+    <Content Include="Images\covers\2015\img2_thumb.jpg" />
+    <Content Include="Images\covers\2015\img3.jpg" />
+    <Content Include="Images\covers\2015\img3_thumb.jpg" />
+    <Content Include="Images\covers\2015\img4.jpg" />
+    <Content Include="Images\covers\2015\img4_thumb.jpg" />
+    <Content Include="Images\covers\2015\img5.jpg" />
+    <Content Include="Images\covers\2015\img5_thumb.jpg" />
+    <Content Include="Images\covers\2015\img6.jpg" />
+    <Content Include="Images\covers\2015\img6_thumb.jpg" />
+    <Content Include="Images\covers\2015\img7.jpg" />
+    <Content Include="Images\covers\2015\img7_thumb.jpg" />
+    <Content Include="Images\covers\2015\img8.jpg" />
+    <Content Include="Images\covers\2015\img8_thumb.jpg" />
+    <Content Include="Images\covers\2015\img9.jpg" />
+    <Content Include="Images\covers\2015\img9_thumb.jpg" />
+    <Content Include="Images\covers\2016\img1.jpg" />
+    <Content Include="Images\covers\2016\img1_thumb.jpg" />
+    <Content Include="Images\covers\2016\img2.jpg" />
+    <Content Include="Images\covers\2016\img2_thumb.jpg" />
+    <Content Include="Images\covers\2016\img3.jpg" />
+    <Content Include="Images\covers\2016\img3_thumb.jpg" />
+    <Content Include="Images\covers\2016\img4.jpg" />
+    <Content Include="Images\covers\2016\img4_thumb.jpg" />
+    <Content Include="Images\covers\2016\img5.jpg" />
+    <Content Include="Images\covers\2016\img5_thumb.jpg" />
+    <Content Include="Images\covers\2016\img6.jpg" />
+    <Content Include="Images\covers\2016\img6_thumb.jpg" />
+    <Content Include="Images\covers\2016\img7.jpg" />
+    <Content Include="Images\covers\2016\img7_thumb.jpg" />
+    <Content Include="Images\covers\2016\img8.jpg" />
+    <Content Include="Images\covers\2016\img8_thumb.jpg" />
+    <Content Include="Images\covers\2016\img9.jpg" />
+    <Content Include="Images\covers\2016\img9_thumb.jpg" />
+    <Content Include="Images\covers\blank thumbnail.jpg" />
+    <Content Include="Images\covers\blank.jpg" />
+    <Content Include="Images\csws_logo_asia.jpg" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\heroAccent.png" />
+    <Content Include="Images\HighResolution\2012\09.jpg" />
+    <Content Include="Images\HighResolution\2012\10.jpg" />
+    <Content Include="Images\HighResolution\2012\11.jpg" />
+    <Content Include="Images\HighResolution\2012\12.jpg" />
+    <Content Include="Images\HighResolution\2013\1.jpg" />
+    <Content Include="Images\HighResolution\2013\10.jpg" />
+    <Content Include="Images\HighResolution\2013\11.jpg" />
+    <Content Include="Images\HighResolution\2013\12.jpg" />
+    <Content Include="Images\HighResolution\2013\13.jpg" />
+    <Content Include="Images\HighResolution\2013\14.jpg" />
+    <Content Include="Images\HighResolution\2013\15.jpeg" />
+    <Content Include="Images\HighResolution\2013\16.jpg" />
+    <Content Include="Images\HighResolution\2013\2.jpg" />
+    <Content Include="Images\HighResolution\2013\3.jpg" />
+    <Content Include="Images\HighResolution\2013\4.jpg" />
+    <Content Include="Images\HighResolution\2013\5.jpg" />
+    <Content Include="Images\HighResolution\2013\6.jpg" />
+    <Content Include="Images\HighResolution\2013\7.jpg" />
+    <Content Include="Images\HighResolution\2013\8.jpg" />
+    <Content Include="Images\HighResolution\2013\9.jpg" />
+    <Content Include="Images\HighResolution\2014\1.jpg" />
+    <Content Include="Images\HighResolution\2014\10.jpg" />
+    <Content Include="Images\HighResolution\2014\11.jpg" />
+    <Content Include="Images\HighResolution\2014\12.jpg" />
+    <Content Include="Images\HighResolution\2014\13.jpg" />
+    <Content Include="Images\HighResolution\2014\14.jpg" />
+    <Content Include="Images\HighResolution\2014\15.jpg" />
+    <Content Include="Images\HighResolution\2014\16.jpg" />
+    <Content Include="Images\HighResolution\2014\2.jpg" />
+    <Content Include="Images\HighResolution\2014\3.jpg" />
+    <Content Include="Images\HighResolution\2014\4.jpg" />
+    <Content Include="Images\HighResolution\2014\5.jpg" />
+    <Content Include="Images\HighResolution\2014\6.jpg" />
+    <Content Include="Images\HighResolution\2014\7.jpg" />
+    <Content Include="Images\HighResolution\2014\8.jpg" />
+    <Content Include="Images\HighResolution\2014\9.jpg" />
+    <Content Include="Images\HighResolution\2015\1.jpg" />
+    <Content Include="Images\HighResolution\2015\10.jpg" />
+    <Content Include="Images\HighResolution\2015\11.jpg" />
+    <Content Include="Images\HighResolution\2015\12.jpg" />
+    <Content Include="Images\HighResolution\2015\13.jpg" />
+    <Content Include="Images\HighResolution\2015\14.jpg" />
+    <Content Include="Images\HighResolution\2015\15.jpg" />
+    <Content Include="Images\HighResolution\2015\16.jpg" />
+    <Content Include="Images\HighResolution\2015\2.jpg" />
+    <Content Include="Images\HighResolution\2015\3.jpg" />
+    <Content Include="Images\HighResolution\2015\4.jpg" />
+    <Content Include="Images\HighResolution\2015\5.jpg" />
+    <Content Include="Images\HighResolution\2015\7.jpg" />
+    <Content Include="Images\HighResolution\2015\9.jpg" />
+    <Content Include="Images\HighResolution\2016\1.jpg" />
+    <Content Include="Images\HighResolution\2016\2.jpg" />
+    <Content Include="Images\HighResolution\2016\3.jpg" />
+    <Content Include="Images\HighResolution\2016\4.jpg" />
+    <Content Include="Images\HighResolution\2016\5.jpg" />
+    <Content Include="Images\HighResolution\2016\6.jpg" />
+    <Content Include="Images\HighResolution\2016\7.jpg" />
+    <Content Include="Images\HighResolution\2016\8.jpg" />
+    <Content Include="Images\HighResolution\2016\9.jpg" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\maps\ab.png" />
+    <Content Include="Images\maps\bc.png" />
+    <Content Include="Images\maps\bc_bk.png" />
+    <Content Include="Images\maps\canada.png" />
+    <Content Include="Images\maps\hongkong.png" />
+    <Content Include="Images\maps\hongkong_thumbnail.png" />
+    <Content Include="Images\maps\mb.png" />
+    <Content Include="Images\maps\nb.png" />
+    <Content Include="Images\maps\ns.png" />
+    <Content Include="Images\maps\on.png" />
+    <Content Include="Images\maps\qb.png" />
+    <Content Include="Images\maps\sk.png" />
+    <Content Include="Images\maps\vertical-line.png" />
+    <Content Include="Images\profile\1_1353929603722.jpg" />
+    <Content Include="Images\profile\1_244-4-1920x1200.jpg" />
+    <Content Include="Images\profile\1_27_Ambrose Bierce.jpg" />
+    <Content Include="Images\profile\1_FB.png" />
+    <Content Include="Images\profile\1_icon.jpg" />
+    <Content Include="Images\profile\1_images %281%29.jpg" />
+    <Content Include="Images\profile\profile_blank.jpg" />
+    <Content Include="Images\quote\0_AlexDumer.jpg" />
+    <Content Include="Images\quote\26_AndreSimon.jpg" />
+    <Content Include="Images\quote\665_AlexDumer.jpg" />
+    <Content Include="Images\quote\669_Jean-Anthelme_Brillat_de_Savarin_%281755-1826%29.jpg" />
+    <Content Include="Images\quote\670_FB.png" />
+    <Content Include="Images\quote\backup\bk_portrait_blank_big.png" />
+    <Content Include="Images\quote\backup\bk_portrait_blank_small.png" />
+    <Content Include="Images\quote\backup\portrait_big.png" />
+    <Content Include="Images\quote\backup\portrait_big_old.png" />
+    <Content Include="Images\quote\backup\portrait_blank_big - Copy.jpg" />
+    <Content Include="Images\quote\backup\portrait_blank_big.jpg" />
+    <Content Include="Images\quote\backup\portrait_blank_small-org.png" />
+    <Content Include="Images\quote\backup\portrait_blank_small.jpg" />
+    <Content Include="Images\quote\backup\portrait_small.png" />
+    <Content Include="Images\quote\portrait_blank.jpg" />
+    <Content Include="Images\search-icon.png" />
+    <Content Include="Images\share-icon.png" />
+    <Content Include="Images\welcome\AB\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\AB\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\AB\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\AB\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\AB\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\AB\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\AB\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\AB\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\AB\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\AB\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\AB\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\AB\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\AB\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\AB\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\AB\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\AB\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\old\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\old\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\old\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\old\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\old\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\AB\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\old\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\old\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\old\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\old\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\old\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\BC\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\old\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\old\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\old\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\old\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\old\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\HK\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\old\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\old\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\old\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\old\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\old\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\old\small_hero_banner_6.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\MB\small_hero_banner_6.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NB\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NB\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NB\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NB\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NB\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NB\old\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NB\old\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NB\old\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NB\old\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NB\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NB\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NB\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NB\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NB\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\hero_banner_6.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\New folder\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\New folder\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\New folder\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\New folder\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\New folder\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\New folder\small_hero_banner_6.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\NS\small_hero_banner_6.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\New folder\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\New folder\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\New folder\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\New folder\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\New folder\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\ON\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\QB\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\QB\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\QB\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\QB\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\QB\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\QB\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\QB\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\QB\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\SK\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\SK\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\SK\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\SK\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\SK\New folder\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\SK\New folder\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\SK\New folder\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\SK\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\SK\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\SK\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\April\SK\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\BC\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\BC\hero_banner_11.jpg" />
+    <Content Include="Images\welcome\BACKUP\BC\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\BC\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\BC\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\BC\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\BC\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\BC\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\BC\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\BC\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\HK\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\HK\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\HK\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\HK\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\HK\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\HK\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\HK\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\HK\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\HK\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\HK\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\MB\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\MB\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\MB\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\MB\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\MB\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\MB\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\MB\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\MB\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\MB\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\MB\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\NB\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\NB\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\NB\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\NB\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\NB\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\NB\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\NB\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\NB\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\NB\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\NB\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\NS\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\NS\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\NS\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\NS\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\NS\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\NS\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\NS\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\NS\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\NS\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\NS\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\ON\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\ON\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\ON\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\ON\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\ON\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\ON\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\ON\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\ON\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\ON\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\ON\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BACKUP\SK\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\SK\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\SK\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\SK\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BACKUP\SK\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BACKUP\SK\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BACKUP\SK\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BACKUP\SK\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BC\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BC\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BC\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BC\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BC\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\BC\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\BC\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\BC\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\BC\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\BC\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\gallery_panel_1.jpg" />
+    <Content Include="Images\welcome\HK\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\HK\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\HK\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\HK\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\HK\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\HK\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\HK\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\HK\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\HK\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\HK\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\MB\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\MB\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\MB\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\MB\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\MB\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\MB\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\MB\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\MB\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\MB\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\MB\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\NB\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\NB\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\NB\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\NB\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\NB\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\NB\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\NB\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\NB\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\NB\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\NB\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\NS\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\NS\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\NS\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\NS\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\NS\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\NS\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\NS\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\NS\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\NS\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\NS\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\ON\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\ON\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\ON\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\ON\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\ON\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\ON\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\ON\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\ON\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\ON\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\ON\small_hero_banner_5.jpg" />
+    <Content Include="Images\welcome\portfolio_panel_1.jpg" />
+    <Content Include="Images\welcome\QB\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\QB\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\QB\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\QB\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\QB\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\QB\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\QB\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\QB\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\quote_no_title.jpg" />
+    <Content Include="Images\welcome\quote_panel_1.jpg" />
+    <Content Include="Images\welcome\SK\hero_banner_1.jpg" />
+    <Content Include="Images\welcome\SK\hero_banner_2.jpg" />
+    <Content Include="Images\welcome\SK\hero_banner_3.jpg" />
+    <Content Include="Images\welcome\SK\hero_banner_4.jpg" />
+    <Content Include="Images\welcome\SK\hero_banner_5.jpg" />
+    <Content Include="Images\welcome\SK\small_hero_banner_1.jpg" />
+    <Content Include="Images\welcome\SK\small_hero_banner_2.jpg" />
+    <Content Include="Images\welcome\SK\small_hero_banner_3.jpg" />
+    <Content Include="Images\welcome\SK\small_hero_banner_4.jpg" />
+    <Content Include="Images\welcome\SK\small_hero_banner_5.jpg" />
+    <None Include="js\bootstrap.carousel.bak" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\bootstrap.min.withca.js" />
+    <Content Include="js\common.js" />
+    <Content Include="js\docs.min.js" />
+    <Content Include="js\gbscript.js" />
+    <Content Include="js\grayscale-image-fader.js" />
+    <Content Include="js\ie-emulation-modes-warning.js" />
+    <Content Include="js\ie10-viewport-bug-workaround.js" />
+    <Content Include="js\image.js" />
+    <Content Include="js\index.js" />
+    <Content Include="js\jcarousel.connected-carousels.js" />
+    <Content Include="js\jcarousel.connected-carousels.new.js" />
+    <Content Include="js\jquery-confirm.js" />
+    <Content Include="js\jquery.cookie.js" />
+    <Content Include="js\jquery.jcarousel.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.selectBoxIt.min.js" />
+    <Content Include="js\jsCookies.js" />
+    <Content Include="js\Language\message.en - Copy.js" />
+    <Content Include="js\Language\message.fr-ca.js" />
+    <Content Include="js\Language\message.zh-hk.js" />
+    <Content Include="js\Language\message.en.js" />
+    <Content Include="js\pgscript.js" />
+    <Content Include="js\profile.js" />
+    <Content Include="js\quote.js" />
+    <Content Include="js\region.js" />
+    <Content Include="js\share.js" />
+    <Content Include="js\signup.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Images\favicon.ico.bak" />
+    <Content Include="Images\welcome\BACKUP\April\AB\Thumbs.db" />
+    <Content Include="Images\welcome\BACKUP\April\BC\Thumbs.db" />
+    <Content Include="Images\welcome\BACKUP\April\HK\Thumbs.db" />
+    <Content Include="Images\welcome\BACKUP\April\MB\Thumbs.db" />
+    <Content Include="Images\welcome\BACKUP\April\NB\Thumbs.db" />
+    <Content Include="Images\welcome\BACKUP\April\NS\Thumbs.db" />
+    <Content Include="Images\welcome\BACKUP\April\ON\Thumbs.db" />
+    <Content Include="Images\welcome\BACKUP\April\SK\Thumbs.db" />
+    <Content Include="Images\welcome\BC\Thumbs.db" />
+    <Content Include="Images\welcome\HK\Thumbs.db" />
+    <Content Include="Images\welcome\MB\Thumbs.db" />
+    <Content Include="Images\welcome\NB\Thumbs.db" />
+    <Content Include="Images\welcome\NS\Thumbs.db" />
+    <Content Include="Images\welcome\ON\.DS_Store" />
+    <Content Include="Images\welcome\ON\Thumbs.db" />
+    <Content Include="Images\welcome\SK\Thumbs.db" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Shared\_Layout.cshtml">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\mAccount\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\mAccount\ConfirmEmail.cshtml" />
+    <Content Include="Views\mAccount\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\mAccount\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\mAccount\ForgotPassword.cshtml" />
+    <Content Include="Views\mAccount\ForgotPasswordConfirmation.cshtml" />
+    <Content Include="Views\mAccount\Login.cshtml" />
+    <Content Include="Views\mAccount\Register.cshtml" />
+    <Content Include="Views\mAccount\ResetPassword.cshtml" />
+    <Content Include="Views\mAccount\ResetPasswordConfirmation.cshtml" />
+    <Content Include="Views\mAccount\SendCode.cshtml" />
+    <Content Include="Views\mAccount\VerifyCode.cshtml" />
+    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
+    <Content Include="Views\Manage\ChangePassword.cshtml" />
+    <Content Include="Views\Manage\Index.cshtml" />
+    <Content Include="Views\Manage\ManageLogins.cshtml" />
+    <Content Include="Views\Manage\SetPassword.cshtml" />
+    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
+    <Content Include="Views\Shared\Lockout.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_csLayout.cshtml" />
+    <Content Include="Views\Home\Newsletter.cshtml" />
+    <Content Include="Views\Home\AboutUs.cshtml" />
+    <Content Include="Views\Home\ContactUs.cshtml" />
+    <Content Include="Views\Home\FeedBack.cshtml" />
+    <Content Include="Views\Home\Gallery.cshtml" />
+    <Content Include="Views\Home\Quote.cshtml" />
+    <Content Include="Views\Home\QuoteSearch.cshtml" />
+    <Content Include="Views\Account\SignUp.cshtml" />
+    <Content Include="Views\Account\Forgetpassword.cshtml" />
+    <Content Include="Views\Account\Profile.cshtml" />
+    <Content Include="Views\Account\ActiveAccount.cshtml" />
+    <Content Include="Views\Account\Resetpassword.cshtml" />
+    <Content Include="Views\Home\Image.cshtml" />
+    <Content Include="Views\Home\Region.cshtml" />
+    <Content Include="Views\Shared\_csMenu.cshtml" />
+    <Content Include="Views\Shared\_csFooter.cshtml" />
+    <Content Include="Views\Home\SwitchLanguage.cshtml" />
+    <Content Include="Views\Home\Share.cshtml" />
+    <Content Include="Views\Shared\_csLayoutNoMenuHolder.cshtml" />
+    <Content Include="Views\Shared\_csPopUpLayout.cshtml" />
+    <Content Include="Views\Account\ChangeProfile.cshtml" />
+    <Content Include="Views\Home\Portfolio.cshtml" />
+    <Content Include="Views\Home\Index_org.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Images\welcome\BACKUP\march\" />
+    <Folder Include="Images\welcome\march\" />
+    <Folder Include="Views\Base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSWSWEBResources\CSWSWEBResources.csproj">
+      <Project>{0a2f7e5f-fa43-4646-8041-2c1e5b7f0f77}</Project>
+      <Name>CSWSWEBResources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSWS_Conponent\CSWS_Conponent\CSWS_Conponent.csproj">
+      <Project>{ae7efc6a-ee08-42bc-bec1-5a47596f94e8}</Project>
+      <Name>CSWS_Conponent</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65077</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:65077/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

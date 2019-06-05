@@ -1,0 +1,329 @@
+/*========================= Sign Up Page =============================*/
+.signup_opactiy
+{
+	padding-left:20px;
+}
+.signup_title
+{
+	font-family: 'Source Sans Pro','Microsoft YaHei';
+	font-weight:100;
+	font-size:24px;
+	width:100%;
+	text-align:center;
+	margin-left:auto;
+	margin-left:auto;
+}
+.signup_img
+{
+	background-image:url('../images/bkgrdimgs/signup.jpg'); 
+}
+
+.select_box_holder
+{
+	padding-top:0px;
+}
+
+.control_holder
+{
+	width:100%;
+	padding-top:10px;
+}
+
+.email_address_holder
+{
+	padding-top:0px;
+}
+
+.error_msg{
+    text-align:left;
+    padding-top:15px;
+    padding-left:35px;
+   font-size:10pt;
+   color:red;
+   height:30px;
+}
+
+.inudstry_error_holder{
+    padding-top:3px;
+    height:20px;
+}
+
+.signup_password_error_holder{
+      padding-top:3px;
+    height:17px;
+}
+
+.profile_duplicate{
+    text-align:center;
+    padding-top:10px;
+    padding-left:0px;
+}
+
+.email_input_holder{
+ 
+}
+
+.signup_password_holder{
+    padding-top:0px;
+   
+}
+.signup_control
+{
+	padding-left:10px;
+	width:310px;
+	height:28px;
+	font-size:9pt;
+	border: 1px solid #DCDCDC;
+	background-color:white;
+}
+
+.sub_title_holder{
+    font-size:11pt;
+}
+.forget_content {	
+   margin-top:95px;
+	height:220px;
+	max-width:417px;
+	background-color:#FAFAFA;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	opacity: 0.92;
+}
+.reset_pass_content {	
+    margin-top:75px;
+    height:285px;
+	max-width:417px;
+	background-color:#FAFAFA;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	opacity: 0.92;
+}
+.btn_getpass{
+    width:70px;
+}
+/*========================= Sign In Page =============================*/
+
+.signin_img{
+	background-image:url('../images/bkgrdimgs/signin.jpg'); 
+	height:720px;
+
+}
+.signin_space{
+	height:125px;
+}
+.signin_opactiy{
+	opacity:0.92;
+}
+.signin_content {	
+	height:420px;
+	max-width:417px;
+	background-color:#FAFAFA;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	opacity: 0.92;
+}
+
+.signin_text_holder{
+	padding-top:25px;
+	padding-bottom:10px;
+}
+.remeber_text_holder{
+    text-align:center;
+	font-size:10pt;
+}
+.table_remember_controls{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.td_remember_text{
+    padding-left:3px;
+}
+
+.td_signin_remember_chkbox{
+    padding-top:2px;
+}
+
+.signup_submit{
+	width:90px;
+	height:30px;
+}
+
+.signup_submit_holder{
+	padding-top:18px;
+}
+
+.forgotpswd_holder{
+	padding-top:4px;
+	font-size:9pt;
+	color:#8D302B;
+}
+
+.nothave_acnt_holder{
+	padding-top:30px;
+	font-size:10pt;
+	color:#848484;
+}
+
+.signup_btn_holder{
+	padding-top:20px;
+}
+
+.btn_signup{
+	width:300px;
+	height:30px;
+	background-color: #848484;
+	border-color: #848484;
+}
+
+.btn_signup:hover, .btn_signup:focus, .btn_signup:active, .btn_signup.active, .open > .dropdown-toggle.btn_signup {
+    /*color: #FFF;
+    background-color: #848484;
+    border-color: #848484;*/
+}
+
+/*active account*/
+
+.active_account{
+    padding-top:25px;
+    padding-left:30px;
+     padding-right:25px;
+     font-size:11pt;
+}
+
+.msg_holder{
+    padding-top:10px;
+  
+}
+
+.active_btn_holder{
+    padding-top:20px;
+}
+.active_content {
+    height: 335px;
+    
+}
+
+.act_actived,.act_failed{
+    display:none;
+}
+
+/*profile*/
+.table_text_change_profile{
+    width:100%;
+}
+
+.profile_table{
+    font-weight:normal;
+    font-size:10pt;
+    
+}
+.profile_control
+{
+	padding-left:10px;
+	width:230px;
+	height:22px;
+	font-size:9pt;
+	border: 1px solid #DCDCDC;
+	background-color:white;
+}
+.td_profile_control_holder{
+    padding-bottom:12px;
+}
+
+.td_title_holder{
+    padding-left:15px;
+    vertical-align:top;
+    width:130px;
+}
+.td_email{
+     padding-left:15px;
+    padding-bottom:5px;
+}
+.td_email_val{
+     padding-left:0px;
+    padding-bottom:5px;
+    letter-spacing:0px;
+}
+.td_change_holder{
+    padding-bottom:10px;
+}
+.profile_last_name_holder{
+      padding-bottom:0px;
+}
+
+.div_profile_image{
+    padding-top:3px;
+     padding-bottom:5px;
+}
+.div_edit_link{
+    padding-bottom:10px;
+}
+
+.img_profile{
+   
+    width:80px;
+    height:80px;
+      border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+ .hidden_file_control[type="file"]{
+	display:none;
+ }
+
+ .hidden_control{
+	display:none;
+ }
+
+ a:hover, a:focus {
+  /*color: #428BCA;
+    text-decoration: none;*/ /*helen 0922*/
+    cursor:pointer;
+}
+
+ .profile_submit_holder{
+     padding-top:0px;
+ }
+
+       
+
+ 
+ .nick_error{
+     display:table-cell;
+     vertical-align:top;
+     height:20px;
+     color:red;
+     font-size:10pt;
+ }
+ 
+ .duplcate_email{
+     padding-top:10px;
+     height:20px;
+     color:red;
+     font-size:10pt;
+ }
+
+ .profile_aboutme{
+     padding-left:10px;
+ }
+
+@media (max-width: 327px) {
+    .signin_input,.btn_signup{
+        width: 80%;
+    }
+}
+
+ .div_change_email_holder,.div_change_password_holder,.btn_reset_profile{
+     display:none;
+ }
+
+@media (max-width: 350px) {
+    .signup_control{
+        width: 95%;
+    }
+}

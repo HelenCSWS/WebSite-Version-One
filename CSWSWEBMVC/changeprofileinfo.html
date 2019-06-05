@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Christopher Stewart Wine & Spirits is dedicated to selecting and importing high quality wines, spirits, beers, coolers and sakes from top producers around the world.">
+    <meta name="author" content="Christopher Stewart Wine & Spirits">
+    <title>Reset Password</title>
+
+    <!--link rel="icon" href="favicon.ico" -->
+    <link rel="icon" type="image/png" href="images/Address-bar-icon.png">
+    <link rel="canonical" href="http://www.christopherstewart.com/resetpassword.html" />
+    <!-- Bootstrap core CSS -->
+    <link href="content/bootstrap.min.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Custom styles for this template -->
+    <!--link href="css/carousel.css" rel="stylesheet"-->
+    <link rel="stylesheet" type="text/css" href="content/gbstyle.css">
+    <link href="content/navbar.css" rel="stylesheet">
+
+    <link href="content/pagestyle.css" rel="stylesheet">
+    <link href="content/signup.css" rel="stylesheet">
+
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript">
+        _atrk_opts = { atrk_acct: "b5Yol1ao9rD0Y8", domain: "christopherstewart.com", dynamic: true };
+        (function () { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })();
+    </script>
+    <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=b5Yol1ao9rD0Y8" style="display:none" height="1" width="1" alt="" /></noscript>
+    <!-- End Alexa Certify Javascript -->  
+
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+   
+      
+
+        <!-- middle content -->
+      
+     
+            <div class="content-middle-holder">
+                <form name="frm_update_profile" id="frm_update_profile">
+                    <div class="div_change_email_holder">
+                        <div class="signup_title signin_text_holder profile_title">Change Email</div>
+
+                        <div id="change-email-div">
+                            <div class="signup_title sub_title_holder">Enter a new email address and your current password below.</div>
+                            <div class="signup_title sub_title_holder">Your current email address is: <span id="email_address"></span></div>
+                        </div>
+                        <div class="signup_title control_holder">
+                            <input type="email" class="signup_control signin_input email" name="email" placeholder="Email address" id="email" autofocus="autofocus" title="Please enter a valid email address." oninvalid="setCustomValidity('Please enter a valid email address.')" oninput="setCustomValidity('')" required>
+                        </div>
+
+                        <div class="signup_title control_holder">
+                            <input type="email" class="signup_control email" name="cfm_email" id="cfm_email" placeholder="Confirm Email address" autocomplete="off" title="Please enter a valid email address." required oninvalid="setCustomValidity('Please enter a valid email address.')" oninput="setCustomValidity('')">
+                        </div>
+
+                        <div class="signup_title control_holder">
+                            <input type="password" class="signup_control signin_input" name="password" placeholder="Current Password" id="password" required>
+                        </div>
+
+                    </div>
+
+                    <div class="div_change_password_holder">
+                        <div class="signup_title signin_text_holder profile_title">Change Password</div>
+
+
+                        <div id="change-password-div">
+                            <div class="signup_title sub_title_holder">To change your password,enter your current password and a new password.</div>
+
+                        </div>
+
+                        <div class="signup_title control_holder">
+                            <input type="password" class="signup_control signin_input" name="old_password" placeholder="Current Password" id="old_password" autofocus="autofocus" pattern=".{0-9}|.{6,}" title="6 charactors for password" required>
+                        </div>
+
+                        <div class="signup_title control_holder">
+                            <input type="password" class="signup_control signin_input" name="new_password" placeholder="New Password" id="new_password" pattern=".{0-9}|.{6,}" title="6 charactors for password" required>
+                        </div>
+                        <div class="signup_title control_holder">
+                            <input type="password" class="signup_control signin_input" name="confirm_password" placeholder="Confrim Password" id="cfm_password" pattern=".{0-9}|.{6,}" title="6 charactors for password" required>
+                        </div>
+
+                    </div>
+
+                    <div class="error_msg profile_duplicate " id="email_error"></div>
+                    <input type="hidden" name="index_id" id="index_id" value="0">
+                    <input type="hidden" name="user_id" placeholder="user_id" id="user_id" value="0">
+                    
+                     <div class="signup_title control_holder"> <button type="submit" formmethod="post" class="btn btn-xs btn-danger signup_submit btn_reset btn_reset_profile">Submit</button></div>
+
+                </form>
+                
+            </div>
+
+
+    
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- script src="js/docs.min.js"></script-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/gbscript.js"></script>
+    <script src="js/jsCookies.js"></script>
+    <!--<script src="js/signup.js"></script>-->
+    <script src="js/profile.js"></script>
+
+</body>
+</html>
