@@ -5,8 +5,8 @@ var baseURL = get_host(location.href);
 var SHARE_YEAR_BASE = 1574;
 var SHARE_INDEX_BASE = 1777;
 
-var CSWS_DOMAIN = "http://www.christopherstewart.com";
-var CSWS_DOMAIN_HTTPS = "http://www.christopherstewart.com";
+var CSWS_DOMAIN = "https://www.christopherstewart.com";
+var CSWS_DOMAIN_HTTPS = "https://www.christopherstewart.com";
 
 var CSWS_DOMAIN_INDUSTRY = "http://industry.christopherstewart.com";
 var CSWS_DOMAIN_INDUSTRY_HTTPS = "https://industry.christopherstewart.com";
@@ -186,10 +186,7 @@ var provincesInfo = {
 
         //  var link = baseURL + getCurrentCulture() + "/aboutus";
             //   location.href = link;
- 
-          $('.dropdown-toggle').dropdown();
-
-           
+          $('.dropdown-toggle').dropdown();           
     });  
 
         // google analytic 
@@ -203,32 +200,15 @@ var provincesInfo = {
 
         ga('create', 'UA-62414402-1', 'auto');
         ga('send', 'pageview');
-
   
         var pro_id = getProID();
-
   
         $(".province_id").val(pro_id);//just for debug
        
-        setFooterIcons(pro_id)
-
-        //var obj = JSON.parse(provincesInfo);
-        //var length = Object.keys(obj).length;
-       // alert(_.size(provincesInfo));
-        // console.log(readCookie("user_session"));
-
-    //    objectCount(provincesInfo);
+        setFooterIcons(pro_id);
 
     });
 
-    function objectCount(obj) {
-
-        //objectcount = 0;
-        //$.each(obj, function(index, item) {
-        //    objectcount = objectcount + item.length;
-        //});
-        //return objectcount;
-    }
 
 
     var setFooterIcons=function(pro_id) 

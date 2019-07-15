@@ -30,11 +30,12 @@
                         }
                         else // signed in
                         {
+                           
                             <li class="dropdown menuli profile_menu">
                                 <a href="" class="entry_dropdown_toggle dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">@CSWSWEBResources.Resource.MyAccount</a>
                                 <ul class="dropdown-menu cs_dropdow_menu" role="menu">
                                     <li>@Html.ActionLink(@CSWSWEBResources.Resource.Profile, "Profile", "Account")</li>
-
+                         
                                     <li><a href="@Model.CSWSDomainHref" class="menuLogout">@CSWSWEBResources.Resource.LogOut</a></li>
                                 </ul>
                             </li>

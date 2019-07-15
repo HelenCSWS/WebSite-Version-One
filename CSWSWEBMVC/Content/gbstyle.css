@@ -352,25 +352,25 @@ height:20px;
     text-align:right;
 }
 
-.copyright {
-	overflow: auto;
-	clear:both;
-    text-align: center;
-    margin-top:3px;
-    font-weight:normal;
-    font-size: 7pt;
-    color: #696969;
-}
+   
 
+    .copyright {
+        overflow: auto;
+        clear: both;
+        text-align: center;
+        margin-top: 3px;
+        font-weight: normal;
+        font-size: 7pt;
+        color: #696969;
+    }
 
 /*================================== Footer end ==========================================*/
-
 .middle {
-	width: 986px;
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-right: auto;
-	margin-left: auto;
+    width: 986px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
 	
 	
@@ -483,9 +483,7 @@ height:20px;
        padding-left:10px;
    }
 
-   .pinterest{
-        text-align:center;
-    }
+
    .googleplus{
        text-align:left;    
    }
@@ -496,6 +494,23 @@ height:20px;
    .footer_row_2_right{
        padding-top:15px;
    }
+
+
+    .media-td {
+        width: 50%;
+        text-align: center;
+    }
+
+
+    .pinterest {
+        text-align: left;
+        padding-left: 10px;
+    }
+    .instagram {
+        padding-right: 12px;
+    }
+
+
 }
 
 

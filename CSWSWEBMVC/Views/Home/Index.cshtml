@@ -11,8 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="p:domain_verify" content="9f42a9b77a7e31aeaf7dc7f0d21b4f59" />
     <!--link rel="icon" href="favicon.ico" -->
-    <link rel="icon" type="image/png" href="images/Address-bar-icon.png">
-    <link rel="canonical" href="http://www.christopherstewart.com/" />
+    @*<link rel="icon" type="image/png" href="images/Address-bar-icon.png">*@
+    <link rel="canonical" href="https://www.christopherstewart.com/" />
 
     <title>@CSWSWEBResources.Resource.CSWS</title>
     @Styles.Render("~/Content/jquery-confirm.css")
@@ -27,15 +27,15 @@
     @Styles.Render("~/Content/index.css")
 
     <!--script for analytics -->
-    <script type="application/ld+json">
+    @*<script type="application/ld+json">
        
          {
         "@@context": "http://schema.org",
         "@@type": "Organization",
-        "url": "http://www.christopherstewart.com",
-        "logo": "http://www.christopherstewart.com/images/logo.png"
+        "url": "https://www.christopherstewart.com",
+        "logo": "https://www.christopherstewart.com/images/logo.png"
         }
-    </script>
+    </script>*@
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -75,64 +75,71 @@
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right menuUL">
-                            <li class="menuli"><a class="menuPortfolio" href="">@CSWSWEBResources.Resource.Portfolio</a></li> 
+                            <li class="menuli"><a class="menuPortfolio" href="">@CSWSWEBResources.Resource.Portfolio</a></li>
                             <li class="menuli"><a href="@rootHref/Gallery">@CSWSWEBResources.Resource.ArtGallery</a></li>
                             <li class="menuli"><a href="@rootHref/Quote">@CSWSWEBResources.Resource.QuoteMenu</a></li>
                             <li class="menuli"><a href="@rootHref/Newsletter">@CSWSWEBResources.Resource.Newsletter</a></li>
-                     
-                        @{if (Request.Cookies[@CSWS_Conponent.CSWSConstants.COOKIE_CSWS_USER_SESSION] == null) // not signed in yet
-                            {
-                            <li class="menuli signin_menu">
-                                <a href="@Model.CSWSIndsutryHref/Account/SignIn">@CSWSWEBResources.Resource.Industry</a>
-                            </li>
+
+                            @{if (Request.Cookies[@CSWS_Conponent.CSWSConstants.COOKIE_CSWS_USER_SESSION] == null) // not signed in yet
+                                {
+                                    <li class="menuli signin_menu">
+                                        <a href="@Model.CSWSIndsutryHref/Account/SignIn">@CSWSWEBResources.Resource.Industry</a>
+                                    </li>
+                                }
+                                else // signed in
+                                {
+
+                                    <li class="dropdown menuli profile_menu">
+                                        <a href="" class="entry_dropdown_toggle dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">@CSWSWEBResources.Resource.MyAccount</a>
+                                        <ul class="dropdown-menu cs_dropdow_menu" role="menu">
+                                            <li>@Html.ActionLink(@CSWSWEBResources.Resource.Profile, "Profile", "Account")</li>
+                                            <li><a href="@Model.CSWSDomainHref" class="menuLogout">@CSWSWEBResources.Resource.LogOut</a></li>
+                                        </ul>
+                                    </li>
+                                }
                             }
-                            else // signed in
-                            {
-                              
-                            <li class="dropdown menuli profile_menu">
-                                <a href="" class="entry_dropdown_toggle dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">@CSWSWEBResources.Resource.MyAccount</a>
+                            <li class="dropdown menuli changelan">
+                                <a href="" class="entry_dropdown_toggle dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                    <table class="table_lang_icon">
+                                        <tr>
+                                            <td class="td_lang_icon"><img class="img_lang_icon" src="~/images/btn_lang.png"></td>
+                                            <td>@Model.MenuItemParent<span class="caret"></span></td>
+                                    </table>
+                                </a>
                                 <ul class="dropdown-menu cs_dropdow_menu" role="menu">
-                                <li>@Html.ActionLink(@CSWSWEBResources.Resource.Profile, "Profile", "Account")</li>
-                                <li><a href="@Model.CSWSDomainHref" class="menuLogout">@CSWSWEBResources.Resource.LogOut</a></li>
+                                    <li>
+                                        <a href="~/@Model.MenuItemSub_1_lanCode/SwitchLanguage">
+                                            <table>
+                                                <tr>
+                                                    <td class="td_lang_icon td_lan_icon_leftspace"><img class="img_lang_icon" src="~/images/btn_lang.png"></td>
+                                                    <td>@Model.MenuItemSub_1</td>
+                                                </tr>
+                                            </table>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="~/@Model.MenuItemSub_2_lanCode/SwitchLanguage">
+                                            <table>
+                                                <tr>
+                                                    <td class="td_lang_icon td_lan_icon_leftspace "><img class="img_lang_icon" src="~/images/btn_lang.png"></td>
+                                                    <td>@Model.MenuItemSub_2</td>
+                                                </tr>
+                                            </table>
+                                        </a>
+                                    </li>
                                 </ul>
                             </li>
-                         }
-                       }
-                        <li class="dropdown menuli changelan">
-                            <a href="" class="entry_dropdown_toggle dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                <table class="table_lang_icon"><tr>
-                                    <td class="td_lang_icon"><img class="img_lang_icon" src="~/images/btn_lang.png"></td>
-                                    <td>@Model.MenuItemParent<span class="caret"></span></td>
-                                </table>
-                            </a>
-                            <ul class="dropdown-menu cs_dropdow_menu" role="menu">
-                                <li><a href="~/@Model.MenuItemSub_1_lanCode/SwitchLanguage">
-                                    <table><tr>
-                                        <td class="td_lang_icon td_lan_icon_leftspace"><img class="img_lang_icon" src="~/images/btn_lang.png"></td>
-                                        <td>@Model.MenuItemSub_1</td>
-                                    </tr></table>
-                                    </a>
-                                </li>
-                                <li><a href="~/@Model.MenuItemSub_2_lanCode/SwitchLanguage">
-                                    <table><tr>
-                                            <td class="td_lang_icon td_lan_icon_leftspace "><img class="img_lang_icon" src="~/images/btn_lang.png"></td>
-                                            <td>@Model.MenuItemSub_2</td>
-                                        </tr></table>
-                                        </a>
-                                </li>
-                            </ul>
-                        </li>
-                        
-                    </ul>
+
+                        </ul>
 
                     </div><!--/.nav-collapse -->
                 </div><!--/.container-fluid -->
             </div><!--/navbar navbar-defaul -->
         </div><!-- container -->
     </div> <!-- menu-holder -->
-  
     <!-- Carousel -->
-    <div id="myCarousel" class="carousel slide oqupid_size" data-ride="carousel" data-interval="6000"> <!-- 6000 to active carousel slide； false to deactive-->
+    <div id="myCarousel" class="carousel slide oqupid_size" data-ride="carousel" data-interval="6000">
+        <!-- 6000 to active carousel slide； false to deactive-->
         <ol class="carousel-indicators"></ol>
         <div class="carousel-inner" role="listbox">
         </div>
@@ -142,10 +149,10 @@
     <div class="row home_pannel_row">
         <!--portfolio-->
         <div class="panels_div col-md-4" id="div_portfolio" style=@porfolioBackImage>
-       
+
             <a class="panellink portfoliolink">
                 <div class="portfolioLinkHolder">
-                    <div class="ptfTitleHolder @CSWSWEBResources.Resource.CSSPTFTitleHolder" >@CSWSWEBResources.Resource.PortfolioCapital</div>
+                    <div class="ptfTitleHolder @CSWSWEBResources.Resource.CSSPTFTitleHolder">@CSWSWEBResources.Resource.PortfolioCapital</div>
                     <div class="ptfInfoHolder @CSWSWEBResources.Resource.CSSPTFINFOHolder"></div>
 
                 </div>
@@ -183,7 +190,6 @@
 
         </div><!--gallery ends here-->
 
-   
     </div><!-- middle content) ends here-->
     <!-- bottom -->
     <footer class="footer_holder">
@@ -213,8 +219,8 @@
             <div class="col-md-6 csws_col-md-6 footer_row_2_left">
                 <table style="width:100%">
                     <tr>
-                        <td><div class="facebook "><a href="https://www.facebook.com/pages/Christopher-Stewart-Wine-and-Spirits/49793071898" target="blank"><img src="~/images/btn_fb.png" border="0" /></a></div></td>
-                        <td><div class="twitter div_twitter"><a href="https://twitter.com/CSWS_Inc" target="blank"><img src="~/images/btn_tw.png" border="0" /></a></div></td>
+                        <td class="media-td"><div class="facebook "><a href="https://www.facebook.com/pages/Christopher-Stewart-Wine-and-Spirits/49793071898" target="blank"><img src="~/images/btn_fb.png" border="0" /></a></div></td>
+                        <td class="media-td"><div class="twitter div_twitter"><a href="https://twitter.com/CSWS_Inc" target="blank"><img src="~/images/btn_tw.png" border="0" /></a></div></td>
                     </tr>
                 </table>
             </div>
@@ -222,9 +228,9 @@
                 <table style="width:100%">
                     <tbody>
                         <tr>
-                            <td><div class="instagram"><a href="https://www.instagram.com/christopherstewart" target="blank"><img src="~/images/btn_ins.png" /></a></div></td>
-                            <td><div class="pinterest"><a href="https://www.pinterest.com/CSWSCanada" target="blank"><img src="~/images/btn_pin.png" /></a></div></td>
-                           @* <td><div class="googleplus"><a href="https://plus.google.com/u/0/b/114378048241762007757/+Christopherstewartwineandspirits" target="blank"><img src="~/images/btn_gp.png" /></a></div></td>*@
+                            <td class="media-td"><div class="instagram"><a href="https://www.instagram.com/christopherstewart" target="blank"><img src="~/images/btn_ins.png" /></a></div></td>
+                            <td class="media-td"><div class="pinterest"><a href="https://www.pinterest.com/CSWSCanada" target="blank"><img src="~/images/btn_pin.png" /></a></div></td>
+                            @* <td><div class="googleplus"><a href="https://plus.google.com/u/0/b/114378048241762007757/+Christopherstewartwineandspirits" target="blank"><img src="~/images/btn_gp.png" /></a></div></td>*@
                         </tr>
                     </tbody>
                 </table>
@@ -233,19 +239,20 @@
         <div class="copyright">@CSWSWEBResources.Resource.Copyright @DateTime.Now.Year @CSWSWEBResources.Resource.CSWSARR</div><!-- /copyright -->
 
     </footer>
-        <input type="hidden" class="province_id" value="1" />
-        <input type="hidden" class="heroImgNumbers" value="1" />
+    <input type="hidden" class="province_id" value="1" />
+    <input type="hidden" class="heroImgNumbers" value="1" />
 
-        <!-- JavaScript
-        ================================================== -->
+    <!-- JavaScript
+    ================================================== -->
 
-        @Scripts.Render("https://code.jquery.com/ui/1.10.2/jquery-ui.js")
-        <!-- for Gallery scripts-->
-        @Scripts.Render(@CSWSWEBResources.Resource.JS_MSG_FILE)
-        @Scripts.Render("~/js/jsCookies.js")
-        @Scripts.Render("~/js/index.js")
-        @Scripts.Render("~/js/gbscript.js")
-        @Scripts.Render("~/js/jquery-confirm.js")
+    @Scripts.Render("https://code.jquery.com/ui/1.10.2/jquery-ui.js")
+    <!-- for Gallery scripts-->
+    @Scripts.Render(@CSWSWEBResources.Resource.JS_MSG_FILE)
+    @Scripts.Render("~/js/jsCookies.js")
+    @Scripts.Render("~/js/gbscript.js")
+    @Scripts.Render("~/js/index.js")
+
+    @Scripts.Render("~/js/jquery-confirm.js")
 
 
 </body>
