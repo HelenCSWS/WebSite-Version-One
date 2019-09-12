@@ -142,8 +142,8 @@ var years = {
     },
 	2019: {
         from: 1,
-        to: 6,
-        aroma: ['Nouvelle année, Nouveau moi','Luxe Français','Forever Young','Un Christopher Stewart Sunrise','Dia de los Muertos','L\'art est une thérapie','','','','','','']
+        to: 9,
+        aroma: ['Nouvelle année, Nouveau moi','Luxe Français','Forever Young','Un Christopher Stewart Sunrise','Dia de los Muertos','L\'art est la thérapie','Bonjour, je m\'appelle Rosé','Jeune sauvage et libre','Rejoignez la révolution SORBOS','','','']
     }
 };
 

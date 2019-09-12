@@ -1,6 +1,5 @@
 ﻿@import '//fonts.googleapis.com/css?family=Source Sans Pro:300,400,500italic|Source Sans Pro:300,400,100italic';
 
-
 html,
 body {
  margin: 0;
@@ -91,8 +90,6 @@ background-image: url("../images/bkgrdimgs/signin.jpg");background-repeat: no-re
 }
 
 
-
-
 /* =============== bottom style =================*/
 .left_items,.right_items{
 	margin-left:0px;
@@ -107,7 +104,6 @@ background-image: url("../images/bkgrdimgs/signin.jpg");background-repeat: no-re
 	margin-right:0px;
 	padding-left:0px;
 	padding-right:0px;
-
 }
 
 
@@ -136,9 +132,6 @@ height:20px;
     height:100px; 
 }
 
-
-
-
 .buttons_pannel a{ 
 	text-align: center;  
 	font-weight:normal;
@@ -147,7 +140,6 @@ height:20px;
 	margin-left: auto;
 	margin-right: auto
 }
-
 
 .buttons_pannel{
 	/*float:middle;*/	
@@ -158,9 +150,7 @@ height:20px;
 }
 
 .buttons_pannel_fr{
-	/*float:middle;*/
-
-	
+	/*float:middle;*/	
 	margin-right:auto;
 	margin-left:auto;
 	width:520px;
@@ -177,23 +167,10 @@ height:20px;
 	text-align:left;
 }
 
-/*.facebook a ,.twitter a,.instagram a,.pinterest a,.googleplus a {
-	height:17px;
-	width:17px;
-	display:inline-block;
-    text-decoration:none;
-    margin-left:10px;
-   margin-left:0px;
-}*/
-
-
 .facebook a ,.twitter a,.instagram a,.pinterest a,.googleplus a {
-	
-
     text-decoration:none;
    /* margin-left:10px;*/
    margin-left:0px;
-
 }
 
 
@@ -203,17 +180,6 @@ height:20px;
 	/*margin-left:10px;*/
 	margin-right:18px;
 }
-
-/*
-.twitter a{
-	background-image:url('../images/btn_twitter_light.png'); 
-}
-
-.twitter a:hover{
-	background-image: url('../images/btn_twitter_dark.png');
-}*/
-
-
 
 .regionText{
 	padding-left:5px;
@@ -227,8 +193,6 @@ height:20px;
 	cursor:pointer;
     text-decoration:none;
 }
-
-
 
 .bottom_menu_item{
 	font-size:11px;
@@ -263,12 +227,7 @@ height:20px;
 .btn-xs, .btn-group-xs > .btn {
 	border-radius: 0px;
 }
-   /*.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open > .dropdown-toggle.btn-danger {
- color: #FFF;
-    background-color: #8d302b;
-    border-color: #8d302b;*/ /*Helen 0922 twist issue
-}*/
-
+ 
                             
 .btn-danger {
     color: #FFF;
@@ -292,10 +251,6 @@ height:20px;
 .footer_menu_holder{
     margin-right:auto;
 	margin-left:auto;
-  
-    /*width:320px; B*/
-     /*width:310px; H*/
-    /*width:290px;*/ /*A*/
 }
 
 .footer_menu_holder a{ 
@@ -312,11 +267,7 @@ height:20px;
 
 
 .footer_row_1_left,.footer_row_1_right{
-  
-    /*width:39%; B*/
-   /* width:33%; H*/
 
-   /*width:31%;*/ /*A*/
 }
 .footer_icon_holder {
     margin-right: auto;
@@ -495,12 +446,10 @@ height:20px;
        padding-top:15px;
    }
 
-
     .media-td {
         width: 50%;
         text-align: center;
     }
-
 
     .pinterest {
         text-align: left;
@@ -509,8 +458,6 @@ height:20px;
     .instagram {
         padding-right: 12px;
     }
-
-
 }
 
 

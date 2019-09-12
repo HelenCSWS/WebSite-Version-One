@@ -77,7 +77,6 @@ namespace CSWS_Conponent
                             mailMessage.Bcc.Add(to_emailAddress);
                     }
                 }
-
                 mailMessage.From = new MailAddress(from_emailAddress);
                 mailMessage.Subject = emailSubject;
                 mailMessage.Body = emailContent;

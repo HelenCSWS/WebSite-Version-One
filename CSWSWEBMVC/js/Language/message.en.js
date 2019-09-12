@@ -145,10 +145,12 @@ var years = {
     },
 	2019: {
         from: 1,
-        to: 6,
-        aroma: ['New Year, New Me','French Luxury','Forever Young','A Christopher Stewart Sunrise','Dia de los Muertos','Art is Therapy','','','','','','']
+        to: 9,
+        aroma: ['New Year, New Me','French Luxury','Forever Young','A Christopher Stewart Sunrise','Dia de los Muertos','Art is Therapy','Hello, my name is Rosé','Young, wild and free','Join the SORBOS Revolution','','','']
     }
 };
+
+//************** Gallery Title can't end with "." mark, if it is required, replace it in URL*******************************
 
 // welcome pageo
 //var TEXT_PORTFOLIO_MONTH = "2018 September Edition Available";

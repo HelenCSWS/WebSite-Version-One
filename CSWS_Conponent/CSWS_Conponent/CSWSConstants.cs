@@ -7,7 +7,7 @@ namespace CSWS_Conponent
 {
     public static class CSWSConstants
     {
-        public const bool IS_RELEASE = false;
+        public const bool IS_RELEASE = true;
 
         public const string COOKIE_TERRITORY_ID = "csws_pro"; // last 365
         public const string COOKIE_CURRENT_TERRITORY_ID = "csws_current_pro";  // last 1 days

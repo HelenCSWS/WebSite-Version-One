@@ -5,8 +5,8 @@ var baseURL = get_host(location.href);
 var SHARE_YEAR_BASE = 1574;
 var SHARE_INDEX_BASE = 1777;
 
-var CSWS_DOMAIN = "https://www.christopherstewart.com";
-var CSWS_DOMAIN_HTTPS = "https://www.christopherstewart.com";
+var CSWS_DOMAIN = "http://www.christopherstewart.com";
+var CSWS_DOMAIN_HTTPS = "http://www.christopherstewart.com";
 
 var CSWS_DOMAIN_INDUSTRY = "http://industry.christopherstewart.com";
 var CSWS_DOMAIN_INDUSTRY_HTTPS = "https://industry.christopherstewart.com";
@@ -67,7 +67,7 @@ var provincesInfo = {
         pro_facebook: "www.facebook.com/pages/Christopher-Stewart-Wine-and-Spirits/49793071898",
         pro_twitter: "www.twitter.com/CSWS_MB",
         pro_instagram: "www.instagram.com/christopherstewart",
-        heroImgs: 4,
+        heroImgs: 3,
         carolinks: {
             1: "",
             2: "",
@@ -83,7 +83,7 @@ var provincesInfo = {
         pro_facebook: "www.facebook.com/pages/Christopher-Stewart-Wine-and-Spirits/49793071898",
         pro_twitter: "www.twitter.com/CSWS_ON",
         pro_instagram: "www.instagram.com/christopherstewart",
-        heroImgs: 5,
+        heroImgs: 4,
         carolinks: {
             1: "",
             2: "",
@@ -98,7 +98,7 @@ var provincesInfo = {
         pro_facebook: "www.facebook.com/ChristopherStewartVinsetSpiritueux/",
         pro_twitter: "www.twitter.com/CSVS_QC",
         pro_instagram: "www.instagram.com/christopherstewartquebec",
-        heroImgs: 4,
+        heroImgs: 3,
         carolinks: {
             1: "",
             2: "",
@@ -128,7 +128,7 @@ var provincesInfo = {
         pro_facebook: "www.facebook.com/pages/Christopher-Stewart-Wine-and-Spirits/49793071898",
         pro_twitter: "www.twitter.com/CSWS_AtlCan",
         pro_instagram: "www.instagram.com/christopherstewart",
-        heroImgs: 4,
+        heroImgs: 3,
         carolinks: {
             1: "",
             2: "",
@@ -143,7 +143,7 @@ var provincesInfo = {
         pro_facebook: "www.facebook.com/pages/Christopher-Stewart-Wine-and-Spirits/49793071898",
         pro_twitter: "www.twitter.com/CSWS_AtlCan",
         pro_instagram: "www.instagram.com/christopherstewart",
-        heroImgs:4,
+        heroImgs:3,
         carolinks: {
             1: "",
             2: "",
@@ -186,7 +186,10 @@ var provincesInfo = {
 
         //  var link = baseURL + getCurrentCulture() + "/aboutus";
             //   location.href = link;
-          $('.dropdown-toggle').dropdown();           
+ 
+          $('.dropdown-toggle').dropdown();
+
+           
     });  
 
         // google analytic 
@@ -200,15 +203,32 @@ var provincesInfo = {
 
         ga('create', 'UA-62414402-1', 'auto');
         ga('send', 'pageview');
+
   
         var pro_id = getProID();
+
   
         $(".province_id").val(pro_id);//just for debug
        
-        setFooterIcons(pro_id);
+        setFooterIcons(pro_id)
+
+        //var obj = JSON.parse(provincesInfo);
+        //var length = Object.keys(obj).length;
+       // alert(_.size(provincesInfo));
+        // console.log(readCookie("user_session"));
+
+    //    objectCount(provincesInfo);
 
     });
 
+    function objectCount(obj) {
+
+        //objectcount = 0;
+        //$.each(obj, function(index, item) {
+        //    objectcount = objectcount + item.length;
+        //});
+        //return objectcount;
+    }
 
 
     var setFooterIcons=function(pro_id) 
