@@ -229,7 +229,7 @@
             var ptImg = getFieldVal(data, "portrait_link");
 
             ptImg = (ptImg == "") ? "portrait_blank.jpg" : ptImg;
-            var imgLink = "http://admin.christopherstewart.com/Images/quote/" + ptImg;
+            var imgLink = "https://admin.christopherstewart.com/Images/quote/" + ptImg;
            
             var quote = '"' + getFieldVal(data, "quote") + '"';
             var publication = getFieldVal(data, "publication");         

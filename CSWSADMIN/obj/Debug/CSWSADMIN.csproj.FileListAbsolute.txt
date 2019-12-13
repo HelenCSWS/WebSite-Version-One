@@ -146,3 +146,42 @@ D:\Projects\CSWSWEB V2\CSWSWEB\CSWSADMIN\obj\Debug\CSWSADMIN.csproj.CoreCompileI
 D:\Projects\CSWSWEB V2\CSWSWEB\CSWSADMIN\obj\Debug\CSWSADMIN.csproj.CopyComplete
 D:\Projects\CSWSWEB V2\CSWSWEB\CSWSADMIN\obj\Debug\CSWSWEB.dll
 D:\Projects\CSWSWEB V2\CSWSWEB\CSWSADMIN\obj\Debug\CSWSWEB.pdb
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\CSWSWEB.dll.config
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\CSWSWEB.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\CSWSWEB.pdb
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\CSWS_Conponent.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\Microsoft.Data.Edm.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\Microsoft.Data.OData.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\Microsoft.Web.Infrastructure.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\MySql.Data.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\MySql.Web.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\Newtonsoft.Json.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\CSWS_Conponent.pdb
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\EntityFramework.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\Newtonsoft.Json.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\System.Net.Http.Formatting.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\System.Spatial.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\System.Web.Helpers.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\System.Web.Http.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\System.Web.Http.OData.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\System.Web.Http.Tracing.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\System.Web.Http.WebHost.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\System.Web.Mvc.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\System.Web.Razor.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\System.Web.WebPages.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\System.Web.WebPages.Deployment.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\System.Web.WebPages.Razor.xml
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\de\System.Spatial.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\es\System.Spatial.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\fr\System.Spatial.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\it\System.Spatial.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\ja\System.Spatial.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\ko\System.Spatial.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\ru\System.Spatial.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\zh-Hans\System.Spatial.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\bin\zh-Hant\System.Spatial.resources.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\obj\Debug\CSWSADMIN.csprojAssemblyReference.cache
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\obj\Debug\CSWSADMIN.csproj.CoreCompileInputs.cache
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\obj\Debug\CSWSADMIN.csproj.CopyComplete
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\obj\Debug\CSWSWEB.dll
+D:\MVCPractice\CSWSWEBMVC - Released\CSWSADMIN\obj\Debug\CSWSWEB.pdb
